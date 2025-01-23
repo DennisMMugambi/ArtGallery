@@ -24,7 +24,7 @@ fun AppTheme(
         darkColorScheme(
             primary = Color(0xFFF77F00),
             secondary = Color(0xFFF1ECCF),
-            tertiary = Color(0xFF040F0F),
+            tertiary = Color(0xFFFEFDF5),
             surface = Color(0xFFFEFDF5),
             background = Color(0xFFF8F5E7)
         )
@@ -32,7 +32,7 @@ fun AppTheme(
         lightColorScheme(
             primary = Color(0xFFF77F00),
             secondary = Color(0xFFF1ECCF),
-            tertiary = Color(0xFF040F0F),
+            tertiary = Color(0xFFFEFDF5),
             surface = Color(0xFFFEFDF5),
             background = Color(0xFFF8F5E7)
         )

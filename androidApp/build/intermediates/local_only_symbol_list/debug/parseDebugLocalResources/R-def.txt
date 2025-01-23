@@ -1,0 +1,18 @@
+R_DEF: Internal format may change without notice
+local
+drawable landing1
+drawable landing2
+drawable landing3
+font comicneue_bold
+font comicneue_light
+font comicneue_regular
+string description_1
+string description_2
+string description_3
+string landing_image_description
+string next
+string skip
+string title_1
+string title_2
+string title_3
+style AppTheme

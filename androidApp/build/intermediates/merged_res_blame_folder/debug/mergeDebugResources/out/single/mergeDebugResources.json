@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/dennismugambi/.gradle/daemon/8.10.2/com.example.artgallery.android.androidApp-debug-43:/font_comicneue_regular.ttf.flat",
+        "source": "/Users/dennismugambi/.gradle/daemon/8.10.2/com.example.artgallery.android.androidApp-main-45:/font/comicneue_regular.ttf"
+    },
+    {
+        "merged": "com.example.artgallery.android.androidApp-debug-43:/drawable-nodpi_landing1.webp.flat",
+        "source": "com.example.artgallery.android.androidApp-main-45:/drawable-nodpi/landing1.webp"
+    },
+    {
+        "merged": "com.example.artgallery.android.androidApp-debug-43:/drawable-nodpi_landing2.webp.flat",
+        "source": "com.example.artgallery.android.androidApp-main-45:/drawable-nodpi/landing2.webp"
+    },
+    {
+        "merged": "/Users/dennismugambi/.gradle/daemon/8.10.2/com.example.artgallery.android.androidApp-debug-43:/font_comicneue_bold.ttf.flat",
+        "source": "/Users/dennismugambi/.gradle/daemon/8.10.2/com.example.artgallery.android.androidApp-main-45:/font/comicneue_bold.ttf"
+    },
+    {
+        "merged": "com.example.artgallery.android.androidApp-debug-43:/drawable-nodpi_landing3.webp.flat",
+        "source": "com.example.artgallery.android.androidApp-main-45:/drawable-nodpi/landing3.webp"
+    },
+    {
+        "merged": "/Users/dennismugambi/.gradle/daemon/8.10.2/com.example.artgallery.android.androidApp-debug-43:/font_comicneue_light.ttf.flat",
+        "source": "/Users/dennismugambi/.gradle/daemon/8.10.2/com.example.artgallery.android.androidApp-main-45:/font/comicneue_light.ttf"
+    }
+]
