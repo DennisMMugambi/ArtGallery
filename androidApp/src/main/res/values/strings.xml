@@ -9,4 +9,7 @@
     <string name="description_3">Register your tour by ordering souvenir and gift card from our online gallery shop</string>
     <string name="skip">Skip</string>
     <string name="next">Next</string>
+    <string name="get_started">Get started</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="login">Log in</string>
 </resources>

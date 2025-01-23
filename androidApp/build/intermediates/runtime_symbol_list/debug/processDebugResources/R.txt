@@ -162,6 +162,7 @@ int layout notification_template_custom_big 0x7f080003
 int layout notification_template_icon_group 0x7f080004
 int layout notification_template_part_chronometer 0x7f080005
 int layout notification_template_part_time 0x7f080006
+int string already_have_an_account 0x7f09005b
 int string androidx_startup 0x7f090000
 int string bottom_sheet_collapse_description 0x7f090001
 int string bottom_sheet_dismiss_description 0x7f090002
@@ -216,9 +217,11 @@ int string description_3 0x7f090054
 int string dialog 0x7f090030
 int string dropdown_menu 0x7f090031
 int string expanded 0x7f090032
+int string get_started 0x7f09005c
 int string in_progress 0x7f090033
 int string indeterminate 0x7f090034
 int string landing_image_description 0x7f090055
+int string login 0x7f09005d
 int string m3c_bottom_sheet_pane_title 0x7f090035
 int string navigation_menu 0x7f090036
 int string next 0x7f090056

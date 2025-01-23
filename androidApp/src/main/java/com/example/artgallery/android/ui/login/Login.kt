@@ -33,6 +33,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.text.style.TextDecoration
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.example.artgallery.android.R
@@ -124,32 +125,69 @@ fun LoginScreen() {
 
             Spacer(modifier = Modifier.weight(1f))
 
-            Row(
-                modifier = Modifier.fillMaxWidth().padding(all = 20.dp),
-                horizontalArrangement = Arrangement.SpaceBetween,
-                verticalAlignment = Alignment.CenterVertically
-            ) {
+            if(pagerState.currentPage != pageTitles.size - 1) {
 
-                OutlinedButton(
-                    onClick = {
-                        coroutineScope.launch {
-                            pagerState.scrollToPage(pageTitles.size - 1)
-                        }
-                    },
-                    border = BorderStroke(1.dp, MaterialTheme.colorScheme.primary)
+                Row(
+                    modifier = Modifier.fillMaxWidth().padding(all = 20.dp),
+                    horizontalArrangement = Arrangement.SpaceBetween,
+                    verticalAlignment = Alignment.CenterVertically
                 ) {
-                    Text(text = stringResource(id = R.string.skip), color = Color.Black)
-                }
 
-                Button(
-                    onClick = {
-                        coroutineScope.launch {
-                            val nextPage = (pagerState.currentPage + 1) % pagerState.pageCount
-                            pagerState.animateScrollToPage(nextPage)
-                        }
+                    OutlinedButton(
+                        onClick = {
+                            coroutineScope.launch {
+                                pagerState.scrollToPage(pageTitles.size - 1)
+                            }
+                        },
+                        border = BorderStroke(1.dp, MaterialTheme.colorScheme.primary)
+                    ) {
+                        Text(text = stringResource(id = R.string.skip), color = Color.Black)
                     }
+
+                    Button(
+                        onClick = {
+                            coroutineScope.launch {
+                                val nextPage = (pagerState.currentPage + 1) % pagerState.pageCount
+                                pagerState.animateScrollToPage(nextPage)
+                            }
+                        }
+                    ) {
+                        Text(text = stringResource(id = R.string.next))
+                    }
+                }
+            } else {
+
+                Column(
+                    modifier = Modifier.fillMaxWidth().padding(all = 20.dp),
+                    horizontalAlignment = Alignment.CenterHorizontally,
+                    verticalArrangement = Arrangement.Center
                 ) {
-                    Text(text = stringResource(id = R.string.next))
+
+                    Button(
+                        onClick = {
+                            coroutineScope.launch {
+                                val nextPage = (pagerState.currentPage + 1) % pagerState.pageCount
+                                pagerState.animateScrollToPage(nextPage)
+                            }
+                        },
+                        modifier = Modifier.fillMaxWidth()
+                    ) {
+                        Text(text = stringResource(id = R.string.get_started), color = Color.Black)
+                    }
+
+                    Row {
+                        Text(
+                            text = stringResource(id = R.string.already_have_an_account),
+                            style = MaterialTheme.typography.displaySmall,
+                            color = Color.Black
+                        )
+                        Text(
+                            text = stringResource(id = R.string.login),
+                            color = MaterialTheme.colorScheme.primary,
+                            style = MaterialTheme.typography.displaySmall.copy(textDecoration = TextDecoration.Underline)
+                        )
+                    }
+
                 }
             }
         }

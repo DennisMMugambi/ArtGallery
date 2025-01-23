@@ -163,6 +163,7 @@ layout notification_template_custom_big
 layout notification_template_icon_group
 layout notification_template_part_chronometer
 layout notification_template_part_time
+string already_have_an_account
 string androidx_startup
 string bottom_sheet_collapse_description
 string bottom_sheet_dismiss_description
@@ -217,9 +218,11 @@ string description_3
 string dialog
 string dropdown_menu
 string expanded
+string get_started
 string in_progress
 string indeterminate
 string landing_image_description
+string login
 string m3c_bottom_sheet_pane_title
 string navigation_menu
 string next
