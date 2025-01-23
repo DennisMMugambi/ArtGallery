@@ -1,4 +1,4 @@
-package com.example.artgallery.android
+package com.example.artgallery.android.theme
 
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.foundation.shape.RoundedCornerShape
@@ -16,30 +16,28 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 
 @Composable
-fun MyApplicationTheme(
+fun AppTheme(
     darkTheme: Boolean = isSystemInDarkTheme(),
     content: @Composable () -> Unit
 ) {
     val colors = if (darkTheme) {
         darkColorScheme(
-            primary = Color(0xFFBB86FC),
-            secondary = Color(0xFF03DAC5),
-            tertiary = Color(0xFF3700B3)
+            primary = Color(0xFFF77F00),
+            secondary = Color(0xFFF1ECCF),
+            tertiary = Color(0xFF040F0F),
+            surface = Color(0xFFFEFDF5),
+            background = Color(0xFFF8F5E7)
         )
     } else {
         lightColorScheme(
-            primary = Color(0xFF6200EE),
-            secondary = Color(0xFF03DAC5),
-            tertiary = Color(0xFF3700B3)
+            primary = Color(0xFFF77F00),
+            secondary = Color(0xFFF1ECCF),
+            tertiary = Color(0xFF040F0F),
+            surface = Color(0xFFFEFDF5),
+            background = Color(0xFFF8F5E7)
         )
     }
-    val typography = Typography(
-        bodyMedium = TextStyle(
-            fontFamily = FontFamily.Default,
-            fontWeight = FontWeight.Normal,
-            fontSize = 16.sp
-        )
-    )
+    val typography = typography
     val shapes = Shapes(
         small = RoundedCornerShape(4.dp),
         medium = RoundedCornerShape(4.dp),
