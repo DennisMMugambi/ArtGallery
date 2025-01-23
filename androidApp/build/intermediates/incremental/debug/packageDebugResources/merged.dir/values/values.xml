@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="description_1">With 360 degree virtual tour, you can replicate the real life experience of visiting an art gallery</string>
+    <string name="description_2">Save exhibitions, picture stories and artworks that you like to create your own art collection</string>
+    <string name="description_3">Register your tour by ordering souvenir and gift card from our online gallery shop</string>
+    <string name="landing_image_description">Landing screen image</string>
+    <string name="next">Next</string>
+    <string name="skip">Skip</string>
+    <string name="title_1">Take 360 degree art tours</string>
+    <string name="title_2">Create your own art collection</string>
+    <string name="title_3">Shop your favorite art pieces</string>
+    <style name="AppTheme" parent="android:Theme.Material.NoActionBar"/>
+</resources>
