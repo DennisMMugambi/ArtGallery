@@ -6,10 +6,13 @@ drawable landing3
 font comicneue_bold
 font comicneue_light
 font comicneue_regular
+string already_have_an_account
 string description_1
 string description_2
 string description_3
+string get_started
 string landing_image_description
+string login
 string next
 string skip
 string title_1
