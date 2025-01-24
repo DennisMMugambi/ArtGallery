@@ -33,6 +33,7 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextDecoration
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import androidx.navigation.NavHostController
 import com.example.artgallery.android.R
 import com.example.artgallery.android.components.LandingItem
 import com.example.artgallery.android.theme.AppTheme
@@ -40,7 +41,7 @@ import kotlinx.coroutines.launch
 
 @OptIn(ExperimentalFoundationApi::class)
 @Composable
-fun LandingScreen() {
+fun LandingScreen(navController: NavHostController) {
 
     val pageTitles = listOf(
         stringResource(id = R.string.title_1),
@@ -163,10 +164,7 @@ fun LandingScreen() {
 
                     Button(
                         onClick = {
-                            coroutineScope.launch {
-                                val nextPage = (pagerState.currentPage + 1) % pagerState.pageCount
-                                pagerState.animateScrollToPage(nextPage)
-                            }
+                           navController.navigate("login")
                         },
                         modifier = Modifier.fillMaxWidth()
                     ) {
@@ -196,6 +194,8 @@ fun LandingScreen() {
 @Composable
 fun LandingScreenPreview() {
     AppTheme {
-        LandingScreen()
+//        LandingScreen(
+//            navController = NavHostController
+//        )
     }
 }

@@ -1,26 +1,66 @@
 [
     {
-        "merged": "/Users/dennismugambi/.gradle/daemon/8.10.2/com.example.artgallery.android.androidApp-debug-43:/font_comicneue_regular.ttf.flat",
-        "source": "/Users/dennismugambi/.gradle/daemon/8.10.2/com.example.artgallery.android.androidApp-main-45:/font/comicneue_regular.ttf"
+        "merged": "/Users/dennismugambi/.gradle/daemon/8.10.2/com.example.artgallery.android.androidApp-debug-49:/drawable-nodpi_landing1.webp.flat",
+        "source": "/Users/dennismugambi/.gradle/daemon/8.10.2/com.example.artgallery.android.androidApp-main-51:/drawable-nodpi/landing1.webp"
     },
     {
-        "merged": "com.example.artgallery.android.androidApp-debug-43:/drawable-nodpi_landing1.webp.flat",
-        "source": "com.example.artgallery.android.androidApp-main-45:/drawable-nodpi/landing1.webp"
+        "merged": "com.example.artgallery.android.androidApp-debug-49:/drawable-nodpi_google.webp.flat",
+        "source": "com.example.artgallery.android.androidApp-main-51:/drawable-nodpi/google.webp"
     },
     {
-        "merged": "com.example.artgallery.android.androidApp-debug-43:/drawable-nodpi_landing2.webp.flat",
-        "source": "com.example.artgallery.android.androidApp-main-45:/drawable-nodpi/landing2.webp"
+        "merged": "/Users/dennismugambi/.gradle/daemon/8.10.2/com.example.artgallery.android.androidApp-debug-49:/drawable-nodpi_login_bg.webp.flat",
+        "source": "/Users/dennismugambi/.gradle/daemon/8.10.2/com.example.artgallery.android.androidApp-main-51:/drawable-nodpi/login_bg.webp"
     },
     {
-        "merged": "/Users/dennismugambi/.gradle/daemon/8.10.2/com.example.artgallery.android.androidApp-debug-43:/font_comicneue_bold.ttf.flat",
-        "source": "/Users/dennismugambi/.gradle/daemon/8.10.2/com.example.artgallery.android.androidApp-main-45:/font/comicneue_bold.ttf"
+        "merged": "/Users/dennismugambi/.gradle/daemon/8.10.2/com.example.artgallery.android.androidApp-debug-49:/drawable-nodpi_floral_bg.webp.flat",
+        "source": "/Users/dennismugambi/.gradle/daemon/8.10.2/com.example.artgallery.android.androidApp-main-51:/drawable-nodpi/floral_bg.webp"
     },
     {
-        "merged": "com.example.artgallery.android.androidApp-debug-43:/drawable-nodpi_landing3.webp.flat",
-        "source": "com.example.artgallery.android.androidApp-main-45:/drawable-nodpi/landing3.webp"
+        "merged": "/Users/dennismugambi/.gradle/daemon/8.10.2/com.example.artgallery.android.androidApp-debug-49:/drawable-nodpi_woman_bg.webp.flat",
+        "source": "/Users/dennismugambi/.gradle/daemon/8.10.2/com.example.artgallery.android.androidApp-main-51:/drawable-nodpi/woman_bg.webp"
     },
     {
-        "merged": "/Users/dennismugambi/.gradle/daemon/8.10.2/com.example.artgallery.android.androidApp-debug-43:/font_comicneue_light.ttf.flat",
-        "source": "/Users/dennismugambi/.gradle/daemon/8.10.2/com.example.artgallery.android.androidApp-main-45:/font/comicneue_light.ttf"
+        "merged": "/Users/dennismugambi/.gradle/daemon/8.10.2/com.example.artgallery.android.androidApp-debug-49:/drawable-nodpi_camel_bg.webp.flat",
+        "source": "/Users/dennismugambi/.gradle/daemon/8.10.2/com.example.artgallery.android.androidApp-main-51:/drawable-nodpi/camel_bg.webp"
+    },
+    {
+        "merged": "/Users/dennismugambi/.gradle/daemon/8.10.2/com.example.artgallery.android.androidApp-debug-49:/drawable-nodpi_blue_mountains.webp.flat",
+        "source": "/Users/dennismugambi/.gradle/daemon/8.10.2/com.example.artgallery.android.androidApp-main-51:/drawable-nodpi/blue_mountains.webp"
+    },
+    {
+        "merged": "/Users/dennismugambi/.gradle/daemon/8.10.2/com.example.artgallery.android.androidApp-debug-49:/font_comicneue_regular.ttf.flat",
+        "source": "/Users/dennismugambi/.gradle/daemon/8.10.2/com.example.artgallery.android.androidApp-main-51:/font/comicneue_regular.ttf"
+    },
+    {
+        "merged": "/Users/dennismugambi/.gradle/daemon/8.10.2/com.example.artgallery.android.androidApp-debug-49:/drawable-nodpi_gallery_bg.jpg.flat",
+        "source": "/Users/dennismugambi/.gradle/daemon/8.10.2/com.example.artgallery.android.androidApp-main-51:/drawable-nodpi/gallery_bg.jpg"
+    },
+    {
+        "merged": "/Users/dennismugambi/.gradle/daemon/8.10.2/com.example.artgallery.android.androidApp-debug-49:/drawable-nodpi_landing2.webp.flat",
+        "source": "/Users/dennismugambi/.gradle/daemon/8.10.2/com.example.artgallery.android.androidApp-main-51:/drawable-nodpi/landing2.webp"
+    },
+    {
+        "merged": "/Users/dennismugambi/.gradle/daemon/8.10.2/com.example.artgallery.android.androidApp-debug-49:/drawable-nodpi_mountain_bg.webp.flat",
+        "source": "/Users/dennismugambi/.gradle/daemon/8.10.2/com.example.artgallery.android.androidApp-main-51:/drawable-nodpi/mountain_bg.webp"
+    },
+    {
+        "merged": "/Users/dennismugambi/.gradle/daemon/8.10.2/com.example.artgallery.android.androidApp-debug-49:/font_comicneue_light.ttf.flat",
+        "source": "/Users/dennismugambi/.gradle/daemon/8.10.2/com.example.artgallery.android.androidApp-main-51:/font/comicneue_light.ttf"
+    },
+    {
+        "merged": "/Users/dennismugambi/.gradle/daemon/8.10.2/com.example.artgallery.android.androidApp-debug-49:/drawable-nodpi_landing3.webp.flat",
+        "source": "/Users/dennismugambi/.gradle/daemon/8.10.2/com.example.artgallery.android.androidApp-main-51:/drawable-nodpi/landing3.webp"
+    },
+    {
+        "merged": "/Users/dennismugambi/.gradle/daemon/8.10.2/com.example.artgallery.android.androidApp-debug-49:/drawable-nodpi_boho_art.webp.flat",
+        "source": "/Users/dennismugambi/.gradle/daemon/8.10.2/com.example.artgallery.android.androidApp-main-51:/drawable-nodpi/boho_art.webp"
+    },
+    {
+        "merged": "/Users/dennismugambi/.gradle/daemon/8.10.2/com.example.artgallery.android.androidApp-debug-49:/font_comicneue_bold.ttf.flat",
+        "source": "/Users/dennismugambi/.gradle/daemon/8.10.2/com.example.artgallery.android.androidApp-main-51:/font/comicneue_bold.ttf"
+    },
+    {
+        "merged": "com.example.artgallery.android.androidApp-debug-49:/drawable-nodpi_facebook.webp.flat",
+        "source": "com.example.artgallery.android.androidApp-main-51:/drawable-nodpi/facebook.webp"
     }
 ]

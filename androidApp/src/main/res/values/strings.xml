@@ -12,4 +12,10 @@
     <string name="get_started">Get started</string>
     <string name="already_have_an_account">Already have an account?</string>
     <string name="login">Log in</string>
+    <string name="login_page_screen">Login page background image</string>
+    <string name="login_description">Sign up with any of the options below.</string>
+    <string name="sign_up_email">Sign up with Email</string>
+    <string name="sign_up_google">Sign up with Google</string>
+    <string name="sign_up_facebook">Sign up with Facebook</string>
+    <string name="email_icon">email icon image</string>
 </resources>
