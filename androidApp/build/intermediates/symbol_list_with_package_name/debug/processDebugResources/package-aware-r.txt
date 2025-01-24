@@ -1,5 +1,12 @@
 com.example.artgallery.android
+attr action
 attr alpha
+attr argType
+attr data
+attr dataPattern
+attr destination
+attr enterAnim
+attr exitAnim
 attr font
 attr fontProviderAuthority
 attr fontProviderCerts
@@ -11,11 +18,26 @@ attr fontProviderSystemFontFamily
 attr fontStyle
 attr fontVariationSettings
 attr fontWeight
+attr graph
 attr lStar
+attr launchSingleTop
+attr mimeType
+attr navGraph
 attr nestedScrollViewStyle
+attr nullable
+attr popEnterAnim
+attr popExitAnim
+attr popUpTo
+attr popUpToInclusive
+attr popUpToSaveState
 attr queryPatterns
+attr restoreState
+attr route
 attr shortcutMatchRequired
+attr startDestination
+attr targetPackage
 attr ttcIndex
+attr uri
 color androidx_core_ripple_material_light
 color androidx_core_secondary_text_default_material_light
 color call_notification_answer_color
@@ -46,6 +68,13 @@ dimen notification_small_icon_size_as_large
 dimen notification_subtext_size
 dimen notification_top_pad
 dimen notification_top_pad_large_text
+drawable blue_mountains
+drawable boho_art
+drawable camel_bg
+drawable facebook
+drawable floral_bg
+drawable gallery_bg
+drawable google
 drawable ic_call_answer
 drawable ic_call_answer_low
 drawable ic_call_answer_video
@@ -55,6 +84,8 @@ drawable ic_call_decline_low
 drawable landing1
 drawable landing2
 drawable landing3
+drawable login_bg
+drawable mountain_bg
 drawable notification_action_background
 drawable notification_bg
 drawable notification_bg_low
@@ -67,6 +98,7 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable woman_bg
 font comicneue_bold
 font comicneue_light
 font comicneue_regular
@@ -125,6 +157,7 @@ id is_pooling_container_tag
 id italic
 id line1
 id line3
+id nav_controller_view_tag
 id normal
 id notification_background
 id notification_main_column
@@ -217,12 +250,15 @@ string description_2
 string description_3
 string dialog
 string dropdown_menu
+string email_icon
 string expanded
 string get_started
 string in_progress
 string indeterminate
 string landing_image_description
 string login
+string login_description
+string login_page_screen
 string m3c_bottom_sheet_pane_title
 string navigation_menu
 string next
@@ -233,6 +269,9 @@ string range_end
 string range_start
 string search_bar_search
 string selected
+string sign_up_email
+string sign_up_facebook
+string sign_up_google
 string skip
 string snackbar_dismiss
 string status_bar_notification_info_overflow
@@ -268,9 +307,17 @@ style TextAppearance_Compat_Notification_Time
 style TextAppearance_Compat_Notification_Title
 style Widget_Compat_NotificationActionContainer
 style Widget_Compat_NotificationActionText
+styleable ActivityNavigator android_name action data dataPattern targetPackage
 styleable Capability queryPatterns shortcutMatchRequired
 styleable ColorStateListItem android_color android_alpha android_lStar alpha lStar
 styleable FontFamily fontProviderAuthority fontProviderCerts fontProviderFetchStrategy fontProviderFetchTimeout fontProviderPackage fontProviderQuery fontProviderSystemFontFamily
 styleable FontFamilyFont android_font android_fontWeight android_fontStyle android_ttcIndex android_fontVariationSettings font fontStyle fontVariationSettings fontWeight ttcIndex
 styleable GradientColor android_startColor android_endColor android_type android_centerX android_centerY android_gradientRadius android_tileMode android_centerColor android_startX android_startY android_endX android_endY
 styleable GradientColorItem android_color android_offset
+styleable NavAction android_id destination enterAnim exitAnim launchSingleTop popEnterAnim popExitAnim popUpTo popUpToInclusive popUpToSaveState restoreState
+styleable NavArgument android_name android_defaultValue argType nullable
+styleable NavDeepLink android_autoVerify action mimeType uri
+styleable NavGraphNavigator startDestination
+styleable NavHost navGraph
+styleable NavInclude graph
+styleable Navigator android_label android_id route

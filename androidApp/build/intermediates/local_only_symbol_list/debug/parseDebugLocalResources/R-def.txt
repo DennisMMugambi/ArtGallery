@@ -1,8 +1,18 @@
 R_DEF: Internal format may change without notice
 local
+drawable blue_mountains
+drawable boho_art
+drawable camel_bg
+drawable facebook
+drawable floral_bg
+drawable gallery_bg
+drawable google
 drawable landing1
 drawable landing2
 drawable landing3
+drawable login_bg
+drawable mountain_bg
+drawable woman_bg
 font comicneue_bold
 font comicneue_light
 font comicneue_regular
@@ -10,10 +20,16 @@ string already_have_an_account
 string description_1
 string description_2
 string description_3
+string email_icon
 string get_started
 string landing_image_description
 string login
+string login_description
+string login_page_screen
 string next
+string sign_up_email
+string sign_up_facebook
+string sign_up_google
 string skip
 string title_1
 string title_2
