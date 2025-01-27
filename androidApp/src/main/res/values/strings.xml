@@ -18,4 +18,11 @@
     <string name="sign_up_google">Sign up with Google</string>
     <string name="sign_up_facebook">Sign up with Facebook</string>
     <string name="email_icon">email icon image</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="sign_up">Sign up</string>
+    <string name="sign_up_agreement">By clicking on sign up you agree to our Terms and conditions and privacy policy</string>
+    <string name="login_email">Login with Email</string>
+    <string name="no_existing_account">Don\'t have an account?</string>
 </resources>

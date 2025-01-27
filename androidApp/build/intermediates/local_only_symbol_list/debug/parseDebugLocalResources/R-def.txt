@@ -1,5 +1,7 @@
 R_DEF: Internal format may change without notice
 local
+color primaryOrange
+drawable african_portrait
 drawable blue_mountains
 drawable boho_art
 drawable camel_bg
@@ -17,16 +19,23 @@ font comicneue_bold
 font comicneue_light
 font comicneue_regular
 string already_have_an_account
+string confirm_password
 string description_1
 string description_2
 string description_3
+string email
 string email_icon
 string get_started
 string landing_image_description
 string login
 string login_description
+string login_email
 string login_page_screen
 string next
+string no_existing_account
+string password
+string sign_up
+string sign_up_agreement
 string sign_up_email
 string sign_up_facebook
 string sign_up_google
