@@ -4,10 +4,10 @@ import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.FavoriteBorder
-import androidx.compose.material.icons.filled.Home
-import androidx.compose.material.icons.filled.Person
-import androidx.compose.material.icons.filled.ShoppingCart
+import androidx.compose.material.icons.outlined.FavoriteBorder
+import androidx.compose.material.icons.outlined.Home
+import androidx.compose.material.icons.outlined.Person
+import androidx.compose.material.icons.outlined.ShoppingCart
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.NavigationBar
@@ -46,22 +46,22 @@ data class BottomNavigationItem(
 val bottomNavigationItems = listOf(
     BottomNavigationItem(
         Screen.Home.title,
-        Icons.Filled.Home,
+        Icons.Outlined.Home,
         "Home"
     ),
     BottomNavigationItem(
         Screen.Favorite.title,
-        Icons.Filled.FavoriteBorder,
+        Icons.Outlined.FavoriteBorder,
         "Favorite"
     ),
     BottomNavigationItem(
         Screen.Shop.title,
-        Icons.Filled.ShoppingCart,
+        Icons.Outlined.ShoppingCart,
         "Shop"
     ),
     BottomNavigationItem(
         Screen.Profile.title,
-        Icons.Filled.Person,
+        Icons.Outlined.Person,
         "Profile"
     )
 )
@@ -115,7 +115,7 @@ fun MainView(actionBarFun: topBarFun = { EmptyComposable() }, navController: Nav
             ) {
 
                 when (selectedIndex.value) {
-                    0 -> HomeScreen()
+                    0 -> HomeScreen(navController = navController)
                     1 -> FavoritesScreen()
                     2 -> ShopScreen()
                     3 -> ProfileScreen()
