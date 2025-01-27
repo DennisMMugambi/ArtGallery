@@ -255,7 +255,12 @@ string dialog
 string dropdown_menu
 string email
 string email_icon
+string exhibition_item
+string exhibtions
 string expanded
+string featured
+string featured_item
+string featured_sample
 string get_started
 string in_progress
 string indeterminate
@@ -274,7 +279,12 @@ string on
 string password
 string range_end
 string range_start
+string sample_description
+string sample_title
+string search
 string search_bar_search
+string see_all
+string see_more
 string selected
 string sign_up
 string sign_up_agreement
@@ -305,6 +315,7 @@ string title_2
 string title_3
 string tooltip_long_press_label
 string tooltip_pane_description
+string welcome
 style AppTheme
 style DialogWindowTheme
 style FloatingDialogTheme

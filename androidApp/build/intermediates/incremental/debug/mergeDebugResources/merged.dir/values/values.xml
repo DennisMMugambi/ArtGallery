@@ -159,7 +159,12 @@
     <string name="dropdown_menu">"Dropdown menu"</string>
     <string name="email">Email</string>
     <string name="email_icon">email icon image</string>
+    <string name="exhibition_item">Exhibition item image</string>
+    <string name="exhibtions">Exhibitions</string>
     <string name="expanded">Expanded</string>
+    <string name="featured">Featured:</string>
+    <string name="featured_item">\"Featured item\"</string>
+    <string name="featured_sample">The Impressionist Exhibition</string>
     <string name="get_started">Get started</string>
     <string name="in_progress">In progress</string>
     <string name="indeterminate">Partially checked</string>
@@ -178,7 +183,12 @@
     <string name="password">Password</string>
     <string name="range_end">"Range end"</string>
     <string name="range_start">"Range start"</string>
+    <string name="sample_description">In this exhibition, we show the work of some of the greatest realist artists.</string>
+    <string name="sample_title">The Tampless Exhibition</string>
+    <string name="search">Search exhibitions, artworks</string>
     <string name="search_bar_search">Search</string>
+    <string name="see_all">See all</string>
+    <string name="see_more">See more</string>
     <string name="selected">Selected</string>
     <string name="sign_up">Sign up</string>
     <string name="sign_up_agreement">By clicking on sign up you agree to our Terms and conditions and privacy policy</string>
@@ -209,6 +219,7 @@
     <string name="title_3">Shop your favorite art pieces</string>
     <string name="tooltip_long_press_label">Show tooltip</string>
     <string name="tooltip_pane_description">Tooltip</string>
+    <string name="welcome">Welcome to Art\nGallery!</string>
     <style name="AppTheme" parent="android:Theme.Material.NoActionBar"/>
     <style name="DialogWindowTheme">
         <item name="android:windowClipToOutline">false</item>
