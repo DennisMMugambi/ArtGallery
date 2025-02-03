@@ -30,6 +30,8 @@ string exhibtions
 string featured
 string featured_item
 string featured_sample
+string galleries
+string gallery_item
 string get_started
 string landing_image_description
 string login

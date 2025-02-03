@@ -165,6 +165,8 @@
     <string name="featured">Featured:</string>
     <string name="featured_item">\"Featured item\"</string>
     <string name="featured_sample">The Impressionist Exhibition</string>
+    <string name="galleries">Galleries</string>
+    <string name="gallery_item">A gallery image</string>
     <string name="get_started">Get started</string>
     <string name="in_progress">In progress</string>
     <string name="indeterminate">Partially checked</string>

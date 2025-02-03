@@ -261,6 +261,8 @@ string expanded
 string featured
 string featured_item
 string featured_sample
+string galleries
+string gallery_item
 string get_started
 string in_progress
 string indeterminate

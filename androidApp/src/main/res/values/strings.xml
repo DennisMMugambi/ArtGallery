@@ -36,4 +36,6 @@
     <string name="sample_title">The Tampless Exhibition</string>
     <string name="sample_description">In this exhibition, we show the work of some of the greatest realist artists.</string>
     <string name="see_more">See more</string>
+    <string name="galleries">Galleries</string>
+    <string name="gallery_item">A gallery image</string>
 </resources>
