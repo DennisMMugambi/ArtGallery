@@ -22,6 +22,7 @@ import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.example.artgallery.android.R
@@ -33,8 +34,10 @@ fun ExhibitionItem(title: String, description: String, imageUrl: String) {
 
     ElevatedCard(
         modifier = Modifier
-            .height(300.dp)
-            .padding(all = 15.dp),
+            .height(200.dp)
+            .width(310.dp)
+            .padding(vertical = 5.dp)
+            .padding(end = 10.dp),
         shape = RoundedCornerShape(corner = CornerSize(30.dp))
     ) {
         Row(
@@ -47,7 +50,7 @@ fun ExhibitionItem(title: String, description: String, imageUrl: String) {
                 contentScale = ContentScale.Crop,
                 modifier = Modifier
                     .fillMaxHeight()
-                    .width(200.dp)
+                    .width(150.dp)
                     .padding(all = 15.dp)
                     .clip(RoundedCornerShape(corner = CornerSize(30.dp))),
             )
@@ -62,13 +65,19 @@ fun ExhibitionItem(title: String, description: String, imageUrl: String) {
 
                 Text(
                     stringResource(id = R.string.sample_title),
-                    style = typography.displayLarge,
-                    color = Color.Black)
+                    style = typography.bodyLarge,
+                    fontWeight = FontWeight.Bold,
+                    color = Color.Black,
+                    maxLines = 2,
+                    overflow = TextOverflow.Ellipsis
+                )
 
                 Text(
                     stringResource(id = R.string.sample_description),
-                    style = typography.displaySmall,
-                    color = Color.Black
+                    style = typography.bodySmall,
+                    color = Color.Black,
+                    maxLines = 4,
+                    overflow = TextOverflow.Ellipsis
                 )
 
                 Button(

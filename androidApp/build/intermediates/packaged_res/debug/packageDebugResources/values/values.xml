@@ -13,6 +13,8 @@
     <string name="featured">Featured:</string>
     <string name="featured_item">\"Featured item\"</string>
     <string name="featured_sample">The Impressionist Exhibition</string>
+    <string name="galleries">Galleries</string>
+    <string name="gallery_item">A gallery image</string>
     <string name="get_started">Get started</string>
     <string name="landing_image_description">Landing screen image</string>
     <string name="login">Log in</string>
