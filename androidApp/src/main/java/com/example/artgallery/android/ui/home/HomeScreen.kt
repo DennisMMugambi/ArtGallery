@@ -87,7 +87,10 @@ fun HomeScreen(navController: NavHostController) {
                     ExhibitionItem(
                         title = "",
                         description = "",
-                        imageUrl = ""
+                        imageUrl = "",
+                        modifier = Modifier
+                            .height(200.dp)
+                            .width(310.dp)
                     )
                 }
             }
