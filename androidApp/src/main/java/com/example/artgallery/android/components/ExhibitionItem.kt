@@ -30,12 +30,10 @@ import com.example.artgallery.android.theme.AppTheme
 import com.example.artgallery.android.theme.typography
 
 @Composable
-fun ExhibitionItem(title: String, description: String, imageUrl: String) {
+fun ExhibitionItem(title: String, description: String, imageUrl: String, modifier: Modifier) {
 
     ElevatedCard(
-        modifier = Modifier
-            .height(200.dp)
-            .width(310.dp)
+        modifier = modifier
             .padding(vertical = 5.dp)
             .padding(end = 10.dp),
         shape = RoundedCornerShape(corner = CornerSize(30.dp))
@@ -107,7 +105,10 @@ fun ExhibitionItemPreview() {
         ExhibitionItem(
             title = stringResource(id = R.string.sample_title),
             description = stringResource(id = R.string.sample_description),
-            imageUrl = ""
+            imageUrl = "",
+            modifier = Modifier
+                .height(200.dp)
+                .width(300.dp)
         )
     }
 }
