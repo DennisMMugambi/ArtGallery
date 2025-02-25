@@ -98,8 +98,10 @@
     <id name="view_tree_view_model_store_owner"/>
     <item name="wrapped_composition_tag" type="id"/>
     <integer name="status_bar_notification_info_maxnum">999</integer>
+    <string name="about">About</string>
     <string name="already_have_an_account">Already have an account?</string>
     <string name="androidx_startup" translatable="false">androidx.startup</string>
+    <string name="arrow_right_icon">arrow pointing right</string>
     <string name="bottom_sheet_collapse_description">Collapse bottom sheet</string>
     <string name="bottom_sheet_dismiss_description">Dismiss bottom sheet</string>
     <string name="bottom_sheet_drag_handle_description">Drag handle</string>
@@ -115,6 +117,7 @@
     <string name="close_sheet">"Close sheet"</string>
     <string name="collapsed">Collapsed</string>
     <string name="confirm_password">Confirm Password</string>
+    <string name="content">Content</string>
     <string name="date_input_headline">Entered date</string>
     <string name="date_input_headline_description">Entered date: %1$s</string>
     <string name="date_input_invalid_for_pattern">Date does not match expected pattern: %1$s</string>
@@ -171,18 +174,23 @@
     <string name="in_progress">In progress</string>
     <string name="indeterminate">Partially checked</string>
     <string name="landing_image_description">Landing screen image</string>
+    <string name="leave_review">Leave a review</string>
     <string name="login">Log in</string>
     <string name="login_description">Sign up with any of the options below.</string>
     <string name="login_email">Login with Email</string>
     <string name="login_page_screen">Login page background image</string>
+    <string name="logout">Logout</string>
     <string name="m3c_bottom_sheet_pane_title">Bottom Sheet</string>
     <string name="navigation_menu">"Navigation menu"</string>
     <string name="next">Next</string>
     <string name="no_existing_account">Don\'t have an account?</string>
     <string name="not_selected">Not selected</string>
+    <string name="notification_icon">Notification icon</string>
+    <string name="notifications">Notifications</string>
     <string name="off">Off</string>
     <string name="on">On</string>
     <string name="password">Password</string>
+    <string name="profile_image">Profile picture</string>
     <string name="range_end">"Range end"</string>
     <string name="range_start">"Range start"</string>
     <string name="sample_description">In this exhibition, we show the work of some of the greatest realist artists.</string>
@@ -192,6 +200,7 @@
     <string name="see_all">See all</string>
     <string name="see_more">See more</string>
     <string name="selected">Selected</string>
+    <string name="settings">Settings</string>
     <string name="sign_up">Sign up</string>
     <string name="sign_up_agreement">By clicking on sign up you agree to our Terms and conditions and privacy policy</string>
     <string name="sign_up_email">Sign up with Email</string>
@@ -201,6 +210,7 @@
     <string name="snackbar_dismiss">Dismiss</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="suggestions_available">Suggestions below</string>
+    <string name="support"><![CDATA[Help & Support]]></string>
     <string name="switch_role">Switch</string>
     <string name="tab">Tab</string>
     <string name="template_percent"><ns2:g id="percentage">%1$d</ns2:g> percent.</string>

@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="primaryOrange">#F77F00</color>
+    <string name="about">About</string>
     <string name="already_have_an_account">Already have an account?</string>
+    <string name="arrow_right_icon">arrow pointing right</string>
     <string name="confirm_password">Confirm Password</string>
+    <string name="content">Content</string>
     <string name="description_1">With 360 degree virtual tour, you can replicate the real life experience of visiting an art gallery</string>
     <string name="description_2">Save exhibitions, picture stories and artworks that you like to create your own art collection</string>
     <string name="description_3">Register your tour by ordering souvenir and gift card from our online gallery shop</string>
@@ -17,24 +20,31 @@
     <string name="gallery_item">A gallery image</string>
     <string name="get_started">Get started</string>
     <string name="landing_image_description">Landing screen image</string>
+    <string name="leave_review">Leave a review</string>
     <string name="login">Log in</string>
     <string name="login_description">Sign up with any of the options below.</string>
     <string name="login_email">Login with Email</string>
     <string name="login_page_screen">Login page background image</string>
+    <string name="logout">Logout</string>
     <string name="next">Next</string>
     <string name="no_existing_account">Don\'t have an account?</string>
+    <string name="notification_icon">Notification icon</string>
+    <string name="notifications">Notifications</string>
     <string name="password">Password</string>
+    <string name="profile_image">Profile picture</string>
     <string name="sample_description">In this exhibition, we show the work of some of the greatest realist artists.</string>
     <string name="sample_title">The Tampless Exhibition</string>
     <string name="search">Search exhibitions, artworks</string>
     <string name="see_all">See all</string>
     <string name="see_more">See more</string>
+    <string name="settings">Settings</string>
     <string name="sign_up">Sign up</string>
     <string name="sign_up_agreement">By clicking on sign up you agree to our Terms and conditions and privacy policy</string>
     <string name="sign_up_email">Sign up with Email</string>
     <string name="sign_up_facebook">Sign up with Facebook</string>
     <string name="sign_up_google">Sign up with Google</string>
     <string name="skip">Skip</string>
+    <string name="support"><![CDATA[Help & Support]]></string>
     <string name="title_1">Take 360 degree art tours</string>
     <string name="title_2">Create your own art collection</string>
     <string name="title_3">Shop your favorite art pieces</string>
