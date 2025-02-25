@@ -277,6 +277,7 @@ string featured_item
 string featured_sample
 string galleries
 string gallery_item
+string gallery_item_image
 string get_started
 string in_progress
 string indeterminate
@@ -303,6 +304,8 @@ string range_start
 string sample_description
 string sample_exhibition
 string sample_exhibition_description
+string sample_galler_title
+string sample_gallery_description
 string sample_title
 string search
 string search_bar_search
