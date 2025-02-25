@@ -40,6 +40,7 @@ string email
 string email_icon
 string exhibition_item
 string exhibtions
+string favorite
 string featured
 string featured_item
 string featured_sample
@@ -67,6 +68,7 @@ string search
 string see_all
 string see_more
 string settings
+string share
 string sign_up
 string sign_up_agreement
 string sign_up_email
