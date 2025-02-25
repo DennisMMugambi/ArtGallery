@@ -210,6 +210,7 @@ string about
 string already_have_an_account
 string androidx_startup
 string arrow_right_icon
+string back_button
 string bottom_sheet_collapse_description
 string bottom_sheet_dismiss_description
 string bottom_sheet_drag_handle_description
@@ -299,6 +300,8 @@ string profile_image
 string range_end
 string range_start
 string sample_description
+string sample_exhibition
+string sample_exhibition_description
 string sample_title
 string search
 string search_bar_search
@@ -313,6 +316,7 @@ string sign_up_facebook
 string sign_up_google
 string skip
 string snackbar_dismiss
+string start_tour
 string status_bar_notification_info_overflow
 string suggestions_available
 string support

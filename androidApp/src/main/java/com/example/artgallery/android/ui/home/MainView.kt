@@ -116,7 +116,7 @@ fun MainView(actionBarFun: topBarFun = { EmptyComposable() }, navController: Nav
 
                 when (selectedIndex.value) {
                     0 -> HomeScreen(navController = navController)
-                    1 -> FavoritesScreen()
+                    1 -> FavoritesScreen(navController = navController)
                     2 -> ShopScreen()
                     3 -> ProfileScreen()
                 }

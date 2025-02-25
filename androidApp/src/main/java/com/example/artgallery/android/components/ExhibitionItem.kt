@@ -30,7 +30,13 @@ import com.example.artgallery.android.theme.AppTheme
 import com.example.artgallery.android.theme.typography
 
 @Composable
-fun ExhibitionItem(title: String, description: String, imageUrl: String, modifier: Modifier) {
+fun ExhibitionItem(
+    title: String,
+    description: String,
+    imageUrl: String,
+    modifier: Modifier,
+    onclick: () -> Unit = {}
+) {
 
     ElevatedCard(
         modifier = modifier
@@ -80,7 +86,7 @@ fun ExhibitionItem(title: String, description: String, imageUrl: String, modifie
 
                 Button(
                     onClick = {
-
+                        onclick()
                     },
                     modifier = Modifier
                         .fillMaxWidth()

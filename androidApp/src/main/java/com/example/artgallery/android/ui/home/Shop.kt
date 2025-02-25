@@ -9,6 +9,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.sp
 import com.example.artgallery.android.R
 
@@ -22,4 +23,10 @@ fun ShopScreen() {
     ) {
         Text(text = stringResource(id = R.string.coming_soon), fontWeight = FontWeight.Bold, fontSize = 20.sp)
     }
+}
+
+@Composable
+@Preview
+fun ShopScreenPreview() {
+    ShopScreen()
 }

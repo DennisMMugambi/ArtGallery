@@ -23,8 +23,10 @@ import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalDensity
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavHostController
+import androidx.navigation.compose.rememberNavController
 import com.example.artgallery.android.R
 import com.example.artgallery.android.components.LoginCard
 import com.example.artgallery.android.components.SignUpCard
@@ -93,4 +95,13 @@ fun SignUpScreen(navController: NavHostController, isSignUp: Boolean) {
 
     }
 
+}
+
+@Composable
+@Preview
+fun SignUpScreen_Preview() {
+
+    val navController = rememberNavController()
+
+    SignUpScreen(navController = navController, isSignUp = false)
 }

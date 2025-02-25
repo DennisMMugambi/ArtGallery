@@ -34,6 +34,7 @@ import androidx.compose.ui.text.style.TextDecoration
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavHostController
+import androidx.navigation.compose.rememberNavController
 import com.example.artgallery.android.R
 import com.example.artgallery.android.theme.AppTheme
 import com.example.artgallery.android.theme.typography
@@ -166,7 +167,10 @@ fun LoginScreen(navController: NavHostController) {
 @Preview(showBackground = true)
 @Composable
 fun LoginScreenPreview() {
+
+    val navController = rememberNavController()
+
     AppTheme {
-//        LoginScreen()
+        LoginScreen(navController)
     }
 }
