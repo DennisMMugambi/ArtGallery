@@ -173,6 +173,7 @@
     <string name="featured_sample">The Impressionist Exhibition</string>
     <string name="galleries">Galleries</string>
     <string name="gallery_item">A gallery image</string>
+    <string name="gallery_item_image">Gallery image</string>
     <string name="get_started">Get started</string>
     <string name="in_progress">In progress</string>
     <string name="indeterminate">Partially checked</string>
@@ -199,6 +200,8 @@
     <string name="sample_description">In this exhibition, we show the work of some of the greatest realist artists.</string>
     <string name="sample_exhibition">The Impressionist Exhibition</string>
     <string name="sample_exhibition_description">Location: Room 13-17\n\nThe Impressionist exhibitions explore Artworks from contemporary impressionism of the 18th - 21st century.\nYou\'ll find the work of great impressionists like Claude Monet, and Édouard Manet. Explore the lush, sensual style of Pierre Auguste Renoir, the intimate domestic scenes of Mary Cassatte and so much more here. The exhibition spans 5 rooms with 20 artworks in total.</string>
+    <string name="sample_galler_title">Destruction of Surrev</string>
+    <string name="sample_gallery_description">Hackel vån Gosting (1884-1994)</string>
     <string name="sample_title">The Tampless Exhibition</string>
     <string name="search">Search exhibitions, artworks</string>
     <string name="search_bar_search">Search</string>

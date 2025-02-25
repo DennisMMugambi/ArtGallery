@@ -46,6 +46,7 @@ string featured_item
 string featured_sample
 string galleries
 string gallery_item
+string gallery_item_image
 string get_started
 string landing_image_description
 string leave_review
@@ -63,6 +64,8 @@ string profile_image
 string sample_description
 string sample_exhibition
 string sample_exhibition_description
+string sample_galler_title
+string sample_gallery_description
 string sample_title
 string search
 string see_all

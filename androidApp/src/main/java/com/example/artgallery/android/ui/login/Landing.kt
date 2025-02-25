@@ -193,7 +193,9 @@ fun LandingScreen(navController: NavHostController) {
                         )
                     }
 
-                    Row {
+                    Row(
+                        modifier = Modifier.padding(top = 10.dp)
+                    ) {
                         Text(
                             text = stringResource(id = R.string.already_have_an_account),
                             style = MaterialTheme.typography.displaySmall,

@@ -1,6 +1,7 @@
 package com.example.artgallery.android.ui.home
 
 import androidx.compose.foundation.Image
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -134,7 +135,10 @@ fun HomeScreen(navController: NavHostController) {
                             .width(150.dp)
                             .padding(vertical = 5.dp)
                             .padding(end = 10.dp)
-                            .clip(RoundedCornerShape(corner = CornerSize(15.dp))),
+                            .clip(RoundedCornerShape(corner = CornerSize(15.dp)))
+                            .clickable {
+                                navController.navigate("gallery_page")
+                            }
                     )
                 }
             }

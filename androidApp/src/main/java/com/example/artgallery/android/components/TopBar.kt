@@ -23,17 +23,19 @@ import com.example.artgallery.android.R
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun TopBar(navController: NavHostController) {
+fun TopBar(navController: NavHostController, title: String) {
 
     TopAppBar(
         title = {
             Row(
                 horizontalArrangement = Arrangement.Center,
                 verticalAlignment = Alignment.CenterVertically,
-                modifier = Modifier.fillMaxWidth().padding(end = 50.dp, top = 10.dp)
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .padding(end = 50.dp, top = 10.dp)
             )
             {
-                Text(text = stringResource(id = R.string.featured), color = Color.Black)
+                Text(text = title, color = Color.Black)
             }},
         navigationIcon = {
             IconButton(onClick = { navController.popBackStack() }) {
