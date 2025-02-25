@@ -223,6 +223,7 @@ int string call_notification_screening_text 0x7f09000d
 int string close_drawer 0x7f09000e
 int string close_sheet 0x7f09000f
 int string collapsed 0x7f090010
+int string coming_soon 0x7f090082
 int string confirm_password 0x7f090011
 int string content 0x7f090012
 int string date_input_headline 0x7f090013

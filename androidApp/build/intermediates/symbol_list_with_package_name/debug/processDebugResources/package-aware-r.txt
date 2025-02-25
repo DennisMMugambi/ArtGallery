@@ -224,6 +224,7 @@ string call_notification_screening_text
 string close_drawer
 string close_sheet
 string collapsed
+string coming_soon
 string confirm_password
 string content
 string date_input_headline
