@@ -23,9 +23,11 @@ import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavHostController
+import androidx.navigation.compose.rememberNavController
 import com.example.artgallery.android.R
 import com.example.artgallery.android.components.ExhibitionItem
 import com.example.artgallery.android.components.FeaturedItem
@@ -90,7 +92,10 @@ fun HomeScreen(navController: NavHostController) {
                         imageUrl = "",
                         modifier = Modifier
                             .height(200.dp)
-                            .width(310.dp)
+                            .width(310.dp),
+                        onclick = {
+                            navController.navigate("exhibition_page")
+                        }
                     )
                 }
             }
@@ -135,4 +140,12 @@ fun HomeScreen(navController: NavHostController) {
             }
         }
     }
+}
+
+@Composable
+@Preview
+fun HomeScreen_Preview() {
+
+    val navController = rememberNavController()
+    HomeScreen(navController)
 }

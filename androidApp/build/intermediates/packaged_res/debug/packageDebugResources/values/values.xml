@@ -4,6 +4,7 @@
     <string name="about">About</string>
     <string name="already_have_an_account">Already have an account?</string>
     <string name="arrow_right_icon">arrow pointing right</string>
+    <string name="back_button">Back button</string>
     <string name="coming_soon">Coming soon</string>
     <string name="confirm_password">Confirm Password</string>
     <string name="content">Content</string>
@@ -14,7 +15,7 @@
     <string name="email_icon">email icon image</string>
     <string name="exhibition_item">Exhibition item image</string>
     <string name="exhibtions">Exhibitions</string>
-    <string name="featured">Featured:</string>
+    <string name="featured">Featured</string>
     <string name="featured_item">\"Featured item\"</string>
     <string name="featured_sample">The Impressionist Exhibition</string>
     <string name="galleries">Galleries</string>
@@ -34,6 +35,8 @@
     <string name="password">Password</string>
     <string name="profile_image">Profile picture</string>
     <string name="sample_description">In this exhibition, we show the work of some of the greatest realist artists.</string>
+    <string name="sample_exhibition">The Impressionist Exhibition</string>
+    <string name="sample_exhibition_description">Location: Room 13-17\n\nThe Impressionist exhibitions explore Artworks from contemporary impressionism of the 18th - 21st century.\nYou\'ll find the work of great impressionists like Claude Monet, and Édouard Manet. Explore the lush, sensual style of Pierre Auguste Renoir, the intimate domestic scenes of Mary Cassatte and so much more here. The exhibition spans 5 rooms with 20 artworks in total.</string>
     <string name="sample_title">The Tampless Exhibition</string>
     <string name="search">Search exhibitions, artworks</string>
     <string name="see_all">See all</string>
@@ -45,6 +48,7 @@
     <string name="sign_up_facebook">Sign up with Facebook</string>
     <string name="sign_up_google">Sign up with Google</string>
     <string name="skip">Skip</string>
+    <string name="start_tour">Start tour</string>
     <string name="support"><![CDATA[Help & Support]]></string>
     <string name="title_1">Take 360 degree art tours</string>
     <string name="title_2">Create your own art collection</string>

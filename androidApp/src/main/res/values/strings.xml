@@ -28,7 +28,7 @@
     <string name="welcome">Welcome to Art\nGallery!</string>
     <string name="search">Search exhibitions, artworks</string>
     <string name="featured_item">\"Featured item\"</string>
-    <string name="featured">Featured:</string>
+    <string name="featured">Featured</string>
     <string name="featured_sample">The Impressionist Exhibition</string>
     <string name="exhibtions">Exhibitions</string>
     <string name="see_all">See all</string>
@@ -49,4 +49,8 @@
     <string name="leave_review">Leave a review</string>
     <string name="about">About</string>
     <string name="coming_soon">Coming soon</string>
+    <string name="sample_exhibition">The Impressionist Exhibition</string>
+    <string name="sample_exhibition_description">Location: Room 13-17\n\nThe Impressionist exhibitions explore Artworks from contemporary impressionism of the 18th - 21st century.\nYou\'ll find the work of great impressionists like Claude Monet, and Édouard Manet. Explore the lush, sensual style of Pierre Auguste Renoir, the intimate domestic scenes of Mary Cassatte and so much more here. The exhibition spans 5 rooms with 20 artworks in total.</string>
+    <string name="start_tour">Start tour</string>
+    <string name="back_button">Back button</string>
 </resources>

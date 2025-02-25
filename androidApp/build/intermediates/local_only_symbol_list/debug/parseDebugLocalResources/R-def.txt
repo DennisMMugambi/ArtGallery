@@ -29,6 +29,7 @@ font comicneue_regular
 string about
 string already_have_an_account
 string arrow_right_icon
+string back_button
 string coming_soon
 string confirm_password
 string content
@@ -59,6 +60,8 @@ string notifications
 string password
 string profile_image
 string sample_description
+string sample_exhibition
+string sample_exhibition_description
 string sample_title
 string search
 string see_all
@@ -70,6 +73,7 @@ string sign_up_email
 string sign_up_facebook
 string sign_up_google
 string skip
+string start_tour
 string support
 string title_1
 string title_2
