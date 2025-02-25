@@ -8,6 +8,7 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
@@ -29,71 +30,91 @@ import com.example.artgallery.android.components.ProfileActionCard
 @Composable
 fun ProfileScreen() {
 
-    Column(
+    LazyColumn(
         horizontalAlignment = Alignment.Start,
         modifier = Modifier.fillMaxSize().padding(all = 20.dp)
     ) {
 
-        Spacer(modifier = Modifier.height(25.dp))
+        item {
+            Spacer(modifier = Modifier.height(25.dp))
 
-        Column(
-            horizontalAlignment = Alignment.CenterHorizontally,
-            modifier = Modifier.fillMaxWidth()
-        ) {
-            Image(
-                painter = painterResource(id = R.drawable.profile),
-                contentDescription = "Profile Image",
-                contentScale = ContentScale.Crop,
-                modifier = Modifier
-                    .size(80.dp)
-                    .clip(CircleShape)
-            )
+            Column(
+                horizontalAlignment = Alignment.CenterHorizontally,
+                modifier = Modifier.fillMaxWidth()
+            ) {
+                Image(
+                    painter = painterResource(id = R.drawable.profile),
+                    contentDescription = "Profile Image",
+                    contentScale = ContentScale.Crop,
+                    modifier = Modifier
+                        .size(80.dp)
+                        .clip(CircleShape)
+                )
 
-            Spacer(modifier = Modifier.height(20.dp))
+                Spacer(modifier = Modifier.height(20.dp))
+
+                Text(
+                    text = "Dennis Mugambi",
+                    style = MaterialTheme.typography.displayMedium,
+                    fontSize = 20.sp, color = Color.Black,
+                    fontWeight = FontWeight.Bold
+                )
+
+                Text(
+                    text = "dennis.mutwiri.mugambi@gmaill.com",
+                    style = MaterialTheme.typography.displaySmall,
+                    fontSize = 16.sp,
+                    color = Color.Black,
+                    fontWeight = FontWeight.Bold
+                )
+            }
+
+            Spacer(Modifier.height(10.dp))
 
             Text(
-                text = "Dennis Mugambi",
-                style = MaterialTheme.typography.displayMedium,
-                fontSize = 20.sp, color = Color.Black
+                stringResource(
+                    id = R.string.content
+                ),
+                style = MaterialTheme.typography.bodyMedium,
+                fontSize = 18.sp,
+                color = Color.Black,
+                fontWeight = FontWeight.Bold,
+                modifier = Modifier.padding(top = 25.dp).padding(start = 10.dp)
+            )
+
+            ProfileActionCard(
+                image = R.drawable.terms_and_conditions,
+                stringResource(id = R.string.leave_review)
+            )
+
+            ProfileActionCard(image = R.drawable.about, title = stringResource(id = R.string.about))
+
+            ProfileActionCard(
+                image = R.drawable.support,
+                title = stringResource(id = R.string.support)
             )
 
             Text(
-                text = "dennis.mutwiri.mugambi@gmaill.com",
-                style = MaterialTheme.typography.displaySmall,
-                fontSize = 16.sp,
-                color = Color.Black
+                stringResource(
+                    id = R.string.settings
+                ),
+                style = MaterialTheme.typography.bodyMedium,
+                fontSize = 18.sp,
+                color = Color.Black,
+                fontWeight = FontWeight.Bold,
+                modifier = Modifier.padding(top = 25.dp).padding(start = 10.dp)
+            )
+
+            ProfileActionCard(
+                image = R.drawable.skills,
+                title = stringResource(id = R.string.settings)
+            )
+
+            ProfileActionCard(
+                image = R.drawable.logout,
+                title = stringResource(id = R.string.logout)
             )
         }
-
-        Spacer(Modifier.height(10.dp))
-
-        Text(stringResource(
-            id = R.string.content),
-            style = MaterialTheme.typography.bodyMedium,
-            fontSize = 18.sp,
-            color = Color.Black,
-            fontWeight = FontWeight.Bold,
-            modifier = Modifier.padding(top = 25.dp).padding(start = 10.dp)
-        )
-
-        ProfileActionCard(image = R.drawable.terms_and_conditions, stringResource(id = R.string.leave_review))
-
-        ProfileActionCard(image = R.drawable.about, title = stringResource(id = R.string.about))
-
-        ProfileActionCard(image = R.drawable.support, title = stringResource(id = R.string.support))
-
-        Text(stringResource(
-            id = R.string.settings),
-            style = MaterialTheme.typography.bodyMedium,
-            fontSize = 18.sp,
-            color = Color.Black,
-            fontWeight = FontWeight.Bold,
-            modifier = Modifier.padding(top = 25.dp).padding(start = 10.dp)
-        )
-
-        ProfileActionCard(image = R.drawable.skills, title = stringResource(id = R.string.settings))
-
-        ProfileActionCard(image = R.drawable.logout, title = stringResource(id = R.string.logout))
     }
 }
 
