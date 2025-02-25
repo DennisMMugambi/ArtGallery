@@ -167,6 +167,7 @@
     <string name="exhibition_item">Exhibition item image</string>
     <string name="exhibtions">Exhibitions</string>
     <string name="expanded">Expanded</string>
+    <string name="favorite">favorite item icon</string>
     <string name="featured">Featured</string>
     <string name="featured_item">\"Featured item\"</string>
     <string name="featured_sample">The Impressionist Exhibition</string>
@@ -205,6 +206,7 @@
     <string name="see_more">See more</string>
     <string name="selected">Selected</string>
     <string name="settings">Settings</string>
+    <string name="share">share item icon</string>
     <string name="sign_up">Sign up</string>
     <string name="sign_up_agreement">By clicking on sign up you agree to our Terms and conditions and privacy policy</string>
     <string name="sign_up_email">Sign up with Email</string>
