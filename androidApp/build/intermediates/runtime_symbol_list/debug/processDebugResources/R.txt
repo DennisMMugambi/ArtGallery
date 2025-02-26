@@ -268,6 +268,7 @@ int string dropdown_menu 0x7f09003b
 int string email 0x7f09003c
 int string email_icon 0x7f09003d
 int string exhibition_item 0x7f09003e
+int string exhibitions 0x7f09008c
 int string exhibtions 0x7f09003f
 int string expanded 0x7f090040
 int string favorite 0x7f090041
