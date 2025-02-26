@@ -1,8 +1,10 @@
 package com.example.artgallery.android.ui.home
 
 import androidx.compose.foundation.Image
+import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
@@ -38,108 +40,115 @@ import com.example.artgallery.android.theme.typography
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun HomeScreen(navController: NavHostController) {
-    LazyColumn(
-        modifier = Modifier.padding(all = 20.dp),
-        verticalArrangement = Arrangement.spacedBy(15.dp),
-        horizontalAlignment = Alignment.Start
-    ) {
-        item {
-            Text(
-                text = stringResource(id = R.string.welcome),
-                style = typography.titleLarge.copy(fontSize = 30.sp),
-                fontWeight = FontWeight.ExtraBold
-            )
-        }
 
-        item {
-            SearchBarComponent()
-        }
+    Column(modifier = Modifier.background(Color.White).padding(all = 10.dp)) {
 
-        item {
-            FeaturedItem(
-                modifier = Modifier
-                    .height(200.dp)
-                    .fillMaxWidth()
-            )
-        }
+        Text(
+            text = stringResource(id = R.string.welcome),
+            style = typography.titleLarge.copy(fontSize = 30.sp),
+            fontWeight = FontWeight.ExtraBold,
+            modifier = Modifier.padding(horizontal = 10.dp).padding(vertical = 10.dp)
+        )
 
-        item {
-            Row(
-                modifier = Modifier.fillMaxWidth(),
-                horizontalArrangement = Arrangement.SpaceBetween
-            ) {
-                Text(
-                    text = stringResource(id = R.string.exhibtions),
-                    style = typography.displaySmall,
-                    color = Color.Black,
-                    fontWeight = FontWeight.Bold
-                )
+        SearchBarComponent()
 
-                Text(
-                    text = stringResource(id = R.string.see_all),
-                    style = typography.displaySmall,
-                    color = MaterialTheme.colorScheme.primary,
-                    fontWeight = FontWeight.Bold
+        LazyColumn(
+            modifier = Modifier.padding(all = 10.dp),
+            verticalArrangement = Arrangement.spacedBy(15.dp),
+            horizontalAlignment = Alignment.Start
+        ) {
+            item {
+                FeaturedItem(
+                    modifier = Modifier
+                        .height(200.dp)
+                        .fillMaxWidth()
                 )
             }
-        }
 
-        item {
-            LazyRow {
-                items(10) {
-                    ExhibitionItem(
-                        title = "",
-                        description = "",
-                        imageUrl = "",
-                        modifier = Modifier
-                            .height(200.dp)
-                            .width(310.dp),
-                        onclick = {
-                            navController.navigate("exhibition_page")
+            item {
+                Row(
+                    modifier = Modifier.fillMaxWidth(),
+                    horizontalArrangement = Arrangement.SpaceBetween
+                ) {
+                    Text(
+                        text = stringResource(id = R.string.exhibtions),
+                        style = typography.displaySmall,
+                        color = Color.Black,
+                        fontWeight = FontWeight.Bold
+                    )
+
+                    Text(
+                        text = stringResource(id = R.string.see_all),
+                        style = typography.displaySmall,
+                        color = MaterialTheme.colorScheme.primary,
+                        fontWeight = FontWeight.Bold,
+                        modifier = Modifier.clickable {
+                            navController.navigate("exhibition_feed")
                         }
                     )
                 }
             }
-        }
 
-        item {
-            Row(
-                modifier = Modifier.fillMaxWidth(),
-                horizontalArrangement = Arrangement.SpaceBetween
-            ) {
-                Text(
-                    text = stringResource(id = R.string.galleries),
-                    style = typography.displaySmall,
-                    color = Color.Black,
-                    fontWeight = FontWeight.Bold
-                )
-
-                Text(
-                    text = stringResource(id = R.string.see_all),
-                    style = typography.displaySmall,
-                    color = MaterialTheme.colorScheme.primary,
-                    fontWeight = FontWeight.Bold
-                )
-            }
-        }
-
-        item {
-            LazyRow {
-                items(10) {
-                    Image(
-                        painter = painterResource(R.drawable.african_portrait),
-                        contentDescription = stringResource(id = R.string.gallery_item),
-                        contentScale = ContentScale.Crop,
-                        modifier = Modifier
-                            .height(200.dp)
-                            .width(150.dp)
-                            .padding(vertical = 5.dp)
-                            .padding(end = 10.dp)
-                            .clip(RoundedCornerShape(corner = CornerSize(15.dp)))
-                            .clickable {
-                                navController.navigate("gallery_page")
+            item {
+                LazyRow {
+                    items(10) {
+                        ExhibitionItem(
+                            title = "",
+                            description = "",
+                            imageUrl = "",
+                            modifier = Modifier
+                                .height(200.dp)
+                                .width(310.dp),
+                            onclick = {
+                                navController.navigate("exhibition_page")
                             }
+                        )
+                    }
+                }
+            }
+
+            item {
+                Row(
+                    modifier = Modifier.fillMaxWidth(),
+                    horizontalArrangement = Arrangement.SpaceBetween
+                ) {
+                    Text(
+                        text = stringResource(id = R.string.galleries),
+                        style = typography.displaySmall,
+                        color = Color.Black,
+                        fontWeight = FontWeight.Bold
                     )
+
+                    Text(
+                        text = stringResource(id = R.string.see_all),
+                        style = typography.displaySmall,
+                        color = MaterialTheme.colorScheme.primary,
+                        fontWeight = FontWeight.Bold,
+                        modifier = Modifier.clickable {
+                            navController.navigate("gallery_feed")
+                        }
+                    )
+                }
+            }
+
+            item {
+                LazyRow {
+                    items(10) {
+                        Image(
+                            painter = painterResource(R.drawable.african_portrait),
+                            contentDescription = stringResource(id = R.string.gallery_item),
+                            contentScale = ContentScale.Crop,
+                            modifier = Modifier
+                                .height(200.dp)
+                                .width(150.dp)
+                                .padding(vertical = 5.dp)
+                                .padding(end = 10.dp)
+                                .clip(RoundedCornerShape(corner = CornerSize(15.dp)))
+                                .clickable {
+                                    navController.navigate("gallery_page")
+                                }
+                        )
+                    }
                 }
             }
         }

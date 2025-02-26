@@ -6,7 +6,9 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
+import com.example.artgallery.android.ui.exhibition.ExhibitionFeed
 import com.example.artgallery.android.ui.exhibition.ExhibitionPage
+import com.example.artgallery.android.ui.gallery.GalleryFeed
 import com.example.artgallery.android.ui.gallery.GalleryItemPage
 import com.example.artgallery.android.ui.login.LandingScreen
 import com.example.artgallery.android.ui.login.LoginScreen
@@ -33,6 +35,12 @@ fun AppNavigation() {
         }
         composable("gallery_page") {
             GalleryItemPage(navController)
+        }
+        composable("gallery_feed"){
+            GalleryFeed(navController)
+        }
+        composable("exhibition_feed"){
+            ExhibitionFeed(navController)
         }
         composable(
             route = "register/{isSignUp}",

@@ -269,6 +269,7 @@ string dropdown_menu
 string email
 string email_icon
 string exhibition_item
+string exhibitions
 string exhibtions
 string expanded
 string favorite
