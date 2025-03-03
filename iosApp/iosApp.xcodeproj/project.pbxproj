@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00F522442D6F13020003E3F9 /* LandingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F522432D6F13020003E3F9 /* LandingScreen.swift */; };
+		00F522462D6F13D60003E3F9 /* LandingItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F522452D6F13D60003E3F9 /* LandingItem.swift */; };
+		00F522492D6F14D90003E3F9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F522482D6F14D90003E3F9 /* Constants.swift */; };
+		00FEE2372D758AA400BEBC5F /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 00FEE2362D758AA400BEBC5F /* Poppins-Regular.ttf */; };
+		00FEE2392D758AB000BEBC5F /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 00FEE2382D758AB000BEBC5F /* Poppins-Medium.ttf */; };
+		00FEE23B2D758ABD00BEBC5F /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 00FEE23A2D758ABC00BEBC5F /* Poppins-Bold.ttf */; };
 		058557BB273AAA24004C7B11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 058557BA273AAA24004C7B11 /* Assets.xcassets */; };
 		058557D9273AAEEB004C7B11 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 058557D8273AAEEB004C7B11 /* Preview Assets.xcassets */; };
 		2152FB042600AC8F00CF470E /* iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2152FB032600AC8F00CF470E /* iOSApp.swift */; };
@@ -15,6 +21,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		00F522432D6F13020003E3F9 /* LandingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingScreen.swift; sourceTree = "<group>"; };
+		00F522452D6F13D60003E3F9 /* LandingItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingItem.swift; sourceTree = "<group>"; };
+		00F522482D6F14D90003E3F9 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		00FEE2362D758AA400BEBC5F /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		00FEE2382D758AB000BEBC5F /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		00FEE23A2D758ABC00BEBC5F /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
 		058557BA273AAA24004C7B11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		058557D8273AAEEB004C7B11 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1642422B2DA25DF6336A2C8F /* Pods_iosApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iosApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -38,6 +50,58 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		00F5223E2D6F12C00003E3F9 /* ui */ = {
+			isa = PBXGroup;
+			children = (
+				00F522472D6F14C80003E3F9 /* support */,
+				00F522422D6F12EB0003E3F9 /* login */,
+				00F522412D6F12E20003E3F9 /* home */,
+				00F5223F2D6F12C70003E3F9 /* components */,
+			);
+			path = ui;
+			sourceTree = "<group>";
+		};
+		00F5223F2D6F12C70003E3F9 /* components */ = {
+			isa = PBXGroup;
+			children = (
+				00F522452D6F13D60003E3F9 /* LandingItem.swift */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
+		00F522412D6F12E20003E3F9 /* home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = home;
+			sourceTree = "<group>";
+		};
+		00F522422D6F12EB0003E3F9 /* login */ = {
+			isa = PBXGroup;
+			children = (
+				00F522432D6F13020003E3F9 /* LandingScreen.swift */,
+			);
+			path = login;
+			sourceTree = "<group>";
+		};
+		00F522472D6F14C80003E3F9 /* support */ = {
+			isa = PBXGroup;
+			children = (
+				00F522482D6F14D90003E3F9 /* Constants.swift */,
+			);
+			path = support;
+			sourceTree = "<group>";
+		};
+		00FEE2352D758A9000BEBC5F /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				00FEE23A2D758ABC00BEBC5F /* Poppins-Bold.ttf */,
+				00FEE2382D758AB000BEBC5F /* Poppins-Medium.ttf */,
+				00FEE2362D758AA400BEBC5F /* Poppins-Regular.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
 		03A21B4F61CFA640DE3BD293 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -75,7 +139,9 @@
 		7555FF7D242A565900829871 /* iosApp */ = {
 			isa = PBXGroup;
 			children = (
+				00FEE2352D758A9000BEBC5F /* fonts */,
 				058557BA273AAA24004C7B11 /* Assets.xcassets */,
+				00F5223E2D6F12C00003E3F9 /* ui */,
 				7555FF82242A565900829871 /* ContentView.swift */,
 				7555FF8C242A565B00829871 /* Info.plist */,
 				2152FB032600AC8F00CF470E /* iOSApp.swift */,
@@ -90,7 +156,6 @@
 				53E083442FB459F30F6D46C2 /* Pods-iosApp.debug.xcconfig */,
 				459DA1C3E4339F824582B9DC /* Pods-iosApp.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -153,6 +218,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00FEE2372D758AA400BEBC5F /* Poppins-Regular.ttf in Resources */,
+				00FEE2392D758AB000BEBC5F /* Poppins-Medium.ttf in Resources */,
+				00FEE23B2D758ABD00BEBC5F /* Poppins-Bold.ttf in Resources */,
 				058557D9273AAEEB004C7B11 /* Preview Assets.xcassets in Resources */,
 				058557BB273AAA24004C7B11 /* Assets.xcassets in Resources */,
 			);
@@ -190,7 +258,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00F522492D6F14D90003E3F9 /* Constants.swift in Sources */,
+				00F522462D6F13D60003E3F9 /* LandingItem.swift in Sources */,
 				2152FB042600AC8F00CF470E /* iOSApp.swift in Sources */,
+				00F522442D6F13020003E3F9 /* LandingScreen.swift in Sources */,
 				7555FF83242A565900829871 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -320,15 +391,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"iosApp/Preview Content\"";
+				DEVELOPMENT_TEAM = W8QZAGDKB9;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = iosApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Art Gallery";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.photography";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = orgIdentifier.iosApp;
+				MARKETING_VERSION = 1;
+				PRODUCT_BUNDLE_IDENTIFIER = dennismugambi.ArtGallery;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -341,15 +417,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"iosApp/Preview Content\"";
+				DEVELOPMENT_TEAM = W8QZAGDKB9;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = iosApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Art Gallery";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.photography";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = orgIdentifier.iosApp;
+				MARKETING_VERSION = 1;
+				PRODUCT_BUNDLE_IDENTIFIER = dennismugambi.ArtGallery;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

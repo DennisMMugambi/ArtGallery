@@ -9,11 +9,37 @@
 import SwiftUI
 
 struct LandingItem: View {
+    let image: String 
+    let title: String
+    let description: String
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack() {
+            Image(image)
+                .resizable()
+                .scaledToFit()
+                .frame(width: 350, height: 350)
+                .accessibilityLabel("Landing image")
+            
+            Text(title)
+                .font(.custom(Constants.Fonts.poppinsMedium, size: 22))
+                .foregroundColor(.black)
+                .padding(.top, 50)
+            
+            Text(description)
+                .font(.custom(Constants.Fonts.poppins, size: 16))
+                .foregroundColor(.gray)
+                .multilineTextAlignment(.center)
+                .padding(.horizontal, 20)
+        }
+        .padding(.top, 50)
     }
 }
 
 #Preview {
-    LandingItem()
+    LandingItem(
+        image: Constants.Images.landing1,
+        title: "Welcome to the Art Gallery",
+        description: "Explore a vast collection of artwork from various artists around the world."
+    )
 }
