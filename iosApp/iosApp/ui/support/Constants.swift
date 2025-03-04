@@ -13,8 +13,12 @@ struct Constants {
     
     struct Images {
         static let landing1 = "landing1"
-        static let lannding2 = "landing2"
+        static let landing2 = "landing2"
         static let landing3 = "landing3"
+        static let mountainBackground = "mountain_bg"
+        static let mail = "mail"
+        static let facebook = "facebook_1"
+        static let google = "google_1"
     }
     
     struct Colors {

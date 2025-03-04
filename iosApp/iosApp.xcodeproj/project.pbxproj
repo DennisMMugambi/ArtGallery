@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00B1F3DC2D75CDB800327044 /* GetStartedScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B1F3DB2D75CDB800327044 /* GetStartedScreen.swift */; };
+		00CD25322D76F353002CF7DB /* ExistingAccountComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CD25312D76F353002CF7DB /* ExistingAccountComponent.swift */; };
+		00CD25342D76F414002CF7DB /* FilledButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CD25332D76F414002CF7DB /* FilledButton.swift */; };
+		00CD25362D76F512002CF7DB /* OutlinedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CD25352D76F512002CF7DB /* OutlinedButton.swift */; };
 		00F522442D6F13020003E3F9 /* LandingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F522432D6F13020003E3F9 /* LandingScreen.swift */; };
 		00F522462D6F13D60003E3F9 /* LandingItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F522452D6F13D60003E3F9 /* LandingItem.swift */; };
 		00F522492D6F14D90003E3F9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F522482D6F14D90003E3F9 /* Constants.swift */; };
@@ -21,6 +25,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		00B1F3DB2D75CDB800327044 /* GetStartedScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetStartedScreen.swift; sourceTree = "<group>"; };
+		00CD25312D76F353002CF7DB /* ExistingAccountComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExistingAccountComponent.swift; sourceTree = "<group>"; };
+		00CD25332D76F414002CF7DB /* FilledButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilledButton.swift; sourceTree = "<group>"; };
+		00CD25352D76F512002CF7DB /* OutlinedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutlinedButton.swift; sourceTree = "<group>"; };
 		00F522432D6F13020003E3F9 /* LandingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingScreen.swift; sourceTree = "<group>"; };
 		00F522452D6F13D60003E3F9 /* LandingItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingItem.swift; sourceTree = "<group>"; };
 		00F522482D6F14D90003E3F9 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
@@ -65,6 +73,9 @@
 			isa = PBXGroup;
 			children = (
 				00F522452D6F13D60003E3F9 /* LandingItem.swift */,
+				00CD25312D76F353002CF7DB /* ExistingAccountComponent.swift */,
+				00CD25332D76F414002CF7DB /* FilledButton.swift */,
+				00CD25352D76F512002CF7DB /* OutlinedButton.swift */,
 			);
 			path = components;
 			sourceTree = "<group>";
@@ -80,6 +91,7 @@
 			isa = PBXGroup;
 			children = (
 				00F522432D6F13020003E3F9 /* LandingScreen.swift */,
+				00B1F3DB2D75CDB800327044 /* GetStartedScreen.swift */,
 			);
 			path = login;
 			sourceTree = "<group>";
@@ -260,8 +272,12 @@
 			files = (
 				00F522492D6F14D90003E3F9 /* Constants.swift in Sources */,
 				00F522462D6F13D60003E3F9 /* LandingItem.swift in Sources */,
+				00CD25342D76F414002CF7DB /* FilledButton.swift in Sources */,
+				00B1F3DC2D75CDB800327044 /* GetStartedScreen.swift in Sources */,
 				2152FB042600AC8F00CF470E /* iOSApp.swift in Sources */,
+				00CD25362D76F512002CF7DB /* OutlinedButton.swift in Sources */,
 				00F522442D6F13020003E3F9 /* LandingScreen.swift in Sources */,
+				00CD25322D76F353002CF7DB /* ExistingAccountComponent.swift in Sources */,
 				7555FF83242A565900829871 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
