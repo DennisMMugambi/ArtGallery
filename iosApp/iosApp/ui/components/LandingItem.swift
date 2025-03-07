@@ -32,7 +32,7 @@ struct LandingItem: View {
                 .multilineTextAlignment(.center)
                 .padding(.horizontal, 20)
         }
-        .padding(.top, 50)
+        .padding(.top, 30)
     }
 }
 

@@ -30,7 +30,7 @@ struct GetStartedScreen: View {
                             .frame(height: geometry.size.height / 3)
 
                     HStack {
-                        VStack(alignment: .leading, spacing: 8) {
+                        VStack(alignment: .leading, spacing: 0) {
                             Text("Get started")
                                 .foregroundColor(.white)
                                 .font(.custom(Constants.Fonts.poppinsMedium, size: 23))
@@ -38,7 +38,7 @@ struct GetStartedScreen: View {
 
                             Text("Sign up with any method of your choice")
                                 .foregroundColor(.white)
-                                .font(.custom(Constants.Fonts.poppins, size: 18))
+                                .font(.custom(Constants.Fonts.poppins, size: 16))
                         }
 
                         Spacer()
@@ -66,12 +66,13 @@ struct GetStartedScreen: View {
                         
                         ExistingAccountComponent(action: {
                             
-                        }, textColor: .white)
+                        }, textColor: .white, title: "Already have an account?", alternateAction: "Login")
 
                     Spacer()
                 }
             }
         }
+            .navigationBarBackButtonHidden(true)
     }
 }
 

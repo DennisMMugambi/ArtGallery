@@ -13,19 +13,22 @@ struct ExistingAccountComponent: View {
     var action: () -> Void
     var textColor: Color
     
+    var title: String
+    var alternateAction: String
+    
     var body: some View {
        
         HStack(spacing: 0) {
             
             Spacer()
             
-            Text("Already have an account?")
+            Text(title)
                 .foregroundColor(textColor)
                 .padding(.all, 0)
             Button(action: {
                 action()
             }) {
-                Text("Login")
+                Text(alternateAction)
                     .padding(.leading, 3)
                     .foregroundColor(Constants.Colors.appOrange)
                     .underline()
@@ -42,5 +45,5 @@ struct ExistingAccountComponent: View {
 #Preview {
     ExistingAccountComponent(action: {
         
-    }, textColor: .black)
+    }, textColor: .black, title: "Already have an account?", alternateAction: "Login")
 }
