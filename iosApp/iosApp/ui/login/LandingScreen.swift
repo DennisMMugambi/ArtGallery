@@ -21,7 +21,7 @@ struct LandingScreen: View {
         NavigationStack {
             
             
-            VStack(spacing: 20) {
+            VStack() {
                 TabView(selection: $currentPage) {
                     ForEach(0..<pages.count, id: \ .self) { index in
                         LandingItem(
@@ -33,6 +33,20 @@ struct LandingScreen: View {
                     }
                 }
                 .tabViewStyle(PageTabViewStyle(indexDisplayMode: .always))
+                
+                
+                //Spacer()
+                
+                HStack(spacing: 8) {
+                    ForEach(0..<pages.count, id: \.self) { index in
+                        RoundedRectangle(cornerRadius: 10)
+                            .fill(index == currentPage ? Constants.Colors.appOrange : Color.gray)
+                            .frame(width: index == currentPage ? 40 : 15, height: 8)
+                    }
+                }
+                .padding(.bottom, 50)
+                
+               // Spacer()
                 
                 HStack {
                     if currentPage < pages.count - 1 {
@@ -71,16 +85,17 @@ struct LandingScreen: View {
                                 NavigationLink(destination: GetStartedScreen()) {
                                     Text("Get Started")
                                         .foregroundColor(Color.white)
-                                        .padding(.all, 20)
+                                        .padding(.horizontal, 20)
+                                        .padding(.vertical, 10)
                                         .frame(maxWidth: .infinity)
                                         .background(Constants.Colors.appOrange)
-                                        .cornerRadius(10)
+                                        .cornerRadius(30)
                                 }
                             }
                             
                             ExistingAccountComponent(action: {
                                 
-                            }, textColor: .black)
+                            }, textColor: .black, title: "Already have an account?", alternateAction: "Login")
                         }
                     }
                 }

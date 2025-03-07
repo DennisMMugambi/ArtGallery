@@ -8,12 +8,26 @@
 
 import SwiftUI
 
+
+import SwiftUI
+
 struct OutlinedInputField: View {
+    
+    var hint: LocalizedStringKey = ""
+    @Binding var input: String
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+       
+        TextField(hint, text: $input)
+            .padding(15)
+            .overlay(
+                RoundedRectangle(cornerRadius: 10)
+                    .stroke(.gray, lineWidth: 1)
+            )
+            .padding(.top, 20)
     }
 }
 
 #Preview {
-    OutlinedInputField()
+    OutlinedInputField(hint: "Email", input: .constant(""))
 }
