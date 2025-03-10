@@ -9,8 +9,28 @@
 import SwiftUI
 
 struct HomeScreen: View {
+    
+    @State private var searchText = ""
+    @State private var searchIsActive = true
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
+
+            NavigationStack {
+                VStack(alignment: .leading) {
+                    
+                    Text("testing searchbar")
+                        .foregroundColor(.black)
+                        .font(.custom(Constants.Fonts.poppinsMedium, size: 22))
+                        .bold()
+                        .padding(.leading, 20)
+                    
+                    VStack() {
+                        
+                    }
+                }
+                .searchable(text: $searchText, isPresented: $searchIsActive)
+            }
     }
 }
 

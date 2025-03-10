@@ -1,0 +1,4 @@
+com.example.artgallery.android.test.androidApp-androidTest-0 /Users/dennismugambi/AndroidStudioProjects/ArtGallery/androidApp/build/generated/res/resValues/androidTest/debug
+com.example.artgallery.android.test.androidApp-mergeDebugAndroidTestResources-1 /Users/dennismugambi/AndroidStudioProjects/ArtGallery/androidApp/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
+com.example.artgallery.android.test.androidApp-mergeDebugAndroidTestResources-2 /Users/dennismugambi/AndroidStudioProjects/ArtGallery/androidApp/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
+com.example.artgallery.android.test.androidApp-debugAndroidTest-3 /Users/dennismugambi/AndroidStudioProjects/ArtGallery/androidApp/build/intermediates/merged_res/debugAndroidTest/mergeDebugAndroidTestResources

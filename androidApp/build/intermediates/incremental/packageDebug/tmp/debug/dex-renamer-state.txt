@@ -1,10 +1,10 @@
-#Wed Feb 26 11:59:00 EAT 2025
+#Mon Mar 10 08:29:31 EAT 2025
 base.0=/Users/dennismugambi/AndroidStudioProjects/ArtGallery/androidApp/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
 base.1=/Users/dennismugambi/AndroidStudioProjects/ArtGallery/androidApp/build/intermediates/dex/debug/mergeLibDexDebug/6/classes.dex
 base.10=/Users/dennismugambi/AndroidStudioProjects/ArtGallery/androidApp/build/intermediates/dex/debug/mergeExtDexDebug/classes2.dex
 base.2=/Users/dennismugambi/AndroidStudioProjects/ArtGallery/androidApp/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
-base.3=/Users/dennismugambi/AndroidStudioProjects/ArtGallery/androidApp/build/intermediates/dex/debug/mergeProjectDexDebug/12/classes.dex
-base.4=/Users/dennismugambi/AndroidStudioProjects/ArtGallery/androidApp/build/intermediates/dex/debug/mergeProjectDexDebug/10/classes.dex
+base.3=/Users/dennismugambi/AndroidStudioProjects/ArtGallery/androidApp/build/intermediates/dex/debug/mergeProjectDexDebug/10/classes.dex
+base.4=/Users/dennismugambi/AndroidStudioProjects/ArtGallery/androidApp/build/intermediates/dex/debug/mergeProjectDexDebug/12/classes.dex
 base.5=/Users/dennismugambi/AndroidStudioProjects/ArtGallery/androidApp/build/intermediates/dex/debug/mergeProjectDexDebug/14/classes.dex
 base.6=/Users/dennismugambi/AndroidStudioProjects/ArtGallery/androidApp/build/intermediates/dex/debug/mergeProjectDexDebug/3/classes.dex
 base.7=/Users/dennismugambi/AndroidStudioProjects/ArtGallery/androidApp/build/intermediates/dex/debug/mergeProjectDexDebug/5/classes.dex
@@ -14,8 +14,8 @@ path.0=classes.dex
 path.1=6/classes.dex
 path.10=classes2.dex
 path.2=0/classes.dex
-path.3=12/classes.dex
-path.4=10/classes.dex
+path.3=10/classes.dex
+path.4=12/classes.dex
 path.5=14/classes.dex
 path.6=3/classes.dex
 path.7=5/classes.dex

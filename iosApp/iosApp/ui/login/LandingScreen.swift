@@ -9,6 +9,9 @@
 import SwiftUI
 
 struct LandingScreen: View {
+    
+    @State private var toGetStarted = false
+    
     @State private var currentPage = 0
     let pages = [
         (Constants.Images.landing1, "Discover Art", "Explore a vast collection of artwork from around the world."),
@@ -80,9 +83,8 @@ struct LandingScreen: View {
                     } else {
                         VStack {
                             Button(action: {
-                                // Navigate to login
+                                toGetStarted.toggle()
                             }) {
-                                NavigationLink(destination: GetStartedScreen()) {
                                     Text("Get Started")
                                         .foregroundColor(Color.white)
                                         .padding(.horizontal, 20)
@@ -90,7 +92,9 @@ struct LandingScreen: View {
                                         .frame(maxWidth: .infinity)
                                         .background(Constants.Colors.appOrange)
                                         .cornerRadius(30)
-                                }
+                            }
+                            .navigationDestination(isPresented: $toGetStarted){
+                                GetStartedScreen()
                             }
                             
                             ExistingAccountComponent(action: {
