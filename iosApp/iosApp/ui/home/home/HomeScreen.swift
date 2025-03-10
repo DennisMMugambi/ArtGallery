@@ -18,7 +18,7 @@ struct HomeScreen: View {
                 .bold()
                 .padding(.leading, 20)
             
-            // Your content here
+            
             VStack {
                 
             }
@@ -27,8 +27,6 @@ struct HomeScreen: View {
 }
 
 #Preview {
-    NavigationStack { // Simulates proper navigation in preview
         HomeScreen()
-    }
 }
 
