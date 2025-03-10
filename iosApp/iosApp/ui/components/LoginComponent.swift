@@ -13,12 +13,13 @@ struct LoginComponent: View {
     @State private var email: String = ""
     @State private var password: String = ""
     @State private var confirmPassword: String = ""
+    @Binding var goHome: Bool
     
-    var isLogin = false
+    @Binding var toggleLogin: Bool
     
     var body: some View {
         
-        if (isLogin) {
+        if (toggleLogin) {
             
             VStack(alignment: .leading) {
                 
@@ -34,7 +35,7 @@ struct LoginComponent: View {
                             .font(.custom(Constants.Fonts.poppins, size: 14))
                             .padding(.all, 0)
                         Button(action: {
-                            
+                            toggleLogin.toggle()
                         }) {
                             Text("Sign up")
                                 .padding(.leading, 3)
@@ -64,20 +65,20 @@ struct LoginComponent: View {
                 
                 
                 Button(action: {
-                    // Navigate to login
+                    goHome.toggle()
                 }) {
-                    NavigationLink(destination: GetStartedScreen()) {
                         Text("Login")
                             .foregroundColor(Color.white)
-                            .padding(.all, 20)
+                            .padding(.horizontal, 20)
+                            .padding(.vertical, 15)
                             .frame(maxWidth: .infinity)
                             .background(Constants.Colors.appOrange)
                             .cornerRadius(30)
-                    }
                 }.padding(.top, 20)
                 
                 
             }.padding(.all, 20)
+                .clipShape(RoundedRectangle(cornerRadius: 30))
             
         } else {
             
@@ -94,7 +95,7 @@ struct LoginComponent: View {
                             .foregroundColor(.black)
                             .padding(.all, 0)
                         Button(action: {
-                            
+                            toggleLogin.toggle()
                         }) {
                             Text("Login")
                                 .padding(.leading, 3)
@@ -117,7 +118,7 @@ struct LoginComponent: View {
                     
                     Spacer()
                     
-                    Text("By clicking signup youu agree to our terms and conditions and privacy policy")
+                    Text("By clicking signup you agree to our terms and conditions and privacy policy")
                         .font(.custom(Constants.Fonts.poppins, size: 12))
                         .multilineTextAlignment(.center)
                     
@@ -125,24 +126,24 @@ struct LoginComponent: View {
                 }
                 
                 Button(action: {
-                    // Navigate to login
+                    goHome.toggle()
                 }) {
-                    NavigationLink(destination: GetStartedScreen()) {
                         Text("Sign up")
                             .foregroundColor(Color.white)
-                            .padding(.all, 20)
+                            .padding(.horizontal, 20)
+                            .padding(.vertical, 15)
                             .frame(maxWidth: .infinity)
                             .background(Constants.Colors.appOrange)
                             .cornerRadius(30)
-                    }
                 }
                 .padding(.top, 20)
             }
             .padding(.all, 20)
+            .clipShape(RoundedRectangle(cornerRadius: 30))
         }
     }
 }
 
 #Preview {
-    LoginComponent(isLogin: false)
+    LoginComponent(goHome: .constant(false), toggleLogin: .constant(false))
 }

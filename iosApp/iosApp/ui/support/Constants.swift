@@ -19,6 +19,7 @@ struct Constants {
         static let mail = "mail"
         static let facebook = "facebook_1"
         static let google = "google_1"
+        static let africanPotrait = "african_portrait"
     }
     
     struct Colors {

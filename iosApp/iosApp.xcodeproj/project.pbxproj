@@ -14,6 +14,11 @@
 		00CD25382D76FCC5002CF7DB /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CD25372D76FCC5002CF7DB /* LoginScreen.swift */; };
 		00CD253A2D76FD8F002CF7DB /* LoginComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CD25392D76FD8F002CF7DB /* LoginComponent.swift */; };
 		00CE1D962D7ADEC6003A2065 /* OutlinedInputField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CE1D952D7ADEC6003A2065 /* OutlinedInputField.swift */; };
+		00CF20D12D7EC4FB006253BA /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CF20D02D7EC4FB006253BA /* HomeScreen.swift */; };
+		00CF20D92D7EC5D6006253BA /* ShopScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CF20D82D7EC5D6006253BA /* ShopScreen.swift */; };
+		00CF20DB2D7EC5F4006253BA /* FavoriteScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CF20DA2D7EC5F4006253BA /* FavoriteScreen.swift */; };
+		00CF20DD2D7EC605006253BA /* ProfileScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CF20DC2D7EC605006253BA /* ProfileScreen.swift */; };
+		00CF20DF2D7EC614006253BA /* TabScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CF20DE2D7EC614006253BA /* TabScreen.swift */; };
 		00F522442D6F13020003E3F9 /* LandingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F522432D6F13020003E3F9 /* LandingScreen.swift */; };
 		00F522462D6F13D60003E3F9 /* LandingItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F522452D6F13D60003E3F9 /* LandingItem.swift */; };
 		00F522492D6F14D90003E3F9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F522482D6F14D90003E3F9 /* Constants.swift */; };
@@ -35,6 +40,11 @@
 		00CD25372D76FCC5002CF7DB /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
 		00CD25392D76FD8F002CF7DB /* LoginComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginComponent.swift; sourceTree = "<group>"; };
 		00CE1D952D7ADEC6003A2065 /* OutlinedInputField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutlinedInputField.swift; sourceTree = "<group>"; };
+		00CF20D02D7EC4FB006253BA /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		00CF20D82D7EC5D6006253BA /* ShopScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopScreen.swift; sourceTree = "<group>"; };
+		00CF20DA2D7EC5F4006253BA /* FavoriteScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteScreen.swift; sourceTree = "<group>"; };
+		00CF20DC2D7EC605006253BA /* ProfileScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileScreen.swift; sourceTree = "<group>"; };
+		00CF20DE2D7EC614006253BA /* TabScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabScreen.swift; sourceTree = "<group>"; };
 		00F522432D6F13020003E3F9 /* LandingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingScreen.swift; sourceTree = "<group>"; };
 		00F522452D6F13D60003E3F9 /* LandingItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingItem.swift; sourceTree = "<group>"; };
 		00F522482D6F14D90003E3F9 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
@@ -64,6 +74,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		00CF20D22D7EC588006253BA /* home */ = {
+			isa = PBXGroup;
+			children = (
+				00CF20D02D7EC4FB006253BA /* HomeScreen.swift */,
+			);
+			path = home;
+			sourceTree = "<group>";
+		};
+		00CF20D32D7EC591006253BA /* favorite */ = {
+			isa = PBXGroup;
+			children = (
+				00CF20DA2D7EC5F4006253BA /* FavoriteScreen.swift */,
+			);
+			path = favorite;
+			sourceTree = "<group>";
+		};
+		00CF20D42D7EC59A006253BA /* shop */ = {
+			isa = PBXGroup;
+			children = (
+				00CF20D82D7EC5D6006253BA /* ShopScreen.swift */,
+			);
+			path = shop;
+			sourceTree = "<group>";
+		};
+		00CF20D52D7EC5A4006253BA /* profile */ = {
+			isa = PBXGroup;
+			children = (
+				00CF20DC2D7EC605006253BA /* ProfileScreen.swift */,
+			);
+			path = profile;
+			sourceTree = "<group>";
+		};
 		00F5223E2D6F12C00003E3F9 /* ui */ = {
 			isa = PBXGroup;
 			children = (
@@ -91,6 +133,11 @@
 		00F522412D6F12E20003E3F9 /* home */ = {
 			isa = PBXGroup;
 			children = (
+				00CF20D52D7EC5A4006253BA /* profile */,
+				00CF20D42D7EC59A006253BA /* shop */,
+				00CF20D32D7EC591006253BA /* favorite */,
+				00CF20D22D7EC588006253BA /* home */,
+				00CF20DE2D7EC614006253BA /* TabScreen.swift */,
 			);
 			path = home;
 			sourceTree = "<group>";
@@ -285,12 +332,17 @@
 				00B1F3DC2D75CDB800327044 /* GetStartedScreen.swift in Sources */,
 				2152FB042600AC8F00CF470E /* iOSApp.swift in Sources */,
 				00CD253A2D76FD8F002CF7DB /* LoginComponent.swift in Sources */,
+				00CF20D92D7EC5D6006253BA /* ShopScreen.swift in Sources */,
+				00CF20D12D7EC4FB006253BA /* HomeScreen.swift in Sources */,
 				00CD25362D76F512002CF7DB /* OutlinedButton.swift in Sources */,
+				00CF20DB2D7EC5F4006253BA /* FavoriteScreen.swift in Sources */,
 				00F522442D6F13020003E3F9 /* LandingScreen.swift in Sources */,
 				00CD25322D76F353002CF7DB /* ExistingAccountComponent.swift in Sources */,
 				7555FF83242A565900829871 /* ContentView.swift in Sources */,
 				00CD25382D76FCC5002CF7DB /* LoginScreen.swift in Sources */,
 				00CE1D962D7ADEC6003A2065 /* OutlinedInputField.swift in Sources */,
+				00CF20DD2D7EC605006253BA /* ProfileScreen.swift in Sources */,
+				00CF20DF2D7EC614006253BA /* TabScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,7 +400,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -403,7 +455,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -426,7 +478,7 @@
 				INFOPLIST_FILE = iosApp/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Art Gallery";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.photography";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,7 +504,7 @@
 				INFOPLIST_FILE = iosApp/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Art Gallery";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.photography";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
