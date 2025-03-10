@@ -81,7 +81,7 @@ struct GetStartedScreen: View {
                 }
             }
         }
-        .navigationBarBackButtonHidden(true)
+       .navigationBarBackButtonHidden(true)
     }
 }
 

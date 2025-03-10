@@ -10,30 +10,25 @@ import SwiftUI
 
 struct HomeScreen: View {
     
-    @State private var searchText = ""
-    @State private var searchIsActive = true
-    
     var body: some View {
-        
-
-            NavigationStack {
-                VStack(alignment: .leading) {
-                    
-                    Text("testing searchbar")
-                        .foregroundColor(.black)
-                        .font(.custom(Constants.Fonts.poppinsMedium, size: 22))
-                        .bold()
-                        .padding(.leading, 20)
-                    
-                    VStack() {
-                        
-                    }
-                }
-                .searchable(text: $searchText, isPresented: $searchIsActive)
+        VStack {
+            Text("Testing Search Bar")
+                .foregroundColor(.black)
+                .font(.custom(Constants.Fonts.poppinsMedium, size: 22))
+                .bold()
+                .padding(.leading, 20)
+            
+            // Your content here
+            VStack {
+                
             }
+        }
     }
 }
 
 #Preview {
-    HomeScreen()
+    NavigationStack { // Simulates proper navigation in preview
+        HomeScreen()
+    }
 }
+
