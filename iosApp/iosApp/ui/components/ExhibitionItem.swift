@@ -9,11 +9,42 @@
 import SwiftUI
 
 struct ExhibitionItem: View {
+    
+    var title : String
+    var description : String
+    var image : String
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
+        HStack {
+            
+            Image(Constants.Images.africanPotrait)
+                .resizable()
+                .scaledToFill()
+                .frame(width: 100, height: 150)
+                .clipShape(RoundedRectangle(cornerRadius: 30))
+                .padding(.all, 10)
+            
+            VStack(alignment: .leading) {
+                Text(title)
+                    .font(.custom(Constants.Fonts.poppinsMedium, size: 15))
+                    .multilineTextAlignment(.leading)
+                    .bold()
+                
+                Text(description)
+                    .font(.custom(Constants.Fonts.poppins, size: 13))
+                
+                
+                NormalButton(action: {
+                    
+                }, textColor: .black, buttonTitle: "See more", fillColor: Constants.Colors.appOrange)
+                .padding(.trailing, 10)
+            }
+        }
+        .frame(width: 350)
     }
 }
 
 #Preview {
-    ExhibitionItem()
+    ExhibitionItem(title: "The Tampless Exhibition", description: "In this exhibition we show the life work of some of the greatest realist artists", image: Constants.Images.africanPotrait)
 }

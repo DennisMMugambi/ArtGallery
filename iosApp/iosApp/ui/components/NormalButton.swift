@@ -9,11 +9,29 @@
 import SwiftUI
 
 struct NormalButton: View {
+    
+    var action : () -> Void
+    var textColor : Color
+    var buttonTitle : String
+    var fillColor: Color
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
+        Button(action: {
+            action()
+        }) {
+            Text(buttonTitle)
+                .foregroundColor(textColor)
+                .padding(.horizontal, 20)
+                .padding(.vertical, 10)
+                .frame(maxWidth: .infinity)
+                .background(fillColor)
+                .cornerRadius(30)
+        }
+        .padding(.top, 20)
     }
 }
 
 #Preview {
-    NormalButton()
+    NormalButton(action: {}, textColor: .black, buttonTitle: "See more", fillColor: Constants.Colors.appOrange)
 }
