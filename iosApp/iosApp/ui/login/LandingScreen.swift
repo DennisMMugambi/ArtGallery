@@ -11,6 +11,7 @@ import SwiftUI
 struct LandingScreen: View {
     
     @State private var toGetStarted = false
+    @State private var toLogin = false
     
     @State private var currentPage = 0
     let pages = [
@@ -38,7 +39,7 @@ struct LandingScreen: View {
                 .tabViewStyle(PageTabViewStyle(indexDisplayMode: .always))
                 
                 
-                //Spacer()
+        
                 
                 HStack(spacing: 8) {
                     ForEach(0..<pages.count, id: \.self) { index in
@@ -49,7 +50,7 @@ struct LandingScreen: View {
                 }
                 .padding(.bottom, 50)
                 
-               // Spacer()
+             
                 
                 HStack {
                     if currentPage < pages.count - 1 {
@@ -98,8 +99,11 @@ struct LandingScreen: View {
                             }
                             
                             ExistingAccountComponent(action: {
-                                
+                                toLogin.toggle()
                             }, textColor: .black, title: "Already have an account?", alternateAction: "Login")
+                            .navigationDestination(isPresented: $toLogin) {
+                                LoginScreen(isLogin: true)
+                            }
                         }
                     }
                 }

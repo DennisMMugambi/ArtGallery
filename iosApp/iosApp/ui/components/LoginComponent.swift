@@ -49,7 +49,7 @@ struct LoginComponent: View {
                     }
                 }
                 
-            
+                
                 OutlinedInputField(hint: "Email", input: $email)
                 
                 OutlinedInputField(hint: "Password", input: $password)
@@ -67,18 +67,19 @@ struct LoginComponent: View {
                 Button(action: {
                     goHome.toggle()
                 }) {
-                        Text("Login")
-                            .foregroundColor(Color.white)
-                            .padding(.horizontal, 20)
-                            .padding(.vertical, 15)
-                            .frame(maxWidth: .infinity)
-                            .background(Constants.Colors.appOrange)
-                            .cornerRadius(30)
+                    Text("Login")
+                        .foregroundColor(Color.white)
+                        .padding(.horizontal, 20)
+                        .padding(.vertical, 15)
+                        .frame(maxWidth: .infinity)
+                        .background(Constants.Colors.appOrange)
+                        .cornerRadius(30)
                 }.padding(.top, 20)
                 
                 
             }.padding(.all, 20)
-                .clipShape(RoundedRectangle(cornerRadius: 30))
+            .clipShape(RoundedRectangle(cornerRadius: 30))
+            .animation(.easeIn(duration: 5), value: toggleLogin)
             
         } else {
             
@@ -128,18 +129,19 @@ struct LoginComponent: View {
                 Button(action: {
                     goHome.toggle()
                 }) {
-                        Text("Sign up")
-                            .foregroundColor(Color.white)
-                            .padding(.horizontal, 20)
-                            .padding(.vertical, 15)
-                            .frame(maxWidth: .infinity)
-                            .background(Constants.Colors.appOrange)
-                            .cornerRadius(30)
+                    Text("Sign up")
+                        .foregroundColor(Color.white)
+                        .padding(.horizontal, 20)
+                        .padding(.vertical, 15)
+                        .frame(maxWidth: .infinity)
+                        .background(Constants.Colors.appOrange)
+                        .cornerRadius(30)
                 }
                 .padding(.top, 20)
             }
             .padding(.all, 20)
             .clipShape(RoundedRectangle(cornerRadius: 30))
+            .animation(.easeIn(duration: 5), value: toggleLogin)
         }
     }
 }
