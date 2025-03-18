@@ -22,13 +22,13 @@ struct NormalButton: View {
         }) {
             Text(buttonTitle)
                 .foregroundColor(textColor)
-                .padding(.horizontal, 20)
-                .padding(.vertical, 10)
+                .font(.custom(Constants.Fonts.poppinsMedium, size: 12))
+                .padding(.horizontal, 5)
+                .padding(.vertical, 8)
                 .frame(maxWidth: .infinity)
                 .background(fillColor)
                 .cornerRadius(30)
         }
-        .padding(.top, 20)
     }
 }
 

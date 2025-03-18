@@ -23,7 +23,7 @@ struct ExhibitionItem: View {
                 .scaledToFill()
                 .frame(width: 100, height: 150)
                 .clipShape(RoundedRectangle(cornerRadius: 30))
-                .padding(.all, 10)
+                .padding(.horizontal, 10)
             
             VStack(alignment: .leading) {
                 Text(title)
@@ -41,7 +41,7 @@ struct ExhibitionItem: View {
                 .padding(.trailing, 10)
             }
         }
-        .frame(width: 350)
+        .frame(width: 300)
     }
 }
 

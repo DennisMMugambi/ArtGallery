@@ -17,15 +17,14 @@ struct HomeScreen: View {
             Text("Exhibitions")
                 .font(.custom(Constants.Fonts.poppinsMedium, size: 16))
                 .padding(.horizontal, 25)
-                .padding(.vertical, 5)
             
             ScrollView(.horizontal) {
-                LazyHStack(alignment: .top, spacing: 10) {
-                    ForEach(1...10, id: \.self) {_ in 
+                LazyHStack(alignment: .top, spacing: 5) {
+                    ForEach(1...10, id: \.self) {_ in
                         ExhibitionItem(title: "The Tampless Exhibition", description: "In this exhibition we show the life work of some of the greatest realist artists", image: Constants.Images.africanPotrait)
                     }
                 }
-                .padding(.horizontal, 15)
+                .padding(.horizontal, 12)
             }
 
             
