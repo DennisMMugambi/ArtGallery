@@ -10,7 +10,21 @@ import SwiftUI
 
 struct FeaturedItem: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+            ZStack(alignment: .bottomLeading) {
+                
+                Image(Constants.Images.mountainBackground)
+                    .resizable()
+                    .scaledToFill()
+                    .frame(maxHeight: 150)
+                
+                Text("Featured: The Impressionist \nExhibition")
+                    .font(.custom(Constants.Fonts.poppinsMedium, size: 18))
+                    .padding()
+            }
+            //.frame(height: 200)
+            .clipShape(RoundedRectangle(cornerRadius: 25.0))
+            .padding(.horizontal, 20)
+            .padding(.vertical, 10)
     }
 }
 
