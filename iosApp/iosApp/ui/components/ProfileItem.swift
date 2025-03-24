@@ -33,11 +33,10 @@ struct ProfileItem: View {
             Image(Constants.Images.next)
                 .resizable()
                 .scaledToFit()
-                .frame(width: 20, height: 15)
+                .frame(width: 25, height: 20)
         }
         .frame(height: 40)
         .clipShape(RoundedRectangle(cornerRadius: 25))
-        //.padding(.vertical, 10)
     }
 }
 
