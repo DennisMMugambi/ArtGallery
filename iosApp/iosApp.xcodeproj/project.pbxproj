@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		001BFBFB2D8C17BC004B643F /* SectionDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001BFBFA2D8C17BC004B643F /* SectionDescription.swift */; };
+		0061290C2D91419E00ED605D /* ProfileItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0061290B2D91419E00ED605D /* ProfileItem.swift */; };
 		007A8D872D89686F00C25D79 /* ExhibitionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007A8D862D89686F00C25D79 /* ExhibitionItem.swift */; };
 		007A8D892D896A9900C25D79 /* NormalButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007A8D882D896A9900C25D79 /* NormalButton.swift */; };
 		00AAC6C52D89511800E8161C /* FeaturedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00AAC6C42D89511800E8161C /* FeaturedItem.swift */; };
@@ -36,6 +38,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		001BFBFA2D8C17BC004B643F /* SectionDescription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionDescription.swift; sourceTree = "<group>"; };
+		0061290B2D91419E00ED605D /* ProfileItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileItem.swift; sourceTree = "<group>"; };
 		007A8D862D89686F00C25D79 /* ExhibitionItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExhibitionItem.swift; sourceTree = "<group>"; };
 		007A8D882D896A9900C25D79 /* NormalButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NormalButton.swift; sourceTree = "<group>"; };
 		00AAC6C42D89511800E8161C /* FeaturedItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedItem.swift; sourceTree = "<group>"; };
@@ -135,6 +139,8 @@
 				00AAC6C42D89511800E8161C /* FeaturedItem.swift */,
 				007A8D862D89686F00C25D79 /* ExhibitionItem.swift */,
 				007A8D882D896A9900C25D79 /* NormalButton.swift */,
+				001BFBFA2D8C17BC004B643F /* SectionDescription.swift */,
+				0061290B2D91419E00ED605D /* ProfileItem.swift */,
 			);
 			path = components;
 			sourceTree = "<group>";
@@ -346,6 +352,8 @@
 				00CF20D12D7EC4FB006253BA /* HomeScreen.swift in Sources */,
 				00CD25362D76F512002CF7DB /* OutlinedButton.swift in Sources */,
 				00CF20DB2D7EC5F4006253BA /* FavoriteScreen.swift in Sources */,
+				001BFBFB2D8C17BC004B643F /* SectionDescription.swift in Sources */,
+				0061290C2D91419E00ED605D /* ProfileItem.swift in Sources */,
 				00F522442D6F13020003E3F9 /* LandingScreen.swift in Sources */,
 				00CD25322D76F353002CF7DB /* ExistingAccountComponent.swift in Sources */,
 				7555FF83242A565900829871 /* ContentView.swift in Sources */,

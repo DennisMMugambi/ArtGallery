@@ -41,7 +41,7 @@ struct ExhibitionItem: View {
                 .padding(.trailing, 10)
             }
         }
-        .frame(width: 300)
+        .frame(width: 300, height: 150)
     }
 }
 

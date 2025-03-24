@@ -11,25 +11,44 @@ import SwiftUI
 struct HomeScreen: View {
     
     var body: some View {
-        VStack(alignment: .leading) {
-            FeaturedItem()
+        
+        ScrollView {
             
-            Text("Exhibitions")
-                .font(.custom(Constants.Fonts.poppinsMedium, size: 16))
-                .padding(.horizontal, 25)
-            
-            ScrollView(.horizontal) {
-                LazyHStack(alignment: .top, spacing: 5) {
-                    ForEach(1...10, id: \.self) {_ in
-                        ExhibitionItem(title: "The Tampless Exhibition", description: "In this exhibition we show the life work of some of the greatest realist artists", image: Constants.Images.africanPotrait)
+           VStack(alignment: .leading) {
+                
+                FeaturedItem()
+                
+                SectionDescription(text: "Exhibitions")
+                
+                ScrollView(.horizontal) {
+                    LazyHStack(alignment: .top, spacing: 5) {
+                        ForEach(1...10, id: \.self) {_ in
+                            ExhibitionItem(title: "The Tampless Exhibition", description: "In this exhibition we show the life work of some of the greatest realist artists", image: Constants.Images.africanPotrait)
+                        }
                     }
+                    .padding(.horizontal, 12)
                 }
-                .padding(.horizontal, 12)
+                .frame(height: 170)
+                
+                SectionDescription(text: "Galleries")
+                
+                ScrollView(.horizontal) {
+                    LazyHStack(alignment: .top, spacing: 5) {
+                        ForEach(1...10, id: \.self) {_ in
+                            Image(Constants.Images.africanPotrait)
+                                .resizable()
+                                .scaledToFill()
+                                .frame(width: 100, height: 150)
+                                .clipShape(RoundedRectangle(cornerRadius: 10))
+                        }
+                    }
+                    .padding(.horizontal, 20)
+                }
+                
+                Spacer()
             }
-
-            
-            Spacer()
         }
+        .defaultScrollAnchor(.bottom)
     }
 }
 

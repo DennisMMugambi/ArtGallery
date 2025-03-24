@@ -9,11 +9,38 @@
 import SwiftUI
 
 struct ProfileItem: View {
+    
+    var actionTitle : String
+    var icon : String
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
+        HStack {
+            
+            Image(systemName: icon)
+                .resizable()
+                .scaledToFit()
+                .foregroundColor(.gray)
+                .frame(width: 20, height: 20)
+            
+            Spacer()
+            
+            Text(actionTitle)
+                .font(.custom(Constants.Fonts.poppinsMedium, size: 18))
+            
+            Spacer()
+            
+            Image(Constants.Images.next)
+                .resizable()
+                .scaledToFit()
+                .frame(width: 20, height: 15)
+        }
+        .frame(height: 40)
+        .clipShape(RoundedRectangle(cornerRadius: 25))
+        //.padding(.vertical, 10)
     }
 }
 
 #Preview {
-    ProfileItem()
+    ProfileItem(actionTitle: "Leave a review", icon: "list.clipboard")
 }
