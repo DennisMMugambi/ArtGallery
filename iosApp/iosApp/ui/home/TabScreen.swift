@@ -47,7 +47,7 @@ struct TabScreen: View {
                         .bold()
                     }
             }
-            .searchable(text: $searchText, isPresented: $isSearchActive, prompt: "Search exhibitions, artworks")
+           .searchable(text: $searchText, isPresented: $isSearchActive, prompt: "Search exhibitions, artworks")
         } else {
             TabView(selection: $tab_selection) {
                 

@@ -20,6 +20,7 @@ struct Constants {
         static let facebook = "facebook_1"
         static let google = "google_1"
         static let africanPotrait = "african_portrait"
+        static let next = "next"
     }
     
     struct Colors {

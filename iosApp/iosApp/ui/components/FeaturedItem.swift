@@ -15,7 +15,7 @@ struct FeaturedItem: View {
                 Image(Constants.Images.mountainBackground)
                     .resizable()
                     .scaledToFill()
-                    .frame(maxHeight: 150)
+                    .frame(maxHeight: 200)
                 
                 Text("Featured: The Impressionist \nExhibition")
                     .font(.custom(Constants.Fonts.poppinsMedium, size: 18))
