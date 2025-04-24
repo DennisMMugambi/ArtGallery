@@ -21,7 +21,6 @@ struct FeaturedItem: View {
                     .font(.custom(Constants.Fonts.poppinsMedium, size: 18))
                     .padding()
             }
-            //.frame(height: 200)
             .clipShape(RoundedRectangle(cornerRadius: 25.0))
             .padding(.horizontal, 20)
             .padding(.vertical, 10)

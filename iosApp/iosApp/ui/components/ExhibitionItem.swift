@@ -14,6 +14,8 @@ struct ExhibitionItem: View {
     var description : String
     var image : String
     
+    @State private var toDestination = false
+    
     var body: some View {
         
         HStack {
@@ -36,9 +38,12 @@ struct ExhibitionItem: View {
                 
                 
                 NormalButton(action: {
-                    
+                    toDestination = true
                 }, textColor: .black, buttonTitle: "See more", fillColor: Constants.Colors.appOrange)
                 .padding(.trailing, 10)
+                .navigationDestination(isPresented: $toDestination) {
+                    FeaturedScreen()
+                }
             }
         }
         .frame(width: 300, height: 150)
