@@ -10,7 +10,15 @@ import SwiftUI
 
 struct FavoriteScreen: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
+        ScrollView(.vertical) {
+            LazyVStack(alignment: .leading, spacing: 5) {
+                ForEach(1...20, id: \.self) {_ in
+                    ExhibitionItem(title: "The Tampless Exhibition", description: "In this exhibition we show the life work of some of the greatest realist artists", image: Constants.Images.africanPotrait)
+                }
+            }
+            .padding(.horizontal, 12)
+        }
     }
 }
 
