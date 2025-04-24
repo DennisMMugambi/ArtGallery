@@ -48,6 +48,7 @@ struct FeaturedScreen: View {
             .padding(.vertical, 20)
         }
         .navigationBarBackButtonHidden(true)
+        .navigationTitle("Featured")
         .toolbar {
             ToolbarItem(placement: .navigationBarLeading) {
                 Button(action: {
