@@ -12,7 +12,20 @@
           "package_name": "com.example.artgallery.android"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "615952736109-fot6l9mkvug3cjc6mkhoc32u0jceaouq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.artgallery.android",
+            "certificate_hash": "90390efd05f0b8e59078f20b515eb59276a0ea76"
+          }
+        },
+        {
+          "client_id": "615952736109-unpbmbd44bfeg66qh244b5hv74ld3fip.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyBRynyV51x4-rXAT21rXRSYCG2EwT_rNuQ"
@@ -20,7 +33,19 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "615952736109-unpbmbd44bfeg66qh244b5hv74ld3fip.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "615952736109-21mfgre9855r4cl3oqe9go8llulfjemu.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "dennismugambi.ArtGallery"
+              }
+            }
+          ]
         }
       }
     }

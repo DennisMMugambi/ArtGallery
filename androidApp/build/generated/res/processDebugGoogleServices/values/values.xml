@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">615952736109-unpbmbd44bfeg66qh244b5hv74ld3fip.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">615952736109</string>
+    <string name="google_api_key" translatable="false">AIzaSyBRynyV51x4-rXAT21rXRSYCG2EwT_rNuQ</string>
+    <string name="google_app_id" translatable="false">1:615952736109:android:88f0eb61c40b825f730464</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBRynyV51x4-rXAT21rXRSYCG2EwT_rNuQ</string>
+    <string name="google_storage_bucket" translatable="false">artgallery-20707.firebasestorage.app</string>
+    <string name="project_id" translatable="false">artgallery-20707</string>
+</resources>

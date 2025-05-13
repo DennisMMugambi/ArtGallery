@@ -8,6 +8,7 @@
     <string name="coming_soon">Coming soon</string>
     <string name="confirm_password">Confirm Password</string>
     <string name="content">Content</string>
+    <string name="default_web_client_id" translatable="false">615952736109-unpbmbd44bfeg66qh244b5hv74ld3fip.apps.googleusercontent.com</string>
     <string name="description_1">With 360 degree virtual tour, you can replicate the real life experience of visiting an art gallery</string>
     <string name="description_2">Save exhibitions, picture stories and artworks that you like to create your own art collection</string>
     <string name="description_3">Register your tour by ordering souvenir and gift card from our online gallery shop</string>
@@ -23,7 +24,12 @@
     <string name="galleries">Galleries</string>
     <string name="gallery_item">A gallery image</string>
     <string name="gallery_item_image">Gallery image</string>
+    <string name="gcm_defaultSenderId" translatable="false">615952736109</string>
     <string name="get_started">Get started</string>
+    <string name="google_api_key" translatable="false">AIzaSyBRynyV51x4-rXAT21rXRSYCG2EwT_rNuQ</string>
+    <string name="google_app_id" translatable="false">1:615952736109:android:88f0eb61c40b825f730464</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBRynyV51x4-rXAT21rXRSYCG2EwT_rNuQ</string>
+    <string name="google_storage_bucket" translatable="false">artgallery-20707.firebasestorage.app</string>
     <string name="landing_image_description">Landing screen image</string>
     <string name="leave_review">Leave a review</string>
     <string name="login">Log in</string>
@@ -37,6 +43,7 @@
     <string name="notifications">Notifications</string>
     <string name="password">Password</string>
     <string name="profile_image">Profile picture</string>
+    <string name="project_id" translatable="false">artgallery-20707</string>
     <string name="sample_description">In this exhibition, we show the work of some of the greatest realist artists.</string>
     <string name="sample_exhibition">The Impressionist Exhibition</string>
     <string name="sample_exhibition_description">Location: Room 13-17\n\nThe Impressionist exhibitions explore Artworks from contemporary impressionism of the 18th - 21st century.\nYou\'ll find the work of great impressionists like Claude Monet, and Édouard Manet. Explore the lush, sensual style of Pierre Auguste Renoir, the intimate domestic scenes of Mary Cassatte and so much more here. The exhibition spans 5 rooms with 20 artworks in total.</string>
