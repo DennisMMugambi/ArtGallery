@@ -1,4 +1,0 @@
-#Mon Mar 10 08:29:31 EAT 2025
-base.0=/Users/dennismugambi/AndroidStudioProjects/ArtGallery/androidApp/build/intermediates/dex/debugAndroidTest/mergeProjectDexDebugAndroidTest/0/classes.dex
-path.0=0/classes.dex
-renamed.0=classes.dex

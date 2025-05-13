@@ -23,24 +23,38 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.rememberCoroutineScope
+import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.ColorFilter
 import androidx.compose.ui.layout.ContentScale
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextDecoration
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import androidx.credentials.CredentialManager
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.rememberNavController
 import com.example.artgallery.android.R
 import com.example.artgallery.android.theme.AppTheme
 import com.example.artgallery.android.theme.typography
+import com.example.artgallery.model.GoogleAuthenticator
+import kotlinx.coroutines.launch
 
 @Composable
 fun LoginScreen(navController: NavHostController) {
+
+    val context = LocalContext.current
+
+    val scope = rememberCoroutineScope()
+
+    val googleAuthenticator = remember { GoogleAuthenticator(context = context, credentialManager = CredentialManager.create(context)) }
 
     Box(
         modifier = Modifier.fillMaxSize()
@@ -93,7 +107,9 @@ fun LoginScreen(navController: NavHostController) {
 
             Button(
                 onClick = {
-
+                    scope.launch {
+                        googleAuthenticator.login()
+                    }
                 },
                 modifier = Modifier
                     .fillMaxWidth()

@@ -33,6 +33,7 @@ string back_button
 string coming_soon
 string confirm_password
 string content
+string default_web_client_id
 string description_1
 string description_2
 string description_3
@@ -48,7 +49,12 @@ string featured_sample
 string galleries
 string gallery_item
 string gallery_item_image
+string gcm_defaultSenderId
 string get_started
+string google_api_key
+string google_app_id
+string google_crash_reporting_api_key
+string google_storage_bucket
 string landing_image_description
 string leave_review
 string login
@@ -62,6 +68,7 @@ string notification_icon
 string notifications
 string password
 string profile_image
+string project_id
 string sample_description
 string sample_exhibition
 string sample_exhibition_description
