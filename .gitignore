@@ -62,3 +62,4 @@ fastlane/screenshots/**/*.png
 fastlane/test_output
 
 /app/google-services.json
+/iosApp/GoogleService-Info.plist
