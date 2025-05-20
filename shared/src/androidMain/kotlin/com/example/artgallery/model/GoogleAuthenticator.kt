@@ -47,13 +47,13 @@ class GoogleAuthenticator(
                 return user?.displayName.toString()
             }
 
-            return "Something went wrong"
+            return "Error: Something went wrong"
         } catch (e: NoCredentialException) {
-            return "No email found on this devices"
+            return "Error: No email found on this devices"
         } catch (e: GetCredentialException) {
-            return "Get Credential Exception"
+            return "Error: Get Credential Exception"
         } catch (e: Exception) {
-            return e.message.toString()
+            return "Error: ${e.message.toString()}"
         }
     }
 
