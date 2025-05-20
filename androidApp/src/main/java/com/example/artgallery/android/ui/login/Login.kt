@@ -108,7 +108,12 @@ fun LoginScreen(navController: NavHostController) {
             Button(
                 onClick = {
                     scope.launch {
-                        googleAuthenticator.login()
+                        val response = googleAuthenticator.login()
+                        if(!response.contains("Error")) {
+                            navController.navigate("home")
+                        } else {
+                            //Display error to the user
+                        }
                     }
                 },
                 modifier = Modifier
