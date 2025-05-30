@@ -9,8 +9,8 @@
 9        android:targetSdkVersion="35" />
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->/Users/dennismugambi/AndroidStudioProjects/ArtGallery/androidApp/src/main/AndroidManifest.xml:4:5-66
-11-->/Users/dennismugambi/AndroidStudioProjects/ArtGallery/androidApp/src/main/AndroidManifest.xml:4:22-64
+11-->/Users/dennismugambi/StudioProjects/ArtGallery/androidApp/src/main/AndroidManifest.xml:4:5-66
+11-->/Users/dennismugambi/StudioProjects/ArtGallery/androidApp/src/main/AndroidManifest.xml:4:22-64
 12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 12-->[com.google.firebase:firebase-auth:23.2.0] /Users/dennismugambi/.gradle/caches/8.10.2/transforms/77fb783bdf54fc90ec0cc5b05bf61545/transformed/firebase-auth-23.2.0/AndroidManifest.xml:26:5-79
 12-->[com.google.firebase:firebase-auth:23.2.0] /Users/dennismugambi/.gradle/caches/8.10.2/transforms/77fb783bdf54fc90ec0cc5b05bf61545/transformed/firebase-auth-23.2.0/AndroidManifest.xml:26:22-76
@@ -51,33 +51,33 @@
 26-->[androidx.core:core:1.15.0] /Users/dennismugambi/.gradle/caches/8.10.2/transforms/e2c0d8200233bf9be6aa80d6ffc5c754/transformed/core-1.15.0/AndroidManifest.xml:26:22-94
 27
 28    <application
-28-->/Users/dennismugambi/AndroidStudioProjects/ArtGallery/androidApp/src/main/AndroidManifest.xml:6:5-18:19
+28-->/Users/dennismugambi/StudioProjects/ArtGallery/androidApp/src/main/AndroidManifest.xml:6:5-18:19
 29        android:allowBackup="false"
-29-->/Users/dennismugambi/AndroidStudioProjects/ArtGallery/androidApp/src/main/AndroidManifest.xml:7:9-36
+29-->/Users/dennismugambi/StudioProjects/ArtGallery/androidApp/src/main/AndroidManifest.xml:7:9-36
 30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 30-->[androidx.core:core:1.15.0] /Users/dennismugambi/.gradle/caches/8.10.2/transforms/e2c0d8200233bf9be6aa80d6ffc5c754/transformed/core-1.15.0/AndroidManifest.xml:28:18-86
 31        android:debuggable="true"
 32        android:extractNativeLibs="false"
 33        android:supportsRtl="true"
-33-->/Users/dennismugambi/AndroidStudioProjects/ArtGallery/androidApp/src/main/AndroidManifest.xml:8:9-35
+33-->/Users/dennismugambi/StudioProjects/ArtGallery/androidApp/src/main/AndroidManifest.xml:8:9-35
 34        android:testOnly="true"
 35        android:theme="@style/AppTheme" >
-35-->/Users/dennismugambi/AndroidStudioProjects/ArtGallery/androidApp/src/main/AndroidManifest.xml:9:9-40
+35-->/Users/dennismugambi/StudioProjects/ArtGallery/androidApp/src/main/AndroidManifest.xml:9:9-40
 36        <activity
-36-->/Users/dennismugambi/AndroidStudioProjects/ArtGallery/androidApp/src/main/AndroidManifest.xml:10:9-17:20
+36-->/Users/dennismugambi/StudioProjects/ArtGallery/androidApp/src/main/AndroidManifest.xml:10:9-17:20
 37            android:name="com.example.artgallery.android.MainActivity"
-37-->/Users/dennismugambi/AndroidStudioProjects/ArtGallery/androidApp/src/main/AndroidManifest.xml:11:13-41
+37-->/Users/dennismugambi/StudioProjects/ArtGallery/androidApp/src/main/AndroidManifest.xml:11:13-41
 38            android:exported="true" >
-38-->/Users/dennismugambi/AndroidStudioProjects/ArtGallery/androidApp/src/main/AndroidManifest.xml:12:13-36
+38-->/Users/dennismugambi/StudioProjects/ArtGallery/androidApp/src/main/AndroidManifest.xml:12:13-36
 39            <intent-filter>
-39-->/Users/dennismugambi/AndroidStudioProjects/ArtGallery/androidApp/src/main/AndroidManifest.xml:13:13-16:29
+39-->/Users/dennismugambi/StudioProjects/ArtGallery/androidApp/src/main/AndroidManifest.xml:13:13-16:29
 40                <action android:name="android.intent.action.MAIN" />
-40-->/Users/dennismugambi/AndroidStudioProjects/ArtGallery/androidApp/src/main/AndroidManifest.xml:14:17-69
-40-->/Users/dennismugambi/AndroidStudioProjects/ArtGallery/androidApp/src/main/AndroidManifest.xml:14:25-66
+40-->/Users/dennismugambi/StudioProjects/ArtGallery/androidApp/src/main/AndroidManifest.xml:14:17-69
+40-->/Users/dennismugambi/StudioProjects/ArtGallery/androidApp/src/main/AndroidManifest.xml:14:25-66
 41
 42                <category android:name="android.intent.category.LAUNCHER" />
-42-->/Users/dennismugambi/AndroidStudioProjects/ArtGallery/androidApp/src/main/AndroidManifest.xml:15:17-77
-42-->/Users/dennismugambi/AndroidStudioProjects/ArtGallery/androidApp/src/main/AndroidManifest.xml:15:27-74
+42-->/Users/dennismugambi/StudioProjects/ArtGallery/androidApp/src/main/AndroidManifest.xml:15:17-77
+42-->/Users/dennismugambi/StudioProjects/ArtGallery/androidApp/src/main/AndroidManifest.xml:15:27-74
 43            </intent-filter>
 44        </activity>
 45        <activity

@@ -1,10 +1,10 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/dennismugambi/AndroidStudioProjects/ArtGallery/androidApp/src/main/AndroidManifest.xml:2:1-19:12
-INJECTED from /Users/dennismugambi/AndroidStudioProjects/ArtGallery/androidApp/src/main/AndroidManifest.xml:2:1-19:12
-INJECTED from /Users/dennismugambi/AndroidStudioProjects/ArtGallery/androidApp/src/main/AndroidManifest.xml:2:1-19:12
-INJECTED from /Users/dennismugambi/AndroidStudioProjects/ArtGallery/androidApp/src/main/AndroidManifest.xml:2:1-19:12
-MERGED from [:shared] /Users/dennismugambi/AndroidStudioProjects/ArtGallery/shared/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-7:12
+ADDED from /Users/dennismugambi/StudioProjects/ArtGallery/androidApp/src/main/AndroidManifest.xml:2:1-19:12
+INJECTED from /Users/dennismugambi/StudioProjects/ArtGallery/androidApp/src/main/AndroidManifest.xml:2:1-19:12
+INJECTED from /Users/dennismugambi/StudioProjects/ArtGallery/androidApp/src/main/AndroidManifest.xml:2:1-19:12
+INJECTED from /Users/dennismugambi/StudioProjects/ArtGallery/androidApp/src/main/AndroidManifest.xml:2:1-19:12
+MERGED from [:shared] /Users/dennismugambi/StudioProjects/ArtGallery/shared/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.navigation:navigation-compose:2.5.3] /Users/dennismugambi/.gradle/caches/8.10.2/transforms/0334620735ced54a59215ab6db864c87/transformed/navigation-compose-2.5.3/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.compose.material3:material3:1.1.2] /Users/dennismugambi/.gradle/caches/8.10.2/transforms/e13c530fd24da5d20b2d22481c694b38/transformed/material3-1.1.2/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.compose.material:material:1.4.1] /Users/dennismugambi/.gradle/caches/8.10.2/transforms/e6241ffef3ec184a7dc4429675ff9db3/transformed/material-1.4.1/AndroidManifest.xml:17:1-22:12
@@ -109,15 +109,15 @@ MERGED from [androidx.print:print:1.0.0] /Users/dennismugambi/.gradle/caches/8.1
 MERGED from [androidx.annotation:annotation-experimental:1.4.1] /Users/dennismugambi/.gradle/caches/8.10.2/transforms/745c5b2d63ec431709fbf3e9e01c4c9b/transformed/annotation-experimental-1.4.1/AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.play:core-common:2.0.3] /Users/dennismugambi/.gradle/caches/8.10.2/transforms/97be8d0e77caf1f15ee0874b20b164c4/transformed/core-common-2.0.3/AndroidManifest.xml:2:1-21:12
 	package
-		INJECTED from /Users/dennismugambi/AndroidStudioProjects/ArtGallery/androidApp/src/main/AndroidManifest.xml
+		INJECTED from /Users/dennismugambi/StudioProjects/ArtGallery/androidApp/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/dennismugambi/AndroidStudioProjects/ArtGallery/androidApp/src/main/AndroidManifest.xml
+		INJECTED from /Users/dennismugambi/StudioProjects/ArtGallery/androidApp/src/main/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /Users/dennismugambi/AndroidStudioProjects/ArtGallery/androidApp/src/main/AndroidManifest.xml
+		INJECTED from /Users/dennismugambi/StudioProjects/ArtGallery/androidApp/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/dennismugambi/AndroidStudioProjects/ArtGallery/androidApp/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /Users/dennismugambi/StudioProjects/ArtGallery/androidApp/src/main/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from /Users/dennismugambi/AndroidStudioProjects/ArtGallery/androidApp/src/main/AndroidManifest.xml:4:5-66
+ADDED from /Users/dennismugambi/StudioProjects/ArtGallery/androidApp/src/main/AndroidManifest.xml:4:5-66
 MERGED from [com.google.firebase:firebase-auth:23.2.0] /Users/dennismugambi/.gradle/caches/8.10.2/transforms/77fb783bdf54fc90ec0cc5b05bf61545/transformed/firebase-auth-23.2.0/AndroidManifest.xml:25:5-67
 MERGED from [com.google.firebase:firebase-auth:23.2.0] /Users/dennismugambi/.gradle/caches/8.10.2/transforms/77fb783bdf54fc90ec0cc5b05bf61545/transformed/firebase-auth-23.2.0/AndroidManifest.xml:25:5-67
 MERGED from [com.google.android.gms:play-services-measurement:22.4.0] /Users/dennismugambi/.gradle/caches/8.10.2/transforms/6dcab3927d515f64fce6ac543b2297cc/transformed/play-services-measurement-22.4.0/AndroidManifest.xml:23:5-67
@@ -133,10 +133,10 @@ MERGED from [com.google.firebase:firebase-installations:18.0.0] /Users/dennismug
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.4.0] /Users/dennismugambi/.gradle/caches/8.10.2/transforms/4e8ba830d31d1a92dc4587bcf6dc69d2/transformed/play-services-measurement-sdk-api-22.4.0/AndroidManifest.xml:23:5-67
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.4.0] /Users/dennismugambi/.gradle/caches/8.10.2/transforms/4e8ba830d31d1a92dc4587bcf6dc69d2/transformed/play-services-measurement-sdk-api-22.4.0/AndroidManifest.xml:23:5-67
 	android:name
-		ADDED from /Users/dennismugambi/AndroidStudioProjects/ArtGallery/androidApp/src/main/AndroidManifest.xml:4:22-64
+		ADDED from /Users/dennismugambi/StudioProjects/ArtGallery/androidApp/src/main/AndroidManifest.xml:4:22-64
 application
-ADDED from /Users/dennismugambi/AndroidStudioProjects/ArtGallery/androidApp/src/main/AndroidManifest.xml:6:5-18:19
-INJECTED from /Users/dennismugambi/AndroidStudioProjects/ArtGallery/androidApp/src/main/AndroidManifest.xml:6:5-18:19
+ADDED from /Users/dennismugambi/StudioProjects/ArtGallery/androidApp/src/main/AndroidManifest.xml:6:5-18:19
+INJECTED from /Users/dennismugambi/StudioProjects/ArtGallery/androidApp/src/main/AndroidManifest.xml:6:5-18:19
 MERGED from [com.google.firebase:firebase-auth:23.2.0] /Users/dennismugambi/.gradle/caches/8.10.2/transforms/77fb783bdf54fc90ec0cc5b05bf61545/transformed/firebase-auth-23.2.0/AndroidManifest.xml:28:5-73:19
 MERGED from [com.google.firebase:firebase-auth:23.2.0] /Users/dennismugambi/.gradle/caches/8.10.2/transforms/77fb783bdf54fc90ec0cc5b05bf61545/transformed/firebase-auth-23.2.0/AndroidManifest.xml:28:5-73:19
 MERGED from [androidx.credentials:credentials-play-services-auth:1.5.0] /Users/dennismugambi/.gradle/caches/8.10.2/transforms/3c7417e992b0e6fd2c8b2c8433701056/transformed/credentials-play-services-auth-1.5.0/AndroidManifest.xml:23:5-50:19
@@ -202,37 +202,37 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/denn
 MERGED from [com.google.android.play:core-common:2.0.3] /Users/dennismugambi/.gradle/caches/8.10.2/transforms/97be8d0e77caf1f15ee0874b20b164c4/transformed/core-common-2.0.3/AndroidManifest.xml:11:5-19:19
 MERGED from [com.google.android.play:core-common:2.0.3] /Users/dennismugambi/.gradle/caches/8.10.2/transforms/97be8d0e77caf1f15ee0874b20b164c4/transformed/core-common-2.0.3/AndroidManifest.xml:11:5-19:19
 	android:extractNativeLibs
-		INJECTED from /Users/dennismugambi/AndroidStudioProjects/ArtGallery/androidApp/src/main/AndroidManifest.xml
+		INJECTED from /Users/dennismugambi/StudioProjects/ArtGallery/androidApp/src/main/AndroidManifest.xml
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.15.0] /Users/dennismugambi/.gradle/caches/8.10.2/transforms/e2c0d8200233bf9be6aa80d6ffc5c754/transformed/core-1.15.0/AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from /Users/dennismugambi/AndroidStudioProjects/ArtGallery/androidApp/src/main/AndroidManifest.xml:8:9-35
+		ADDED from /Users/dennismugambi/StudioProjects/ArtGallery/androidApp/src/main/AndroidManifest.xml:8:9-35
 	android:allowBackup
-		ADDED from /Users/dennismugambi/AndroidStudioProjects/ArtGallery/androidApp/src/main/AndroidManifest.xml:7:9-36
+		ADDED from /Users/dennismugambi/StudioProjects/ArtGallery/androidApp/src/main/AndroidManifest.xml:7:9-36
 	android:theme
-		ADDED from /Users/dennismugambi/AndroidStudioProjects/ArtGallery/androidApp/src/main/AndroidManifest.xml:9:9-40
+		ADDED from /Users/dennismugambi/StudioProjects/ArtGallery/androidApp/src/main/AndroidManifest.xml:9:9-40
 activity#com.example.artgallery.android.MainActivity
-ADDED from /Users/dennismugambi/AndroidStudioProjects/ArtGallery/androidApp/src/main/AndroidManifest.xml:10:9-17:20
+ADDED from /Users/dennismugambi/StudioProjects/ArtGallery/androidApp/src/main/AndroidManifest.xml:10:9-17:20
 	android:exported
-		ADDED from /Users/dennismugambi/AndroidStudioProjects/ArtGallery/androidApp/src/main/AndroidManifest.xml:12:13-36
+		ADDED from /Users/dennismugambi/StudioProjects/ArtGallery/androidApp/src/main/AndroidManifest.xml:12:13-36
 	android:name
-		ADDED from /Users/dennismugambi/AndroidStudioProjects/ArtGallery/androidApp/src/main/AndroidManifest.xml:11:13-41
+		ADDED from /Users/dennismugambi/StudioProjects/ArtGallery/androidApp/src/main/AndroidManifest.xml:11:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/dennismugambi/AndroidStudioProjects/ArtGallery/androidApp/src/main/AndroidManifest.xml:13:13-16:29
+ADDED from /Users/dennismugambi/StudioProjects/ArtGallery/androidApp/src/main/AndroidManifest.xml:13:13-16:29
 action#android.intent.action.MAIN
-ADDED from /Users/dennismugambi/AndroidStudioProjects/ArtGallery/androidApp/src/main/AndroidManifest.xml:14:17-69
+ADDED from /Users/dennismugambi/StudioProjects/ArtGallery/androidApp/src/main/AndroidManifest.xml:14:17-69
 	android:name
-		ADDED from /Users/dennismugambi/AndroidStudioProjects/ArtGallery/androidApp/src/main/AndroidManifest.xml:14:25-66
+		ADDED from /Users/dennismugambi/StudioProjects/ArtGallery/androidApp/src/main/AndroidManifest.xml:14:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/dennismugambi/AndroidStudioProjects/ArtGallery/androidApp/src/main/AndroidManifest.xml:15:17-77
+ADDED from /Users/dennismugambi/StudioProjects/ArtGallery/androidApp/src/main/AndroidManifest.xml:15:17-77
 	android:name
-		ADDED from /Users/dennismugambi/AndroidStudioProjects/ArtGallery/androidApp/src/main/AndroidManifest.xml:15:27-74
+		ADDED from /Users/dennismugambi/StudioProjects/ArtGallery/androidApp/src/main/AndroidManifest.xml:15:27-74
 uses-sdk
-INJECTED from /Users/dennismugambi/AndroidStudioProjects/ArtGallery/androidApp/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/dennismugambi/AndroidStudioProjects/ArtGallery/androidApp/src/main/AndroidManifest.xml
-INJECTED from /Users/dennismugambi/AndroidStudioProjects/ArtGallery/androidApp/src/main/AndroidManifest.xml
-MERGED from [:shared] /Users/dennismugambi/AndroidStudioProjects/ArtGallery/shared/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
-MERGED from [:shared] /Users/dennismugambi/AndroidStudioProjects/ArtGallery/shared/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+INJECTED from /Users/dennismugambi/StudioProjects/ArtGallery/androidApp/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/dennismugambi/StudioProjects/ArtGallery/androidApp/src/main/AndroidManifest.xml
+INJECTED from /Users/dennismugambi/StudioProjects/ArtGallery/androidApp/src/main/AndroidManifest.xml
+MERGED from [:shared] /Users/dennismugambi/StudioProjects/ArtGallery/shared/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:shared] /Users/dennismugambi/StudioProjects/ArtGallery/shared/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
 MERGED from [androidx.navigation:navigation-compose:2.5.3] /Users/dennismugambi/.gradle/caches/8.10.2/transforms/0334620735ced54a59215ab6db864c87/transformed/navigation-compose-2.5.3/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.navigation:navigation-compose:2.5.3] /Users/dennismugambi/.gradle/caches/8.10.2/transforms/0334620735ced54a59215ab6db864c87/transformed/navigation-compose-2.5.3/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.compose.material3:material3:1.1.2] /Users/dennismugambi/.gradle/caches/8.10.2/transforms/e13c530fd24da5d20b2d22481c694b38/transformed/material3-1.1.2/AndroidManifest.xml:20:5-44
@@ -442,9 +442,9 @@ MERGED from [com.google.android.play:core-common:2.0.3] /Users/dennismugambi/.gr
 	tools:overrideLibrary
 		ADDED from [com.google.firebase:firebase-auth:23.2.0] /Users/dennismugambi/.gradle/caches/8.10.2/transforms/77fb783bdf54fc90ec0cc5b05bf61545/transformed/firebase-auth-23.2.0/AndroidManifest.xml:23:9-148
 	android:targetSdkVersion
-		INJECTED from /Users/dennismugambi/AndroidStudioProjects/ArtGallery/androidApp/src/main/AndroidManifest.xml
+		INJECTED from /Users/dennismugambi/StudioProjects/ArtGallery/androidApp/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/dennismugambi/AndroidStudioProjects/ArtGallery/androidApp/src/main/AndroidManifest.xml
+		INJECTED from /Users/dennismugambi/StudioProjects/ArtGallery/androidApp/src/main/AndroidManifest.xml
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [com.google.firebase:firebase-auth:23.2.0] /Users/dennismugambi/.gradle/caches/8.10.2/transforms/77fb783bdf54fc90ec0cc5b05bf61545/transformed/firebase-auth-23.2.0/AndroidManifest.xml:26:5-79
 MERGED from [com.google.android.gms:play-services-measurement:22.4.0] /Users/dennismugambi/.gradle/caches/8.10.2/transforms/6dcab3927d515f64fce6ac543b2297cc/transformed/play-services-measurement-22.4.0/AndroidManifest.xml:24:5-79
