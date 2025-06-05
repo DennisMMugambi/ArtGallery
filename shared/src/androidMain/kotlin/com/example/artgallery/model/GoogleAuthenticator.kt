@@ -11,6 +11,7 @@ import com.google.android.libraries.identity.googleid.GoogleIdTokenCredential
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.GoogleAuthProvider
 import kotlinx.coroutines.tasks.await
+import com.example.artgallery.BuildConfig
 
 class GoogleAuthenticator(
     private val context: Context,
@@ -22,7 +23,7 @@ class GoogleAuthenticator(
 
         try {
             val googleIdOption = GetGoogleIdOption.Builder()
-                .setServerClientId("615952736109-unpbmbd44bfeg66qh244b5hv74ld3fip.apps.googleusercontent.com")
+                .setServerClientId(BuildConfig.GOOGLE_SERVER_CLIENT_ID)
                 .setAutoSelectEnabled(false)
                 .setFilterByAuthorizedAccounts(false)
                 .build()
