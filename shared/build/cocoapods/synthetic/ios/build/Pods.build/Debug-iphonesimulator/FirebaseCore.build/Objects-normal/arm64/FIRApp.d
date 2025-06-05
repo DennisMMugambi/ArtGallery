@@ -1,0 +1,24 @@
+dependencies: \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/usr/include/Darwin.modulemap \
+  /Users/dennismugambi/StudioProjects/ArtGallery/shared/build/cocoapods/synthetic/ios/build/Pods.build/Debug-iphonesimulator/FirebaseCore.build/module.modulemap \
+  /Users/dennismugambi/StudioProjects/ArtGallery/shared/build/cocoapods/synthetic/ios/Pods/FirebaseCore/FirebaseCore/Sources/FIRApp.m \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/Frameworks/UIKit.framework/Modules/module.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/Frameworks/Foundation.framework/Modules/module.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/usr/include/ObjectiveC.modulemap \
+  /Users/dennismugambi/StudioProjects/ArtGallery/shared/build/cocoapods/synthetic/ios/Pods/FirebaseCore/FirebaseCore/Sources/Public/FirebaseCore/FIRApp.h \
+  /Users/dennismugambi/StudioProjects/ArtGallery/shared/build/cocoapods/synthetic/ios/Pods/FirebaseCore/FirebaseCore/Sources/FIRAnalyticsConfiguration.h \
+  /Users/dennismugambi/StudioProjects/ArtGallery/shared/build/cocoapods/synthetic/ios/Pods/FirebaseCore/FirebaseCore/Sources/FIRBundleUtil.h \
+  /Users/dennismugambi/StudioProjects/ArtGallery/shared/build/cocoapods/synthetic/ios/Pods/FirebaseCore/FirebaseCore/Sources/FIRComponentContainerInternal.h \
+  /Users/dennismugambi/StudioProjects/ArtGallery/shared/build/cocoapods/synthetic/ios/Pods/FirebaseCore/FirebaseCore/Extension/FIRComponentContainer.h \
+  /Users/dennismugambi/StudioProjects/ArtGallery/shared/build/cocoapods/synthetic/ios/Pods/FirebaseCore/FirebaseCore/Extension/FIRLibrary.h \
+  /Users/dennismugambi/StudioProjects/ArtGallery/shared/build/cocoapods/synthetic/ios/Pods/FirebaseCore/FirebaseCore/Sources/FIRConfigurationInternal.h \
+  /Users/dennismugambi/StudioProjects/ArtGallery/shared/build/cocoapods/synthetic/ios/Pods/FirebaseCore/FirebaseCore/Sources/Public/FirebaseCore/FIRConfiguration.h \
+  /Users/dennismugambi/StudioProjects/ArtGallery/shared/build/cocoapods/synthetic/ios/Pods/FirebaseCore/FirebaseCore/Sources/Public/FirebaseCore/FIRLoggerLevel.h \
+  /Users/dennismugambi/StudioProjects/ArtGallery/shared/build/cocoapods/synthetic/ios/Pods/FirebaseCore/FirebaseCore/Sources/FIRFirebaseUserAgent.h \
+  /Users/dennismugambi/StudioProjects/ArtGallery/shared/build/cocoapods/synthetic/ios/Pods/FirebaseCore/FirebaseCore/Extension/FIRAppInternal.h \
+  /Users/dennismugambi/StudioProjects/ArtGallery/shared/build/cocoapods/synthetic/ios/Pods/FirebaseCore/FirebaseCore/Extension/FIRHeartbeatLogger.h \
+  /Users/dennismugambi/StudioProjects/ArtGallery/shared/build/cocoapods/synthetic/ios/Pods/FirebaseCore/FirebaseCore/Extension/FIRLogger.h \
+  /Users/dennismugambi/StudioProjects/ArtGallery/shared/build/cocoapods/synthetic/ios/Pods/FirebaseCore/FirebaseCore/Sources/FIROptionsInternal.h \
+  /Users/dennismugambi/StudioProjects/ArtGallery/shared/build/cocoapods/synthetic/ios/Pods/FirebaseCore/FirebaseCore/Sources/Public/FirebaseCore/FIROptions.h \
+  /Users/dennismugambi/StudioProjects/ArtGallery/shared/build/cocoapods/synthetic/ios/Pods/FirebaseCore/FirebaseCore/Sources/Public/FirebaseCore/FIRVersion.h \
+  /Users/dennismugambi/StudioProjects/ArtGallery/shared/build/cocoapods/synthetic/ios/build/Pods.build/Debug-iphonesimulator/GoogleUtilities.build/module.modulemap

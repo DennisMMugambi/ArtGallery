@@ -1,0 +1,30 @@
+dependencies: \
+  /Users/dennismugambi/StudioProjects/ArtGallery/shared/build/cocoapods/synthetic/ios/build/Pods.build/Debug-iphoneos/GTMAppAuth.build/module.modulemap \
+  /Users/dennismugambi/StudioProjects/ArtGallery/shared/build/cocoapods/synthetic/ios/build/Pods.build/Debug-iphoneos/GoogleSignIn.build/module.modulemap \
+  /Users/dennismugambi/StudioProjects/ArtGallery/shared/build/cocoapods/synthetic/ios/Pods/GoogleSignIn/GoogleSignIn/Sources/GIDSignIn.m \
+  /Users/dennismugambi/StudioProjects/ArtGallery/shared/build/cocoapods/synthetic/ios/Pods/GoogleSignIn/GoogleSignIn/Sources/Public/GoogleSignIn/GIDSignIn.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Foundation.framework/Modules/module.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/include/TargetConditionals.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/UIKit.framework/Modules/module.modulemap \
+  /Users/dennismugambi/StudioProjects/ArtGallery/shared/build/cocoapods/synthetic/ios/Pods/GoogleSignIn/GoogleSignIn/Sources/GIDSignIn_Private.h \
+  /Users/dennismugambi/StudioProjects/ArtGallery/shared/build/cocoapods/synthetic/ios/Pods/GoogleSignIn/GoogleSignIn/Sources/Public/GoogleSignIn/GIDConfiguration.h \
+  /Users/dennismugambi/StudioProjects/ArtGallery/shared/build/cocoapods/synthetic/ios/Pods/GoogleSignIn/GoogleSignIn/Sources/Public/GoogleSignIn/GIDGoogleUser.h \
+  /Users/dennismugambi/StudioProjects/ArtGallery/shared/build/cocoapods/synthetic/ios/build/Pods.build/Debug-iphoneos/GTMSessionFetcher.build/module.modulemap \
+  /Users/dennismugambi/StudioProjects/ArtGallery/shared/build/cocoapods/synthetic/ios/Pods/GoogleSignIn/GoogleSignIn/Sources/Public/GoogleSignIn/GIDProfileData.h \
+  /Users/dennismugambi/StudioProjects/ArtGallery/shared/build/cocoapods/synthetic/ios/Pods/GoogleSignIn/GoogleSignIn/Sources/Public/GoogleSignIn/GIDSignInResult.h \
+  /Users/dennismugambi/StudioProjects/ArtGallery/shared/build/cocoapods/synthetic/ios/Pods/GoogleSignIn/GoogleSignIn/Sources/GIDEMMSupport.h \
+  /Users/dennismugambi/StudioProjects/ArtGallery/shared/build/cocoapods/synthetic/ios/Pods/GoogleSignIn/GoogleSignIn/Sources/GIDSignInInternalOptions.h \
+  /Users/dennismugambi/StudioProjects/ArtGallery/shared/build/cocoapods/synthetic/ios/Pods/GoogleSignIn/GoogleSignIn/Sources/GIDSignInPreferences.h \
+  /Users/dennismugambi/StudioProjects/ArtGallery/shared/build/cocoapods/synthetic/ios/Pods/GoogleSignIn/GoogleSignIn/Sources/GIDCallbackQueue.h \
+  /Users/dennismugambi/StudioProjects/ArtGallery/shared/build/cocoapods/synthetic/ios/Pods/GoogleSignIn/GoogleSignIn/Sources/GIDScopes.h \
+  /Users/dennismugambi/StudioProjects/ArtGallery/shared/build/cocoapods/synthetic/ios/Pods/GoogleSignIn/GoogleSignIn/Sources/GIDSignInCallbackSchemes.h \
+  /Users/dennismugambi/StudioProjects/ArtGallery/shared/build/cocoapods/synthetic/ios/build/Pods.build/Debug-iphoneos/AppCheckCore.build/module.modulemap \
+  /Users/dennismugambi/StudioProjects/ArtGallery/shared/build/cocoapods/synthetic/ios/Pods/GoogleSignIn/GoogleSignIn/Sources/GIDAppCheck/Implementations/GIDAppCheck.h \
+  /Users/dennismugambi/StudioProjects/ArtGallery/shared/build/cocoapods/synthetic/ios/Pods/GoogleSignIn/GoogleSignIn/Sources/GIDAppCheck/UI/GIDActivityIndicatorViewController.h \
+  /Users/dennismugambi/StudioProjects/ArtGallery/shared/build/cocoapods/synthetic/ios/Pods/GoogleSignIn/GoogleSignIn/Sources/GIDAuthStateMigration.h \
+  /Users/dennismugambi/StudioProjects/ArtGallery/shared/build/cocoapods/synthetic/ios/Pods/GoogleSignIn/GoogleSignIn/Sources/GIDEMMErrorHandler.h \
+  /Users/dennismugambi/StudioProjects/ArtGallery/shared/build/cocoapods/synthetic/ios/Pods/GoogleSignIn/GoogleSignIn/Sources/GIDTimedLoader/GIDTimedLoader.h \
+  /Users/dennismugambi/StudioProjects/ArtGallery/shared/build/cocoapods/synthetic/ios/Pods/GoogleSignIn/GoogleSignIn/Sources/GIDGoogleUser_Private.h \
+  /Users/dennismugambi/StudioProjects/ArtGallery/shared/build/cocoapods/synthetic/ios/build/Pods.build/Debug-iphoneos/AppAuth.build/module.modulemap \
+  /Users/dennismugambi/StudioProjects/ArtGallery/shared/build/cocoapods/synthetic/ios/Pods/GoogleSignIn/GoogleSignIn/Sources/GIDProfileData_Private.h \
+  /Users/dennismugambi/StudioProjects/ArtGallery/shared/build/cocoapods/synthetic/ios/Pods/GoogleSignIn/GoogleSignIn/Sources/GIDSignInResult_Private.h
