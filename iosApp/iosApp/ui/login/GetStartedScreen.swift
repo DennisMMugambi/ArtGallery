@@ -7,11 +7,16 @@
 //
 
 import SwiftUI
+import shared
 
 struct GetStartedScreen: View {
     
     @State private var toLogin = false
     @State private var toSignup = false
+    @State private var toHome = false
+    
+    let googleAuthenticator = GoogleAuthenticator()
+    
     
     var body: some View {
         
@@ -60,8 +65,21 @@ struct GetStartedScreen: View {
                     }
                     
                     FilledButton(image: Constants.Images.google, buttonTitle: "Sign up with Google", action: {
-                        
+                        Task {
+                            do {
+                                guard let result = try await googleAuthenticator.login() else {
+                                    return
+                                }
+                                
+                                toHome.toggle()
+                            } catch  {
+                                print("error occured when attempting to sign in with google")
+                            }
+                        }
                     }, fillColor: Color.white, textColor: .black)
+                    .navigationDestination(isPresented: $toHome) {
+                        TabScreen()
+                    }
                     .padding(.horizontal, 20)
                     .padding(.top, 10)
                     
