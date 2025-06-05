@@ -1,6 +1,7 @@
 package com.example.artgallery
 
 import cocoapods.FirebaseAuth.FIRAuth
+import cocoapods.FirebaseAuth.FIRGoogleAuthProvider
 import cocoapods.FirebaseAuth.FIROAuthProvider
 import cocoapods.GoogleSignIn.GIDSignIn
 import kotlinx.cinterop.ExperimentalForeignApi
@@ -29,7 +30,7 @@ class GoogleAuthenticator {
                         val profile = result?.user?.profile
 
                         if(idToken != null) {
-                            registerUserOnFirebase(idToken.tokenString, continuation)
+                            registerUserOnFirebase(idToken.tokenString, accessToken = result?.user?.accessToken.toString(), continuation)
                         } else {
                             continuation.resume(null)
                         }
@@ -39,11 +40,12 @@ class GoogleAuthenticator {
     }
 
     @OptIn(ExperimentalForeignApi::class)
-    fun registerUserOnFirebase(idToken: String, continuation: Continuation<String?>) {
+    fun registerUserOnFirebase(idToken: String, accessToken: String, continuation: Continuation<String?>) {
 
         val firebaseAuth = FIRAuth.auth()
-        val credential = FIROAuthProvider.credentialWithProviderID("com.google", idToken)
-        firebaseAuth.signInWithCredential(credential) { firAuthDataResult, nsError ->
+
+        val googleAuthProvider = FIRGoogleAuthProvider.credentialWithIDToken(idToken, accessToken)
+        firebaseAuth.signInWithCredential(googleAuthProvider) { firAuthDataResult, nsError ->
             if(nsError != null) {
                 print("Something went wrong $nsError")
             } else {
