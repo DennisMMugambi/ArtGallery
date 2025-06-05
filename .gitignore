@@ -63,3 +63,4 @@ fastlane/test_output
 
 /androidApp/google-services.json
 /iosApp/GoogleService-Info.plist
+gradle.properties
