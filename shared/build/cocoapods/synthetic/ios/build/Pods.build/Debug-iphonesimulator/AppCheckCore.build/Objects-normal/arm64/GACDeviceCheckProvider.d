@@ -1,0 +1,22 @@
+dependencies: \
+  /Users/dennismugambi/StudioProjects/ArtGallery/shared/build/cocoapods/synthetic/ios/build/Pods.build/Debug-iphonesimulator/AppCheckCore.build/module.modulemap \
+  /Users/dennismugambi/StudioProjects/ArtGallery/shared/build/cocoapods/synthetic/ios/Pods/AppCheckCore/AppCheckCore/Sources/DeviceCheckProvider/GACDeviceCheckProvider.m \
+  /Users/dennismugambi/StudioProjects/ArtGallery/shared/build/cocoapods/synthetic/ios/Pods/AppCheckCore/AppCheckCore/Sources/Public/AppCheckCore/GACAppCheckAvailability.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/Frameworks/Foundation.framework/Modules/module.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/usr/include/TargetConditionals.modulemap \
+  /Users/dennismugambi/StudioProjects/ArtGallery/shared/build/cocoapods/synthetic/ios/build/Pods.build/Debug-iphonesimulator/PromisesObjC.build/module.modulemap \
+  /Users/dennismugambi/StudioProjects/ArtGallery/shared/build/cocoapods/synthetic/ios/Pods/PromisesObjC/Sources/FBLPromises/include/FBLPromises.h \
+  /Users/dennismugambi/StudioProjects/ArtGallery/shared/build/cocoapods/synthetic/ios/Pods/AppCheckCore/AppCheckCore/Sources/Public/AppCheckCore/GACDeviceCheckProvider.h \
+  /Users/dennismugambi/StudioProjects/ArtGallery/shared/build/cocoapods/synthetic/ios/Pods/AppCheckCore/AppCheckCore/Sources/Public/AppCheckCore/GACAppCheckProvider.h \
+  /Users/dennismugambi/StudioProjects/ArtGallery/shared/build/cocoapods/synthetic/ios/Pods/AppCheckCore/AppCheckCore/Sources/Core/APIService/GACAppCheckAPIService.h \
+  /Users/dennismugambi/StudioProjects/ArtGallery/shared/build/cocoapods/synthetic/ios/Pods/AppCheckCore/AppCheckCore/Sources/Public/AppCheckCore/GACAppAttestProvider.h \
+  /Users/dennismugambi/StudioProjects/ArtGallery/shared/build/cocoapods/synthetic/ios/Pods/AppCheckCore/AppCheckCore/Sources/Core/Backoff/GACAppCheckBackoffWrapper.h \
+  /Users/dennismugambi/StudioProjects/ArtGallery/shared/build/cocoapods/synthetic/ios/Pods/AppCheckCore/AppCheckCore/Sources/Core/Errors/GACAppCheckErrorUtil.h \
+  /Users/dennismugambi/StudioProjects/ArtGallery/shared/build/cocoapods/synthetic/ios/Pods/AppCheckCore/AppCheckCore/Sources/Core/GACAppCheckLogger+Internal.h \
+  /Users/dennismugambi/StudioProjects/ArtGallery/shared/build/cocoapods/synthetic/ios/Pods/AppCheckCore/AppCheckCore/Sources/Public/AppCheckCore/GACAppCheckErrors.h \
+  /Users/dennismugambi/StudioProjects/ArtGallery/shared/build/cocoapods/synthetic/ios/Pods/AppCheckCore/AppCheckCore/Sources/Public/AppCheckCore/GACAppCheckLogger.h \
+  /Users/dennismugambi/StudioProjects/ArtGallery/shared/build/cocoapods/synthetic/ios/Pods/AppCheckCore/AppCheckCore/Sources/DeviceCheckProvider/API/GACDeviceCheckAPIService.h \
+  /Users/dennismugambi/StudioProjects/ArtGallery/shared/build/cocoapods/synthetic/ios/Pods/AppCheckCore/AppCheckCore/Sources/DeviceCheckProvider/DCDevice+GACDeviceCheckTokenGenerator.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/Frameworks/DeviceCheck.framework/Modules/module.modulemap \
+  /Users/dennismugambi/StudioProjects/ArtGallery/shared/build/cocoapods/synthetic/ios/Pods/AppCheckCore/AppCheckCore/Sources/DeviceCheckProvider/GACDeviceCheckTokenGenerator.h \
+  /Users/dennismugambi/StudioProjects/ArtGallery/shared/build/cocoapods/synthetic/ios/Pods/AppCheckCore/AppCheckCore/Sources/Public/AppCheckCore/GACAppCheckToken.h

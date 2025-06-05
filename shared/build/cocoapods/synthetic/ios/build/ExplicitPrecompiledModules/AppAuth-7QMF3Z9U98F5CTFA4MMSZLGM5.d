@@ -1,0 +1,43 @@
+moduledependenciestarget: \
+  /Users/dennismugambi/StudioProjects/ArtGallery/shared/build/cocoapods/synthetic/ios/build/Pods.build/Debug-iphonesimulator/AppAuth.build/module.modulemap \
+  /Users/dennismugambi/StudioProjects/ArtGallery/shared/build/cocoapods/synthetic/ios/Pods/Target\ Support\ Files/AppAuth/AppAuth-umbrella.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator18.4.sdk/System/Library/Frameworks/UIKit.framework/Modules/module.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator18.4.sdk/System/Library/Frameworks/Foundation.framework/Modules/module.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator18.4.sdk/usr/include/TargetConditionals.modulemap \
+  /Users/dennismugambi/StudioProjects/ArtGallery/shared/build/cocoapods/synthetic/ios/Pods/AppAuth/Sources/AppAuthCore.h \
+  /Users/dennismugambi/StudioProjects/ArtGallery/shared/build/cocoapods/synthetic/ios/Pods/AppAuth/Sources/AppAuthCore/OIDAuthState.h \
+  /Users/dennismugambi/StudioProjects/ArtGallery/shared/build/cocoapods/synthetic/ios/Pods/AppAuth/Sources/AppAuthCore/OIDAuthStateChangeDelegate.h \
+  /Users/dennismugambi/StudioProjects/ArtGallery/shared/build/cocoapods/synthetic/ios/Pods/AppAuth/Sources/AppAuthCore/OIDAuthStateErrorDelegate.h \
+  /Users/dennismugambi/StudioProjects/ArtGallery/shared/build/cocoapods/synthetic/ios/Pods/AppAuth/Sources/AppAuthCore/OIDAuthorizationRequest.h \
+  /Users/dennismugambi/StudioProjects/ArtGallery/shared/build/cocoapods/synthetic/ios/Pods/AppAuth/Sources/AppAuthCore/OIDExternalUserAgentRequest.h \
+  /Users/dennismugambi/StudioProjects/ArtGallery/shared/build/cocoapods/synthetic/ios/Pods/AppAuth/Sources/AppAuthCore/OIDResponseTypes.h \
+  /Users/dennismugambi/StudioProjects/ArtGallery/shared/build/cocoapods/synthetic/ios/Pods/AppAuth/Sources/AppAuthCore/OIDScopes.h \
+  /Users/dennismugambi/StudioProjects/ArtGallery/shared/build/cocoapods/synthetic/ios/Pods/AppAuth/Sources/AppAuthCore/OIDAuthorizationResponse.h \
+  /Users/dennismugambi/StudioProjects/ArtGallery/shared/build/cocoapods/synthetic/ios/Pods/AppAuth/Sources/AppAuthCore/OIDAuthorizationService.h \
+  /Users/dennismugambi/StudioProjects/ArtGallery/shared/build/cocoapods/synthetic/ios/Pods/AppAuth/Sources/AppAuthCore/OIDError.h \
+  /Users/dennismugambi/StudioProjects/ArtGallery/shared/build/cocoapods/synthetic/ios/Pods/AppAuth/Sources/AppAuthCore/OIDErrorUtilities.h \
+  /Users/dennismugambi/StudioProjects/ArtGallery/shared/build/cocoapods/synthetic/ios/Pods/AppAuth/Sources/AppAuthCore/OIDExternalUserAgent.h \
+  /Users/dennismugambi/StudioProjects/ArtGallery/shared/build/cocoapods/synthetic/ios/Pods/AppAuth/Sources/AppAuthCore/OIDExternalUserAgentSession.h \
+  /Users/dennismugambi/StudioProjects/ArtGallery/shared/build/cocoapods/synthetic/ios/Pods/AppAuth/Sources/AppAuthCore/OIDGrantTypes.h \
+  /Users/dennismugambi/StudioProjects/ArtGallery/shared/build/cocoapods/synthetic/ios/Pods/AppAuth/Sources/AppAuthCore/OIDIDToken.h \
+  /Users/dennismugambi/StudioProjects/ArtGallery/shared/build/cocoapods/synthetic/ios/Pods/AppAuth/Sources/AppAuthCore/OIDRegistrationRequest.h \
+  /Users/dennismugambi/StudioProjects/ArtGallery/shared/build/cocoapods/synthetic/ios/Pods/AppAuth/Sources/AppAuthCore/OIDRegistrationResponse.h \
+  /Users/dennismugambi/StudioProjects/ArtGallery/shared/build/cocoapods/synthetic/ios/Pods/AppAuth/Sources/AppAuthCore/OIDScopeUtilities.h \
+  /Users/dennismugambi/StudioProjects/ArtGallery/shared/build/cocoapods/synthetic/ios/Pods/AppAuth/Sources/AppAuthCore/OIDServiceConfiguration.h \
+  /Users/dennismugambi/StudioProjects/ArtGallery/shared/build/cocoapods/synthetic/ios/Pods/AppAuth/Sources/AppAuthCore/OIDServiceDiscovery.h \
+  /Users/dennismugambi/StudioProjects/ArtGallery/shared/build/cocoapods/synthetic/ios/Pods/AppAuth/Sources/AppAuthCore/OIDTokenRequest.h \
+  /Users/dennismugambi/StudioProjects/ArtGallery/shared/build/cocoapods/synthetic/ios/Pods/AppAuth/Sources/AppAuthCore/OIDTokenResponse.h \
+  /Users/dennismugambi/StudioProjects/ArtGallery/shared/build/cocoapods/synthetic/ios/Pods/AppAuth/Sources/AppAuthCore/OIDTokenUtilities.h \
+  /Users/dennismugambi/StudioProjects/ArtGallery/shared/build/cocoapods/synthetic/ios/Pods/AppAuth/Sources/AppAuthCore/OIDURLSessionProvider.h \
+  /Users/dennismugambi/StudioProjects/ArtGallery/shared/build/cocoapods/synthetic/ios/Pods/AppAuth/Sources/AppAuthCore/OIDEndSessionRequest.h \
+  /Users/dennismugambi/StudioProjects/ArtGallery/shared/build/cocoapods/synthetic/ios/Pods/AppAuth/Sources/AppAuthCore/OIDEndSessionResponse.h \
+  /Users/dennismugambi/StudioProjects/ArtGallery/shared/build/cocoapods/synthetic/ios/Pods/AppAuth/Sources/AppAuthCore/OIDClientMetadataParameters.h \
+  /Users/dennismugambi/StudioProjects/ArtGallery/shared/build/cocoapods/synthetic/ios/Pods/AppAuth/Sources/AppAuthCore/OIDDefines.h \
+  /Users/dennismugambi/StudioProjects/ArtGallery/shared/build/cocoapods/synthetic/ios/Pods/AppAuth/Sources/AppAuthCore/OIDFieldMapping.h \
+  /Users/dennismugambi/StudioProjects/ArtGallery/shared/build/cocoapods/synthetic/ios/Pods/AppAuth/Sources/AppAuthCore/OIDURLQueryComponent.h \
+  /Users/dennismugambi/StudioProjects/ArtGallery/shared/build/cocoapods/synthetic/ios/Pods/AppAuth/Sources/AppAuth.h \
+  /Users/dennismugambi/StudioProjects/ArtGallery/shared/build/cocoapods/synthetic/ios/Pods/AppAuth/Sources/AppAuth/iOS/OIDAuthState+IOS.h \
+  /Users/dennismugambi/StudioProjects/ArtGallery/shared/build/cocoapods/synthetic/ios/Pods/AppAuth/Sources/AppAuth/iOS/OIDAuthorizationService+IOS.h \
+  /Users/dennismugambi/StudioProjects/ArtGallery/shared/build/cocoapods/synthetic/ios/Pods/AppAuth/Sources/AppAuth/iOS/OIDExternalUserAgentIOS.h \
+  /Users/dennismugambi/StudioProjects/ArtGallery/shared/build/cocoapods/synthetic/ios/Pods/AppAuth/Sources/AppAuth/iOS/OIDExternalUserAgentIOSCustomBrowser.h \
+  /Users/dennismugambi/StudioProjects/ArtGallery/shared/build/cocoapods/synthetic/ios/Pods/AppAuth/Sources/AppAuth/iOS/OIDExternalUserAgentCatalyst.h

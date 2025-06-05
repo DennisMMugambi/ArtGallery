@@ -4,7 +4,7 @@
             "outputFile": "com.example.artgallery.android.androidApp-mergeDebugResources-65:/values-h720dp-v13/values-h720dp-v13.xml",
             "map": [
                 {
-                    "source": "/Users/dennismugambi/.gradle/caches/8.10.2/transforms/33ac3fbe3bde810175266cd4ec98ecac/transformed/appcompat-1.2.0/res/values-h720dp-v13/values-h720dp-v13.xml",
+                    "source": "/Users/dennismugambi/.gradle/caches/8.12.1/transforms/6ebecb20be4e2231c3d99c9e7811d1aa/transformed/appcompat-1.2.0/res/values-h720dp-v13/values-h720dp-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

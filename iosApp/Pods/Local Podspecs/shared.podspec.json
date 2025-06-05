@@ -13,6 +13,14 @@
   "platforms": {
     "ios": "16.0"
   },
+  "dependencies": {
+    "FirebaseAuth": [
+
+    ],
+    "GoogleSignIn": [
+
+    ]
+  },
   "xcconfig": {
     "ENABLE_USER_SCRIPT_SANDBOXING": "NO"
   },
