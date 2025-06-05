@@ -15,8 +15,6 @@ struct GetStartedScreen: View {
     @State private var toSignup = false
     @State private var toHome = false
     
-    @State private var showProgress = false
-    
     let googleAuthenticator = GoogleAuthenticator()
     
     
@@ -66,41 +64,24 @@ struct GetStartedScreen: View {
                         LoginScreen(isLogin: false)
                     }
                     
-                    ZStack {
-                        
-                        VStack {
-                            FilledButton(image: Constants.Images.google, buttonTitle: "Sign up with Google", action: {
-                                showProgress.toggle()
-                                Task {
-                                    do {
-                                        guard let result = try await googleAuthenticator.login() else {
-                                            return
-                                        }
-                                        
-                                        toHome.toggle()
-                                    } catch  {
-                                        print("error occured when attempting to sign in with google")
-                                    }
+                    FilledButton(image: Constants.Images.google, buttonTitle: "Sign up with Google", action: {
+                        Task {
+                            do {
+                                guard let result = try await googleAuthenticator.login() else {
+                                    return
                                 }
-                            }, fillColor: Color.white, textColor: .black)
-                            .navigationDestination(isPresented: $toHome) {
-                                TabScreen()
-                            }
-                            .padding(.horizontal, 20)
-                            .padding(.top, 10)
-                        }
-                        
-                        if(showProgress) {
-                            HStack{
                                 
-                                Spacer()
-                                
-                                ProgressView().tint(Constants.Colors.appOrange)
+                                toHome.toggle()
+                            } catch  {
+                                print("error occured when attempting to sign in with google")
                             }
-                            .padding(.horizontal, 40)
-                            .padding(.top, 10)
                         }
+                    }, fillColor: Color.white, textColor: .black)
+                    .navigationDestination(isPresented: $toHome) {
+                        TabScreen()
                     }
+                    .padding(.horizontal, 20)
+                    .padding(.top, 10)
                     
                     FilledButton(image: Constants.Images.facebook, buttonTitle: "Sign up with Facebook", action: {
                         
