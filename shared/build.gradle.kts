@@ -1,11 +1,28 @@
 import org.gradle.kotlin.dsl.implementation
 import org.jetbrains.kotlin.gradle.dsl.JvmTarget
 import org.jetbrains.kotlin.gradle.plugin.mpp.NativeBuildType
+import java.io.FileInputStream
+import java.util.Properties
 
 plugins {
     alias(libs.plugins.kotlinMultiplatform)
     alias(libs.plugins.kotlinCocoapods)
     alias(libs.plugins.androidLibrary)
+}
+
+fun getLocalProperty(key: String, project: Project) : String {
+    val properties = Properties()
+
+    val localPropertiesFile  = project.rootProject.file("local.properties")
+    if(localPropertiesFile.exists()) {
+        FileInputStream(localPropertiesFile).use { input ->
+            properties.load(input)
+        }
+    }
+
+    return properties.getProperty(key) ?: run {
+        throw GradleException("Error: Required local property '$key' not found in local.properties.")
+    }
 }
 
 kotlin {
@@ -70,6 +87,10 @@ android {
     android.buildFeatures.buildConfig = true
     defaultConfig {
         minSdk = 24
+
+        val googleServerClientId = getLocalProperty("GOOGLE_SERVER_CLIENT_ID", project)
+
+        buildConfigField("String", "GOOGLE_SERVER_CLIENT_ID", "$googleServerClientId")
     }
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_1_8

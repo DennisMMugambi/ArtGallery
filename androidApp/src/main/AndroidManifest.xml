@@ -15,9 +15,5 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <meta-data
-            android:name="GOOGLE_SERVER_CLIENT_ID"
-            android:value="${GOOGLE_SERVER_CLIENT_ID}" />
     </application>
 </manifest> 
