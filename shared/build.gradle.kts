@@ -70,9 +70,6 @@ android {
     android.buildFeatures.buildConfig = true
     defaultConfig {
         minSdk = 24
-
-        val googleServerClientId = project.findProperty("MY_APP_GOOGLE_SERVER_CLIENT_ID") as String
-        buildConfigField("String", "GOOGLE_SERVER_CLIENT_ID", googleServerClientId)
     }
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_1_8
