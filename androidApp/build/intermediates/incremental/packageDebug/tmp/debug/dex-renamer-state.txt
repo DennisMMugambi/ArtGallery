@@ -1,6 +1,6 @@
-#Mon Jun 09 15:42:20 EAT 2025
+#Tue Jun 10 09:27:35 EAT 2025
 base.0=/Users/dennismugambi/StudioProjects/ArtGallery/androidApp/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
-base.1=/Users/dennismugambi/StudioProjects/ArtGallery/androidApp/build/intermediates/dex/debug/mergeLibDexDebug/6/classes.dex
+base.1=/Users/dennismugambi/AndroidStudioProjects/ArtGallery/androidApp/build/intermediates/dex/debug/mergeLibDexDebug/6/classes.dex
 base.10=/Users/dennismugambi/StudioProjects/ArtGallery/androidApp/build/intermediates/dex/debug/mergeExtDexDebug/classes2.dex
 base.11=/Users/dennismugambi/StudioProjects/ArtGallery/androidApp/build/intermediates/dex/debug/mergeExtDexDebug/classes3.dex
 base.2=/Users/dennismugambi/StudioProjects/ArtGallery/androidApp/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
