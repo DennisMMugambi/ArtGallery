@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		001BFBFB2D8C17BC004B643F /* SectionDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001BFBFA2D8C17BC004B643F /* SectionDescription.swift */; };
-		00542AC62DF8093900A73A0E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 00542AC52DF8093900A73A0E /* GoogleService-Info.plist */; };
 		0061290C2D91419E00ED605D /* ProfileItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0061290B2D91419E00ED605D /* ProfileItem.swift */; };
 		007A8D872D89686F00C25D79 /* ExhibitionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007A8D862D89686F00C25D79 /* ExhibitionItem.swift */; };
 		007A8D892D896A9900C25D79 /* NormalButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007A8D882D896A9900C25D79 /* NormalButton.swift */; };
@@ -42,7 +41,6 @@
 
 /* Begin PBXFileReference section */
 		001BFBFA2D8C17BC004B643F /* SectionDescription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionDescription.swift; sourceTree = "<group>"; };
-		00542AC52DF8093900A73A0E /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		0061290B2D91419E00ED605D /* ProfileItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileItem.swift; sourceTree = "<group>"; };
 		007A8D862D89686F00C25D79 /* ExhibitionItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExhibitionItem.swift; sourceTree = "<group>"; };
 		007A8D882D896A9900C25D79 /* NormalButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NormalButton.swift; sourceTree = "<group>"; };
@@ -219,7 +217,6 @@
 		7555FF72242A565900829871 = {
 			isa = PBXGroup;
 			children = (
-				00542AC52DF8093900A73A0E /* GoogleService-Info.plist */,
 				00B9F2DF2DF70F5400BE685D /* GoogleService-Info.plist */,
 				7555FF7D242A565900829871 /* iosApp */,
 				7555FF7C242A565900829871 /* Products */,
@@ -277,8 +274,6 @@
 			dependencies = (
 			);
 			name = iosApp;
-			packageProductDependencies = (
-			);
 			productName = iosApp;
 			productReference = 7555FF7B242A565900829871 /* iosApp.app */;
 			productType = "com.apple.product-type.application";
@@ -307,8 +302,6 @@
 				Base,
 			);
 			mainGroup = 7555FF72242A565900829871;
-			packageReferences = (
-			);
 			productRefGroup = 7555FF7C242A565900829871 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -329,7 +322,6 @@
 				058557D9273AAEEB004C7B11 /* Preview Assets.xcassets in Resources */,
 				058557BB273AAA24004C7B11 /* Assets.xcassets in Resources */,
 				00B9F2E02DF70F5400BE685D /* GoogleService-Info.plist in Resources */,
-				00542AC62DF8093900A73A0E /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,13 +336,9 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-iosApp/Pods-iosApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			inputPaths = (
-			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-iosApp/Pods-iosApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

@@ -30,7 +30,7 @@ class GoogleAuthenticator {
                         val profile = result?.user?.profile
 
                         if(idToken != null) {
-                            registerUserOnFirebase(idToken.tokenString, accessToken = result?.user?.accessToken.toString(), continuation)
+                            registerUserOnFirebase(idToken.tokenString, accessToken = result.user.accessToken.toString(), continuation)
                         } else {
                             continuation.resume(null)
                         }
