@@ -57,14 +57,23 @@ struct GetStartedScreen: View {
                     .frame(width: geometry.size.width * 0.9)
                     .padding(.horizontal)
                     
-                    OutlinedButton(image: Constants.Images.mail, buttonTitle: "Sign up with Email", action: {
-                        toSignup = true
+                    OutlinedButton(image: Constants.Images.twitter, buttonTitle: "Sign up with Twitter", action: {
+                        Task {
+                            do {
+                                guard let result = try await googleAuthenticator.signInWithTwitter() else {
+                                    return
+                                }
+                                
+                                toHome.toggle()
+                                showLoading.toggle()
+                            } catch  {
+                                print("error occured when attempting to sign in with twitter")
+                                showLoading.toggle()
+                            }
+                        }
                     })
                     .padding(.horizontal, 20)
                     .padding(.top, 40)
-                    .navigationDestination(isPresented: $toSignup) {
-                        LoginScreen(isLogin: false)
-                    }
                     
                     VStack {
                         

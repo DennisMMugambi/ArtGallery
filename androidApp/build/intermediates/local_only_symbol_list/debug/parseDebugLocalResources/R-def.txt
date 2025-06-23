@@ -22,6 +22,7 @@ drawable profile
 drawable skills
 drawable support
 drawable terms_and_conditions
+drawable twitter
 drawable woman_bg
 font comicneue_bold
 font comicneue_light
@@ -85,11 +86,13 @@ string sign_up_agreement
 string sign_up_email
 string sign_up_facebook
 string sign_up_google
+string sign_up_twitter
 string skip
 string start_tour
 string support
 string title_1
 string title_2
 string title_3
+string twitter_icon
 string welcome
 style AppTheme

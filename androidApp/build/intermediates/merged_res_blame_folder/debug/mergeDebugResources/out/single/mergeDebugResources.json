@@ -1,102 +1,106 @@
 [
     {
-        "merged": "com.example.artgallery.android.androidApp-debug-67:/drawable-nodpi_boho_art.webp.flat",
-        "source": "com.example.artgallery.android.androidApp-main-69:/drawable-nodpi/boho_art.webp"
+        "merged": "/Users/dennismugambi/.gradle/daemon/8.12.1/com.example.artgallery.android.androidApp-debug-67:/drawable-nodpi_boho_art.webp.flat",
+        "source": "/Users/dennismugambi/.gradle/daemon/8.12.1/com.example.artgallery.android.androidApp-main-69:/drawable-nodpi/boho_art.webp"
     },
     {
-        "merged": "com.example.artgallery.android.androidApp-debug-67:/drawable-nodpi_african_portrait.jpg.flat",
-        "source": "com.example.artgallery.android.androidApp-main-69:/drawable-nodpi/african_portrait.jpg"
+        "merged": "/Users/dennismugambi/.gradle/daemon/8.12.1/com.example.artgallery.android.androidApp-debug-67:/drawable-nodpi_camel_bg.webp.flat",
+        "source": "/Users/dennismugambi/.gradle/daemon/8.12.1/com.example.artgallery.android.androidApp-main-69:/drawable-nodpi/camel_bg.webp"
     },
     {
-        "merged": "com.example.artgallery.android.androidApp-debug-67:/font_comicneue_bold.ttf.flat",
-        "source": "com.example.artgallery.android.androidApp-main-69:/font/comicneue_bold.ttf"
+        "merged": "/Users/dennismugambi/.gradle/daemon/8.12.1/com.example.artgallery.android.androidApp-debug-67:/font_comicneue_bold.ttf.flat",
+        "source": "/Users/dennismugambi/.gradle/daemon/8.12.1/com.example.artgallery.android.androidApp-main-69:/font/comicneue_bold.ttf"
     },
     {
-        "merged": "com.example.artgallery.android.androidApp-debug-67:/font_comicneue_light.ttf.flat",
-        "source": "com.example.artgallery.android.androidApp-main-69:/font/comicneue_light.ttf"
+        "merged": "/Users/dennismugambi/.gradle/daemon/8.12.1/com.example.artgallery.android.androidApp-debug-67:/drawable-nodpi_floral_bg.webp.flat",
+        "source": "/Users/dennismugambi/.gradle/daemon/8.12.1/com.example.artgallery.android.androidApp-main-69:/drawable-nodpi/floral_bg.webp"
     },
     {
-        "merged": "com.example.artgallery.android.androidApp-debug-67:/drawable-nodpi_skills.webp.flat",
-        "source": "com.example.artgallery.android.androidApp-main-69:/drawable-nodpi/skills.webp"
+        "merged": "/Users/dennismugambi/.gradle/daemon/8.12.1/com.example.artgallery.android.androidApp-debug-67:/drawable-nodpi_landing3.webp.flat",
+        "source": "/Users/dennismugambi/.gradle/daemon/8.12.1/com.example.artgallery.android.androidApp-main-69:/drawable-nodpi/landing3.webp"
     },
     {
-        "merged": "com.example.artgallery.android.androidApp-debug-67:/drawable-nodpi_profile.webp.flat",
-        "source": "com.example.artgallery.android.androidApp-main-69:/drawable-nodpi/profile.webp"
+        "merged": "/Users/dennismugambi/.gradle/daemon/8.12.1/com.example.artgallery.android.androidApp-debug-67:/drawable-nodpi_login_bg.webp.flat",
+        "source": "/Users/dennismugambi/.gradle/daemon/8.12.1/com.example.artgallery.android.androidApp-main-69:/drawable-nodpi/login_bg.webp"
     },
     {
-        "merged": "com.example.artgallery.android.androidApp-debug-67:/drawable-nodpi_gallery_bg.jpg.flat",
-        "source": "com.example.artgallery.android.androidApp-main-69:/drawable-nodpi/gallery_bg.jpg"
+        "merged": "/Users/dennismugambi/.gradle/daemon/8.12.1/com.example.artgallery.android.androidApp-debug-67:/drawable-nodpi_support.webp.flat",
+        "source": "/Users/dennismugambi/.gradle/daemon/8.12.1/com.example.artgallery.android.androidApp-main-69:/drawable-nodpi/support.webp"
     },
     {
-        "merged": "com.example.artgallery.android.androidApp-debug-67:/drawable-nodpi_about.webp.flat",
-        "source": "com.example.artgallery.android.androidApp-main-69:/drawable-nodpi/about.webp"
+        "merged": "/Users/dennismugambi/.gradle/daemon/8.12.1/com.example.artgallery.android.androidApp-debug-67:/drawable-nodpi_more_right.webp.flat",
+        "source": "/Users/dennismugambi/.gradle/daemon/8.12.1/com.example.artgallery.android.androidApp-main-69:/drawable-nodpi/more_right.webp"
     },
     {
-        "merged": "com.example.artgallery.android.androidApp-debug-67:/drawable-nodpi_landing3.webp.flat",
-        "source": "com.example.artgallery.android.androidApp-main-69:/drawable-nodpi/landing3.webp"
+        "merged": "/Users/dennismugambi/.gradle/daemon/8.12.1/com.example.artgallery.android.androidApp-debug-67:/drawable-nodpi_about.webp.flat",
+        "source": "/Users/dennismugambi/.gradle/daemon/8.12.1/com.example.artgallery.android.androidApp-main-69:/drawable-nodpi/about.webp"
     },
     {
-        "merged": "com.example.artgallery.android.androidApp-debug-67:/drawable-nodpi_login_bg.webp.flat",
-        "source": "com.example.artgallery.android.androidApp-main-69:/drawable-nodpi/login_bg.webp"
+        "merged": "/Users/dennismugambi/.gradle/daemon/8.12.1/com.example.artgallery.android.androidApp-debug-67:/drawable-nodpi_african_portrait.jpg.flat",
+        "source": "/Users/dennismugambi/.gradle/daemon/8.12.1/com.example.artgallery.android.androidApp-main-69:/drawable-nodpi/african_portrait.jpg"
     },
     {
-        "merged": "com.example.artgallery.android.androidApp-debug-67:/drawable-nodpi_next.webp.flat",
-        "source": "com.example.artgallery.android.androidApp-main-69:/drawable-nodpi/next.webp"
+        "merged": "/Users/dennismugambi/.gradle/daemon/8.12.1/com.example.artgallery.android.androidApp-debug-67:/font_comicneue_light.ttf.flat",
+        "source": "/Users/dennismugambi/.gradle/daemon/8.12.1/com.example.artgallery.android.androidApp-main-69:/font/comicneue_light.ttf"
     },
     {
-        "merged": "com.example.artgallery.android.androidApp-debug-67:/drawable-nodpi_mountain_bg.webp.flat",
-        "source": "com.example.artgallery.android.androidApp-main-69:/drawable-nodpi/mountain_bg.webp"
+        "merged": "/Users/dennismugambi/.gradle/daemon/8.12.1/com.example.artgallery.android.androidApp-debug-67:/font_comicneue_regular.ttf.flat",
+        "source": "/Users/dennismugambi/.gradle/daemon/8.12.1/com.example.artgallery.android.androidApp-main-69:/font/comicneue_regular.ttf"
     },
     {
-        "merged": "com.example.artgallery.android.androidApp-debug-67:/drawable-nodpi_woman_bg.webp.flat",
-        "source": "com.example.artgallery.android.androidApp-main-69:/drawable-nodpi/woman_bg.webp"
+        "merged": "/Users/dennismugambi/.gradle/daemon/8.12.1/com.example.artgallery.android.androidApp-debug-67:/drawable-nodpi_landing2.webp.flat",
+        "source": "/Users/dennismugambi/.gradle/daemon/8.12.1/com.example.artgallery.android.androidApp-main-69:/drawable-nodpi/landing2.webp"
     },
     {
-        "merged": "com.example.artgallery.android.androidApp-debug-67:/drawable-nodpi_terms_and_conditions.webp.flat",
-        "source": "com.example.artgallery.android.androidApp-main-69:/drawable-nodpi/terms_and_conditions.webp"
+        "merged": "/Users/dennismugambi/.gradle/daemon/8.12.1/com.example.artgallery.android.androidApp-debug-67:/drawable-nodpi_mountain_bg.webp.flat",
+        "source": "/Users/dennismugambi/.gradle/daemon/8.12.1/com.example.artgallery.android.androidApp-main-69:/drawable-nodpi/mountain_bg.webp"
     },
     {
-        "merged": "com.example.artgallery.android.androidApp-debug-67:/drawable-nodpi_logout.webp.flat",
-        "source": "com.example.artgallery.android.androidApp-main-69:/drawable-nodpi/logout.webp"
+        "merged": "/Users/dennismugambi/.gradle/daemon/8.12.1/com.example.artgallery.android.androidApp-debug-67:/drawable-nodpi_landing1.webp.flat",
+        "source": "/Users/dennismugambi/.gradle/daemon/8.12.1/com.example.artgallery.android.androidApp-main-69:/drawable-nodpi/landing1.webp"
     },
     {
-        "merged": "com.example.artgallery.android.androidApp-debug-67:/drawable-nodpi_facebook.webp.flat",
-        "source": "com.example.artgallery.android.androidApp-main-69:/drawable-nodpi/facebook.webp"
+        "merged": "/Users/dennismugambi/.gradle/daemon/8.12.1/com.example.artgallery.android.androidApp-debug-67:/drawable-nodpi_blue_mountains.webp.flat",
+        "source": "/Users/dennismugambi/.gradle/daemon/8.12.1/com.example.artgallery.android.androidApp-main-69:/drawable-nodpi/blue_mountains.webp"
     },
     {
-        "merged": "com.example.artgallery.android.androidApp-debug-67:/drawable-nodpi_landing2.webp.flat",
-        "source": "com.example.artgallery.android.androidApp-main-69:/drawable-nodpi/landing2.webp"
+        "merged": "/Users/dennismugambi/.gradle/daemon/8.12.1/com.example.artgallery.android.androidApp-debug-67:/drawable-nodpi_next.webp.flat",
+        "source": "/Users/dennismugambi/.gradle/daemon/8.12.1/com.example.artgallery.android.androidApp-main-69:/drawable-nodpi/next.webp"
     },
     {
-        "merged": "com.example.artgallery.android.androidApp-debug-67:/font_comicneue_regular.ttf.flat",
-        "source": "com.example.artgallery.android.androidApp-main-69:/font/comicneue_regular.ttf"
+        "merged": "/Users/dennismugambi/.gradle/daemon/8.12.1/com.example.artgallery.android.androidApp-debug-67:/drawable-nodpi_google.webp.flat",
+        "source": "/Users/dennismugambi/.gradle/daemon/8.12.1/com.example.artgallery.android.androidApp-main-69:/drawable-nodpi/google.webp"
     },
     {
-        "merged": "com.example.artgallery.android.androidApp-debug-67:/drawable-nodpi_google.webp.flat",
-        "source": "com.example.artgallery.android.androidApp-main-69:/drawable-nodpi/google.webp"
+        "merged": "/Users/dennismugambi/.gradle/daemon/8.12.1/com.example.artgallery.android.androidApp-debug-67:/drawable-nodpi_profile.webp.flat",
+        "source": "/Users/dennismugambi/.gradle/daemon/8.12.1/com.example.artgallery.android.androidApp-main-69:/drawable-nodpi/profile.webp"
     },
     {
-        "merged": "com.example.artgallery.android.androidApp-debug-67:/drawable-nodpi_camel_bg.webp.flat",
-        "source": "com.example.artgallery.android.androidApp-main-69:/drawable-nodpi/camel_bg.webp"
+        "merged": "/Users/dennismugambi/.gradle/daemon/8.12.1/com.example.artgallery.android.androidApp-debug-67:/drawable-nodpi_woman_bg.webp.flat",
+        "source": "/Users/dennismugambi/.gradle/daemon/8.12.1/com.example.artgallery.android.androidApp-main-69:/drawable-nodpi/woman_bg.webp"
     },
     {
-        "merged": "com.example.artgallery.android.androidApp-debug-67:/drawable-nodpi_support.webp.flat",
-        "source": "com.example.artgallery.android.androidApp-main-69:/drawable-nodpi/support.webp"
+        "merged": "/Users/dennismugambi/.gradle/daemon/8.12.1/com.example.artgallery.android.androidApp-debug-67:/drawable-nodpi_logout.webp.flat",
+        "source": "/Users/dennismugambi/.gradle/daemon/8.12.1/com.example.artgallery.android.androidApp-main-69:/drawable-nodpi/logout.webp"
     },
     {
-        "merged": "com.example.artgallery.android.androidApp-debug-67:/drawable-nodpi_blue_mountains.webp.flat",
-        "source": "com.example.artgallery.android.androidApp-main-69:/drawable-nodpi/blue_mountains.webp"
+        "merged": "/Users/dennismugambi/.gradle/daemon/8.12.1/com.example.artgallery.android.androidApp-debug-67:/drawable-nodpi_skills.webp.flat",
+        "source": "/Users/dennismugambi/.gradle/daemon/8.12.1/com.example.artgallery.android.androidApp-main-69:/drawable-nodpi/skills.webp"
     },
     {
-        "merged": "com.example.artgallery.android.androidApp-debug-67:/drawable-nodpi_floral_bg.webp.flat",
-        "source": "com.example.artgallery.android.androidApp-main-69:/drawable-nodpi/floral_bg.webp"
+        "merged": "com.example.artgallery.android.androidApp-debug-67:/drawable-nodpi_twitter.webp.flat",
+        "source": "com.example.artgallery.android.androidApp-main-69:/drawable-nodpi/twitter.webp"
     },
     {
-        "merged": "com.example.artgallery.android.androidApp-debug-67:/drawable-nodpi_more_right.webp.flat",
-        "source": "com.example.artgallery.android.androidApp-main-69:/drawable-nodpi/more_right.webp"
+        "merged": "/Users/dennismugambi/.gradle/daemon/8.12.1/com.example.artgallery.android.androidApp-debug-67:/drawable-nodpi_facebook.webp.flat",
+        "source": "/Users/dennismugambi/.gradle/daemon/8.12.1/com.example.artgallery.android.androidApp-main-69:/drawable-nodpi/facebook.webp"
     },
     {
-        "merged": "com.example.artgallery.android.androidApp-debug-67:/drawable-nodpi_landing1.webp.flat",
-        "source": "com.example.artgallery.android.androidApp-main-69:/drawable-nodpi/landing1.webp"
+        "merged": "/Users/dennismugambi/.gradle/daemon/8.12.1/com.example.artgallery.android.androidApp-debug-67:/drawable-nodpi_terms_and_conditions.webp.flat",
+        "source": "/Users/dennismugambi/.gradle/daemon/8.12.1/com.example.artgallery.android.androidApp-main-69:/drawable-nodpi/terms_and_conditions.webp"
+    },
+    {
+        "merged": "/Users/dennismugambi/.gradle/daemon/8.12.1/com.example.artgallery.android.androidApp-debug-67:/drawable-nodpi_gallery_bg.jpg.flat",
+        "source": "/Users/dennismugambi/.gradle/daemon/8.12.1/com.example.artgallery.android.androidApp-main-69:/drawable-nodpi/gallery_bg.jpg"
     }
 ]

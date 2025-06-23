@@ -60,12 +60,14 @@
     <string name="sign_up_email">Sign up with Email</string>
     <string name="sign_up_facebook">Sign up with Facebook</string>
     <string name="sign_up_google">Sign up with Google</string>
+    <string name="sign_up_twitter">Sign up with twitter</string>
     <string name="skip">Skip</string>
     <string name="start_tour">Start tour</string>
     <string name="support"><![CDATA[Help & Support]]></string>
     <string name="title_1">Take 360 degree art tours</string>
     <string name="title_2">Create your own art collection</string>
     <string name="title_3">Shop your favorite art pieces</string>
+    <string name="twitter_icon">Twitter icon</string>
     <string name="welcome">Welcome to Art\nGallery!</string>
     <style name="AppTheme" parent="android:Theme.Material.NoActionBar"/>
 </resources>

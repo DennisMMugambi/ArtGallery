@@ -221,8 +221,7 @@ fun SignUpCard(navController: NavHostController, modifier: Modifier, onToggleSig
 
             Button(
                 onClick = {
-                  //  navController.navigate("home")
-                    googleAuthenticator.registerWithEmail(email = email, password = password)
+                    navController.navigate("home")
                 },
                 modifier = Modifier
                     .fillMaxWidth()

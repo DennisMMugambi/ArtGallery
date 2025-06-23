@@ -1,6 +1,8 @@
 package com.example.artgallery.model
 
+import android.app.Activity
 import android.content.Context
+import android.content.ContextWrapper
 import android.util.Log
 import androidx.credentials.CredentialManager
 import androidx.credentials.CustomCredential
@@ -13,12 +15,15 @@ import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.GoogleAuthProvider
 import kotlinx.coroutines.tasks.await
 import com.example.artgallery.BuildConfig
+import com.google.firebase.auth.OAuthProvider
 
 class GoogleAuthenticator(
     private val context: Context?,
     private val credentialManager: CredentialManager?
 )
 {
+
+    val auth = FirebaseAuth.getInstance()
 
     suspend fun login() : String {
 
@@ -62,20 +67,51 @@ class GoogleAuthenticator(
 
     fun isUserSignedIn(): Pair<Boolean, String?>  {
 
-        return if (FirebaseAuth.getInstance().currentUser != null) {
-            Pair(true, FirebaseAuth.getInstance().currentUser?.displayName)
+        return if (auth.currentUser != null) {
+            Pair(true, auth.currentUser?.displayName)
         } else {
             Pair(false, null)
         }
     }
 
     fun logout() {
-        FirebaseAuth.getInstance().signOut()
+        auth.signOut()
     }
 
-//    fun signInWithTwitter() : String? {
-//
-//
-//    }
+    fun signInWithTwitter()  {
+
+        val provider = OAuthProvider.newBuilder("twitter.com")
+
+        val pendingResultTask = auth.pendingAuthResult
+
+        if(pendingResultTask != null) {
+
+            pendingResultTask.addOnSuccessListener {
+                //User is signed in
+                Log.d("TAG", "signInWithTwitter: ${it.credential}")
+            }
+                .addOnFailureListener {
+                    //Handle failure by displaying appropriate error message
+                }
+        } else {
+        // there is no pending result so you need to start the sign in flow
+            context?.findActivity()?.let { auth.startActivityForSignInWithProvider(it, provider.build())
+                .addOnSuccessListener {
+                    // User is signed in
+                    Log.d("TAG", "signInWithTwitter: ${it.credential}")
+                }
+                .addOnSuccessListener {
+                    // Handle failure and display error message to the user
+                }
+            }
+        }
+
+    }
+
+    fun Context.findActivity(): Activity? = when (this) {
+        is Activity -> this
+        is ContextWrapper -> baseContext.findActivity()
+        else -> null
+    }
 
 }

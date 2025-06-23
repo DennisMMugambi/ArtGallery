@@ -21,6 +21,7 @@ struct Constants {
         static let google = "google_1"
         static let africanPotrait = "african_portrait"
         static let next = "next"
+        static let twitter = "twitter"
     }
     
     struct Colors {

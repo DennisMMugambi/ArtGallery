@@ -6,7 +6,7 @@
 #import <Foundation/NSString.h>
 #import <Foundation/NSValue.h>
 
-@class SharedKotlinArray<T>, SharedKotlinException, SharedKotlinIllegalStateException, SharedKotlinPair<__covariant A, __covariant B>, SharedKotlinRuntimeException, SharedKotlinThrowable;
+@class SharedKotlinArray<T>, SharedKotlinException, SharedKotlinIllegalStateException, SharedKotlinPair<__covariant A, __covariant B>, SharedKotlinRuntimeException, SharedKotlinThrowable, UIViewController;
 
 @protocol SharedKotlinContinuation, SharedKotlinCoroutineContext, SharedKotlinCoroutineContextElement, SharedKotlinCoroutineContextKey, SharedKotlinIterator, SharedPlatform;
 
@@ -157,6 +157,13 @@ __attribute__((swift_name("GoogleAuthenticator")))
 */
 - (void)loginWithCompletionHandler:(void (^)(NSString * _Nullable_result, NSError * _Nullable))completionHandler __attribute__((swift_name("login(completionHandler:)")));
 - (void)registerUserOnFirebaseIdToken:(NSString *)idToken accessToken:(NSString *)accessToken continuation:(id<SharedKotlinContinuation>)continuation __attribute__((swift_name("registerUserOnFirebase(idToken:accessToken:continuation:)")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)signInWithTwitterWithCompletionHandler:(void (^)(NSString * _Nullable_result, NSError * _Nullable))completionHandler __attribute__((swift_name("signInWithTwitter(completionHandler:)")));
+@property (readonly) UIViewController * _Nullable rootUiView __attribute__((swift_name("rootUiView")));
 @end
 
 __attribute__((objc_subclassing_restricted))

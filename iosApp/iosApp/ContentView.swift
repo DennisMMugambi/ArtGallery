@@ -8,15 +8,15 @@ struct ContentView: View {
 	var body: some View {
         
         
-        let signInResult: KotlinPair<KotlinBoolean, NSString> = authenticator.isUserSignedIn()
-        
-        let isSignedIn = signInResult.first?.boolValue ?? false
-        
-        if(isSignedIn) {
-            HomeScreen()
-        } else {
+//        let signInResult: KotlinPair<KotlinBoolean, NSString> = authenticator.isUserSignedIn()
+//        
+//        let isSignedIn = signInResult.first?.boolValue ?? false
+//        
+//        if(isSignedIn) {
+//            HomeScreen()
+//        } else {
             LandingScreen()
-        }
+      //  }
 	}
 }
 

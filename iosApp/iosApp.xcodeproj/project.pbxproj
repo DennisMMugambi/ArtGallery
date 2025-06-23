@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		001BFBFB2D8C17BC004B643F /* SectionDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001BFBFA2D8C17BC004B643F /* SectionDescription.swift */; };
+		0020776D2E097316000E91A2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0020776C2E097316000E91A2 /* GoogleService-Info.plist */; };
 		0061290C2D91419E00ED605D /* ProfileItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0061290B2D91419E00ED605D /* ProfileItem.swift */; };
 		007A8D872D89686F00C25D79 /* ExhibitionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007A8D862D89686F00C25D79 /* ExhibitionItem.swift */; };
 		007A8D892D896A9900C25D79 /* NormalButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007A8D882D896A9900C25D79 /* NormalButton.swift */; };
 		00AAC6C52D89511800E8161C /* FeaturedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00AAC6C42D89511800E8161C /* FeaturedItem.swift */; };
 		00B1F3DC2D75CDB800327044 /* GetStartedScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B1F3DB2D75CDB800327044 /* GetStartedScreen.swift */; };
-		00B9F2E02DF70F5400BE685D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 00B9F2DF2DF70F5400BE685D /* GoogleService-Info.plist */; };
 		00CD25322D76F353002CF7DB /* ExistingAccountComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CD25312D76F353002CF7DB /* ExistingAccountComponent.swift */; };
 		00CD25342D76F414002CF7DB /* FilledButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CD25332D76F414002CF7DB /* FilledButton.swift */; };
 		00CD25362D76F512002CF7DB /* OutlinedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CD25352D76F512002CF7DB /* OutlinedButton.swift */; };
@@ -41,12 +41,12 @@
 
 /* Begin PBXFileReference section */
 		001BFBFA2D8C17BC004B643F /* SectionDescription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionDescription.swift; sourceTree = "<group>"; };
+		0020776C2E097316000E91A2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		0061290B2D91419E00ED605D /* ProfileItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileItem.swift; sourceTree = "<group>"; };
 		007A8D862D89686F00C25D79 /* ExhibitionItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExhibitionItem.swift; sourceTree = "<group>"; };
 		007A8D882D896A9900C25D79 /* NormalButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NormalButton.swift; sourceTree = "<group>"; };
 		00AAC6C42D89511800E8161C /* FeaturedItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedItem.swift; sourceTree = "<group>"; };
 		00B1F3DB2D75CDB800327044 /* GetStartedScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetStartedScreen.swift; sourceTree = "<group>"; };
-		00B9F2DF2DF70F5400BE685D /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		00CD25312D76F353002CF7DB /* ExistingAccountComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExistingAccountComponent.swift; sourceTree = "<group>"; };
 		00CD25332D76F414002CF7DB /* FilledButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilledButton.swift; sourceTree = "<group>"; };
 		00CD25352D76F512002CF7DB /* OutlinedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutlinedButton.swift; sourceTree = "<group>"; };
@@ -217,7 +217,7 @@
 		7555FF72242A565900829871 = {
 			isa = PBXGroup;
 			children = (
-				00B9F2DF2DF70F5400BE685D /* GoogleService-Info.plist */,
+				0020776C2E097316000E91A2 /* GoogleService-Info.plist */,
 				7555FF7D242A565900829871 /* iosApp */,
 				7555FF7C242A565900829871 /* Products */,
 				B0511EC33D0F6CFB7EB24E05 /* Pods */,
@@ -319,9 +319,9 @@
 				00FEE2372D758AA400BEBC5F /* Poppins-Regular.ttf in Resources */,
 				00FEE2392D758AB000BEBC5F /* Poppins-Medium.ttf in Resources */,
 				00FEE23B2D758ABD00BEBC5F /* Poppins-Bold.ttf in Resources */,
+				0020776D2E097316000E91A2 /* GoogleService-Info.plist in Resources */,
 				058557D9273AAEEB004C7B11 /* Preview Assets.xcassets in Resources */,
 				058557BB273AAA24004C7B11 /* Assets.xcassets in Resources */,
-				00B9F2E02DF70F5400BE685D /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,9 +336,13 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-iosApp/Pods-iosApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
+			inputPaths = (
+			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-iosApp/Pods-iosApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

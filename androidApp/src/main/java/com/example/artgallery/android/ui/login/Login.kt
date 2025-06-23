@@ -91,7 +91,8 @@ fun LoginScreen(navController: NavHostController) {
 
             OutlinedButton(
                 onClick = {
-                    navController.navigate("register/true")
+                  //  navController.navigate("register/true")
+                    googleAuthenticator.signInWithTwitter()
                 },
                 modifier = Modifier
                     .fillMaxWidth()
