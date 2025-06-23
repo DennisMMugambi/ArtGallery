@@ -73,24 +73,9 @@ class GoogleAuthenticator(
         FirebaseAuth.getInstance().signOut()
     }
 
-    fun registerWithEmail(email: String, password: String) : String? {
-
-        var userName: String? = ""
-
-        val instance = FirebaseAuth.getInstance()
-
-        val auth = instance.createUserWithEmailAndPassword(email, password)
-            .addOnCompleteListener { task ->
-
-                if (task.isSuccessful) {
-                    userName =  instance.currentUser?.displayName.toString()
-                    Log.d("Success" ,"Successfully registered the user on firebase with username: $userName")
-                } else {
-                    userName = "An error ocurred could not register user with email and password"
-                    Log.d("Error" ,"${task.exception}")
-                }
-            }
-        return userName
-    }
+//    fun signInWithTwitter() : String? {
+//
+//
+//    }
 
 }
