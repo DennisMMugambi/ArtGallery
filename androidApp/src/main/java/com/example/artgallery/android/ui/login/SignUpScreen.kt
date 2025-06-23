@@ -103,5 +103,5 @@ fun SignUpScreen_Preview() {
 
     val navController = rememberNavController()
 
-    SignUpScreen(navController = navController, isSignUp = false)
+    SignUpScreen(navController = navController, isSignUp = true)
 }

@@ -10,22 +10,39 @@ import com.example.artgallery.android.ui.exhibition.ExhibitionFeed
 import com.example.artgallery.android.ui.exhibition.ExhibitionPage
 import com.example.artgallery.android.ui.gallery.GalleryFeed
 import com.example.artgallery.android.ui.gallery.GalleryItemPage
+import com.example.artgallery.android.ui.home.HomeScreen
 import com.example.artgallery.android.ui.login.LandingScreen
 import com.example.artgallery.android.ui.login.LoginScreen
 import com.example.artgallery.android.ui.login.SignUpScreen
 import com.example.artgallery.android.ui.home.MainView
+import com.example.artgallery.model.GoogleAuthenticator
 
 @Composable
 fun AppNavigation() {
 
     val navController = rememberNavController()
 
-    NavHost(navController = navController, startDestination = "landing") {
+    val googleAuthenticator = GoogleAuthenticator(context = null, credentialManager = null)
+
+    val isSignedIn = googleAuthenticator.isUserSignedIn()
+
+    val startDestination = if (isSignedIn.first) "home" else "login"
+
+    NavHost(navController = navController, startDestination = startDestination) {
         composable("landing") {
             LandingScreen(navController)
         }
         composable("login") {
             LoginScreen(navController)
+        }
+        composable(
+            route = "home/(username)",
+            arguments = listOf(navArgument("userName") { type = NavType.StringType})
+        ) { backStackEntry ->
+            val userName = backStackEntry.arguments?.getString("userName") ?: isSignedIn.second
+            if (userName != null) {
+                HomeScreen(navController, userName)
+            }
         }
         composable("home") {
             MainView({}, navController)

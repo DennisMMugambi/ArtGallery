@@ -39,12 +39,12 @@ import com.example.artgallery.android.theme.typography
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun HomeScreen(navController: NavHostController) {
+fun HomeScreen(navController: NavHostController, userName: String) {
 
     Column(modifier = Modifier.background(Color.White).padding(all = 10.dp)) {
 
         Text(
-            text = stringResource(id = R.string.welcome),
+            text = userName,
             style = typography.titleLarge.copy(fontSize = 30.sp),
             fontWeight = FontWeight.ExtraBold,
             modifier = Modifier.padding(horizontal = 10.dp).padding(vertical = 10.dp)
@@ -160,5 +160,5 @@ fun HomeScreen(navController: NavHostController) {
 fun HomeScreen_Preview() {
 
     val navController = rememberNavController()
-    HomeScreen(navController)
+    HomeScreen(navController, "User")
 }

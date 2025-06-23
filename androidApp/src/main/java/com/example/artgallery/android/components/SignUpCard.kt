@@ -13,17 +13,26 @@ import androidx.compose.foundation.text.KeyboardOptions
 import androidx.compose.material3.Button
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
+import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.MaterialTheme.typography
 import androidx.compose.material3.OutlinedTextField
+import androidx.compose.material3.OutlinedTextFieldDefaults
 import androidx.compose.material3.Text
+import androidx.compose.material3.TextFieldDefaults
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.colorResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.SpanStyle
+import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.buildAnnotatedString
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.input.KeyboardType
@@ -31,9 +40,12 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextDecoration
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import androidx.credentials.CredentialManager
 import androidx.navigation.NavHostController
 import com.example.artgallery.android.R
+import com.example.artgallery.model.GoogleAuthenticator
 
+@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun SignUpCard(navController: NavHostController, modifier: Modifier, onToggleSignUp: () -> Unit) {
 
@@ -42,9 +54,21 @@ fun SignUpCard(navController: NavHostController, modifier: Modifier, onToggleSig
     val termsText = "Terms and conditions"
     val privacyText = "privacy policy"
 
+    val context = LocalContext.current
+
+    val googleAuthenticator = remember {
+        GoogleAuthenticator(
+            context = context,
+            credentialManager = null
+        )
+    }
+
 
     val primaryOrange = colorResource(id = R.color.primaryOrange)
 
+    var email by remember { mutableStateOf("") }
+    var password by remember { mutableStateOf("") }
+    var confirmPassword by remember { mutableStateOf("") }
 
     val annotatedText = buildAnnotatedString {
         append(agreementText)
@@ -119,36 +143,63 @@ fun SignUpCard(navController: NavHostController, modifier: Modifier, onToggleSig
             ) {
 
                 OutlinedTextField(
-                    value = "",
-                    onValueChange = {},
+                    value = email,
+                    onValueChange = {
+                        email = it
+                    },
                     label = {
                         Text(text = stringResource(id = R.string.email))
                     },
+                    textStyle = TextStyle(fontSize = 16.sp, color = Color.Black),
                     keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Email),
-                    modifier = Modifier.fillMaxWidth()
+                    modifier = Modifier.fillMaxWidth(),
+                    colors = OutlinedTextFieldDefaults.colors(
+                        focusedLabelColor = Color.Black,
+                        unfocusedLabelColor = Color.Black,
+                        focusedTextColor = Color.Black,
+                        unfocusedTextColor = Color.Black
+                    )
                 )
 
                 OutlinedTextField(
-                    value = "",
-                    onValueChange = {},
+                    value = password,
+                    onValueChange = {
+                        password = it
+                    },
                     label = {
                         Text(text = stringResource(id = R.string.password))
                     },
+                    textStyle = TextStyle(fontSize = 16.sp, color = Color.Black),
                     keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Password),
-                    modifier = Modifier.fillMaxWidth()
+                    modifier = Modifier.fillMaxWidth(),
+                    colors = OutlinedTextFieldDefaults.colors(
+                        focusedLabelColor = Color.Black,
+                        unfocusedLabelColor = Color.Black,
+                        focusedTextColor = Color.Black,
+                        unfocusedTextColor = Color.Black
+                    )
                 )
 
                 Column(
                     verticalArrangement = Arrangement.spacedBy(5.dp)
                 ) {
                     OutlinedTextField(
-                        value = "",
-                        onValueChange = {},
+                        value = confirmPassword,
+                        onValueChange = {
+                            confirmPassword = it
+                        },
                         label = {
                             Text(text = stringResource(id = R.string.confirm_password))
                         },
+                        textStyle = TextStyle(fontSize = 16.sp, color = Color.Black),
                         keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Password),
-                        modifier = Modifier.fillMaxWidth()
+                        modifier = Modifier.fillMaxWidth(),
+                        colors = OutlinedTextFieldDefaults.colors(
+                            focusedLabelColor = Color.Black,
+                            unfocusedLabelColor = Color.Black,
+                            focusedTextColor = Color.Black,
+                            unfocusedTextColor = Color.Black
+                        )
                     )
 
                     Row(
@@ -170,7 +221,8 @@ fun SignUpCard(navController: NavHostController, modifier: Modifier, onToggleSig
 
             Button(
                 onClick = {
-                    navController.navigate("home")
+                  //  navController.navigate("home")
+                    googleAuthenticator.registerWithEmail(email = email, password = password)
                 },
                 modifier = Modifier
                     .fillMaxWidth()

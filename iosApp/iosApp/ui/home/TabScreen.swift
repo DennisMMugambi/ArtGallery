@@ -40,14 +40,14 @@ struct TabScreen: View {
                 
             }
             .navigationBarBackButtonHidden(true)
-            .toolbar {
-                ToolbarItem(placement: .topBarLeading) {
-                        Text("Welcome to Art Gallery")
-                        .font(.custom(Constants.Fonts.poppinsMedium, size: 22))
-                        .bold()
-                    }
-            }
-           .searchable(text: $searchText, isPresented: $isSearchActive, prompt: "Search exhibitions, artworks")
+//            .toolbar {
+//                ToolbarItem(placement: .topBarLeading) {
+//                        Text("Welcome to Art Gallery")
+//                        .font(.custom(Constants.Fonts.poppinsMedium, size: 22))
+//                        .bold()
+//                    }
+//            }
+           //.searchable(text: $searchText, isPresented: $isSearchActive, prompt: "Search exhibitions, artworks")
         } else {
             TabView(selection: $tab_selection) {
                 

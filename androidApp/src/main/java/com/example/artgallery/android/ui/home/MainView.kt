@@ -56,8 +56,8 @@ val bottomNavigationItems = listOf(
     ),
     BottomNavigationItem(
         Screen.Shop.title,
-        Icons.Outlined.ShoppingCart,
-        "Shop"
+        Icons.Outlined.Person,
+        "Profile"
     ),
     BottomNavigationItem(
         Screen.Profile.title,
@@ -115,7 +115,7 @@ fun MainView(actionBarFun: topBarFun = { EmptyComposable() }, navController: Nav
             ) {
 
                 when (selectedIndex.value) {
-                    0 -> HomeScreen(navController = navController)
+                    0 -> HomeScreen(navController = navController, "")
                     1 -> FavoritesScreen(navController = navController)
                     2 -> ShopScreen()
                     3 -> ProfileScreen()

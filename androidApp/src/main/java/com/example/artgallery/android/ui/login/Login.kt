@@ -19,6 +19,7 @@ import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Email
 import androidx.compose.material3.Button
 import androidx.compose.material3.ButtonDefaults
+import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.Text
@@ -54,7 +55,12 @@ fun LoginScreen(navController: NavHostController) {
 
     val scope = rememberCoroutineScope()
 
-    val googleAuthenticator = remember { GoogleAuthenticator(context = context, credentialManager = CredentialManager.create(context)) }
+    val googleAuthenticator = remember {
+        GoogleAuthenticator(
+            context = context,
+            credentialManager = CredentialManager.create(context)
+        )
+    }
 
     Box(
         modifier = Modifier.fillMaxSize()
@@ -75,8 +81,16 @@ fun LoginScreen(navController: NavHostController) {
 
             Spacer(modifier = Modifier.weight(1.5f))
 
-            Text(stringResource(id = R.string.get_started), color = Color.White, style = typography.displayMedium)
-            Text(stringResource(id = R.string.login_description), color = Color.White, style = typography.displaySmall)
+            Text(
+                stringResource(id = R.string.get_started),
+                color = Color.White,
+                style = typography.displayMedium
+            )
+            Text(
+                stringResource(id = R.string.login_description),
+                color = Color.White,
+                style = typography.displaySmall
+            )
 
             Spacer(modifier = Modifier.weight(0.3f))
 
@@ -91,17 +105,23 @@ fun LoginScreen(navController: NavHostController) {
                 border = BorderStroke(1.dp, Color.White),
                 shape = RoundedCornerShape(5.dp)
             ) {
-                Row {
+                Row(
+                    verticalAlignment = Alignment.CenterVertically
+                ) {
                     Image(
-                        imageVector = Icons.Filled.Email,
-                        contentDescription = stringResource(id = R.string.email_icon),
+                        painter = painterResource(R.drawable.twitter),
+                        contentDescription = stringResource(id = R.string.twitter_icon),
                         colorFilter = ColorFilter.tint(color = Color.White),
                         modifier = Modifier.size(25.dp)
                     )
 
                     Spacer(modifier = Modifier.width(15.dp))
 
-                    Text(text = stringResource(id = R.string.sign_up_email), color = Color.White, style = typography.displaySmall)
+                    Text(
+                        text = stringResource(id = R.string.sign_up_twitter),
+                        color = Color.White,
+                        style = typography.displaySmall
+                    )
                 }
             }
 
@@ -109,7 +129,7 @@ fun LoginScreen(navController: NavHostController) {
                 onClick = {
                     scope.launch {
                         val response = googleAuthenticator.login()
-                        if(!response.contains("Error")) {
+                        if (!response.contains("Error")) {
                             navController.navigate("home")
                         } else {
                             //Display error to the user
@@ -123,7 +143,10 @@ fun LoginScreen(navController: NavHostController) {
                 colors = ButtonDefaults.buttonColors(containerColor = Color.White),
                 shape = RoundedCornerShape(5.dp)
             ) {
-                Row{
+
+                Row(
+                    verticalAlignment = Alignment.CenterVertically
+                ) {
                     Image(
                         painter = painterResource(id = R.drawable.google),
                         contentDescription = stringResource(id = R.string.email_icon),
@@ -132,7 +155,11 @@ fun LoginScreen(navController: NavHostController) {
 
                     Spacer(modifier = Modifier.width(15.dp))
 
-                    Text(text = stringResource(id = R.string.sign_up_google), color = Color.Black, style = typography.displaySmall)
+                    Text(
+                        text = stringResource(id = R.string.sign_up_google),
+                        color = Color.Black,
+                        style = typography.displaySmall
+                    )
                 }
             }
 
@@ -147,7 +174,9 @@ fun LoginScreen(navController: NavHostController) {
                 colors = ButtonDefaults.buttonColors(containerColor = Color.Blue),
                 shape = RoundedCornerShape(5.dp)
             ) {
-                Row {
+                Row(
+                    verticalAlignment = Alignment.CenterVertically
+                ) {
                     Image(
                         painter = painterResource(id = R.drawable.facebook),
                         contentDescription = stringResource(id = R.string.email_icon),
@@ -156,7 +185,11 @@ fun LoginScreen(navController: NavHostController) {
 
                     Spacer(modifier = Modifier.width(15.dp))
 
-                    Text(text = stringResource(id = R.string.sign_up_facebook), color = Color.White, style = typography.displaySmall)
+                    Text(
+                        text = stringResource(id = R.string.sign_up_facebook),
+                        color = Color.White,
+                        style = typography.displaySmall
+                    )
                 }
             }
 

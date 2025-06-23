@@ -2,7 +2,6 @@ package com.example.artgallery
 
 import cocoapods.FirebaseAuth.FIRAuth
 import cocoapods.FirebaseAuth.FIRGoogleAuthProvider
-import cocoapods.FirebaseAuth.FIROAuthProvider
 import cocoapods.GoogleSignIn.GIDSignIn
 import kotlinx.cinterop.ExperimentalForeignApi
 import platform.UIKit.UIApplication
@@ -53,6 +52,16 @@ class GoogleAuthenticator {
                 val displayName = user?.displayName()
                 continuation.resumeWith(Result.success(displayName))
             }
+        }
+    }
+
+    @OptIn(ExperimentalForeignApi::class)
+    fun isUserSignedIn(): Pair<Boolean, String?>  {
+
+        return if (FIRAuth.auth().currentUser() != null) {
+            Pair(true, FIRAuth.auth().currentUser()?.description)
+        } else {
+            Pair(false, null)
         }
     }
 }

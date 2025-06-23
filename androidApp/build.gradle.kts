@@ -48,7 +48,7 @@ dependencies {
     implementation(libs.androidx.foundation.v154)
 
     //firebase dependencies
-    implementation(platform("com.google.firebase:firebase-bom:33.12.0"))
+    implementation(libs.firebase.bom)
     implementation(libs.firebase.analytics)
 
     implementation(libs.androidx.credentials)

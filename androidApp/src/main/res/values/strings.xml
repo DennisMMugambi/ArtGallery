@@ -59,4 +59,6 @@
     <string name="sample_gallery_description">Hackel vån Gosting (1884-1994)</string>
     <string name="gallery_item_image">Gallery image</string>
     <string name="exhibitions">Exhibitions</string>
+    <string name="sign_up_twitter">Sign up with twitter</string>
+    <string name="twitter_icon">Twitter icon</string>
 </resources>
